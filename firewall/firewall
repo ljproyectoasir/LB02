@@ -1,0 +1,28 @@
+#! /bin/sh
+
+case "$1" in
+  start)
+	/root/scripts/firewall.sh
+	;;
+  stop)
+	#FLUSH de reglas
+	iptables -F
+	iptables -X
+	iptables -Z
+	iptables -t nat -F
+
+	# Politica por defecto
+	iptables -P INPUT ACCEPT
+	iptables -P OUTPUT ACCEPT
+	iptables -P FORWARD ACCEPT
+	;;
+  restart)
+        /root/scripts/firewall.sh
+	;;
+
+  *)
+	echo 'Try start | stop | restart'
+	;;
+esac
+
+exit 0
