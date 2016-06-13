@@ -1,0 +1,31 @@
+### Fichero de logs ###
+logfile /var/log/ha-log
+logfacility local0
+
+### Tiempo entre latidos (pings) ###
+keepalive 1
+
+### Tiempo para declarar muerto a un nodo ###
+deadtime 3
+
+### Tiempo que debe para iniciar los recursus ###
+initdead 4
+
+### Interfaz para enviar latidos a todos los nodos ###
+bcast eth0
+
+### Interfaz e IP para enviar y recibir latidos ###
+ucast eth0 192.168.1.210
+
+### Puerto para enviar y recibir latidos ###
+udpport 694
+
+### Retorno de los recursos al nodo 1 tras una caida ###
+auto_failback off
+
+### Nodo 1 ###
+node arya
+
+### Nodo 2 ###
+node johnsnow
+
