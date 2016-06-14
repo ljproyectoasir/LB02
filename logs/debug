@@ -1,0 +1,438 @@
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.8.2-0-g33fbe13 by qemu-project.org 04/01/2014
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] MTRR default type: write-back
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] MTRR fixed ranges enabled:
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   00000-9FFFF write-back
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   A0000-BFFFF uncachable
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   C0000-FFFFF write-protect
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] MTRR variable ranges enabled:
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   1 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   2 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   3 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   4 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   5 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   6 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   7 disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BRK [0x01af4000, 0x01af4fff] PGTABLE
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BRK [0x01af5000, 0x01af5fff] PGTABLE
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BRK [0x01af6000, 0x01af6fff] PGTABLE
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x3fc00000-0x3fdfffff] page 2M
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x3c000000-0x3fbfffff] page 2M
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x00200000-0x3bffffff] page 2M
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [mem 0x3fe00000-0x3ffdefff] page 4k
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BRK [0x01af7000, 0x01af7fff] PGTABLE
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]  [ffffea0000000000-ffffea0000dfffff] PMD -> [ffff88003e600000-ffff88003f3fffff] on node 0
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] On node 0 totalpages: 262013
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA32 zone: 3528 pages used for memmap
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA32 zone: 258015 pages, LIFO batch:31
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ2 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ5 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ10 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IRQ11 used by override.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] nr_irqs_gsi: 40
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] pcpu-alloc: s80896 r8192 d21504 u1048576 alloc=1*2097152
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] hpet clockevent registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108163] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jun 13 10:56:49 johnsnow kernel: [    0.108326] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jun 13 10:56:49 johnsnow kernel: [    0.108538] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Jun 13 10:56:49 johnsnow kernel: [    0.113048] pci 0000:00:01.1: reg 0x20: [io  0xe0e0-0xe0ef]
+Jun 13 10:56:49 johnsnow kernel: [    0.116885] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Jun 13 10:56:49 johnsnow kernel: [    0.120250] pci 0000:00:01.2: reg 0x20: [io  0xe080-0xe09f]
+Jun 13 10:56:49 johnsnow kernel: [    0.121299] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Jun 13 10:56:49 johnsnow kernel: [    0.121555] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Jun 13 10:56:49 johnsnow kernel: [    0.124649] pci 0000:00:02.0: reg 0x10: [mem 0xfc000000-0xfdffffff pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.128530] pci 0000:00:02.0: reg 0x14: [mem 0xfead0000-0xfead0fff]
+Jun 13 10:56:49 johnsnow kernel: [    0.140604] pci 0000:00:02.0: reg 0x30: [mem 0xfeac0000-0xfeacffff pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.140845] pci 0000:00:03.0: [1af4:1002] type 00 class 0x00ff00
+Jun 13 10:56:49 johnsnow kernel: [    0.144247] pci 0000:00:03.0: reg 0x10: [io  0xe0a0-0xe0bf]
+Jun 13 10:56:49 johnsnow kernel: [    0.152145] pci 0000:00:07.0: [8086:2922] type 00 class 0x010601
+Jun 13 10:56:49 johnsnow kernel: [    0.160504] pci 0000:00:07.0: reg 0x20: [io  0xe0c0-0xe0df]
+Jun 13 10:56:49 johnsnow kernel: [    0.162578] pci 0000:00:07.0: reg 0x24: [mem 0xfead1000-0xfead1fff]
+Jun 13 10:56:49 johnsnow kernel: [    0.164253] pci 0000:00:12.0: [8086:100e] type 00 class 0x020000
+Jun 13 10:56:49 johnsnow kernel: [    0.165170] pci 0000:00:12.0: reg 0x10: [mem 0xfea80000-0xfea9ffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.168005] pci 0000:00:12.0: reg 0x14: [io  0xe000-0xe03f]
+Jun 13 10:56:49 johnsnow kernel: [    0.180455] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.180578] pci 0000:00:13.0: [8086:100e] type 00 class 0x020000
+Jun 13 10:56:49 johnsnow kernel: [    0.181458] pci 0000:00:13.0: reg 0x10: [mem 0xfeaa0000-0xfeabffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.182294] pci 0000:00:13.0: reg 0x14: [io  0xe040-0xe07f]
+Jun 13 10:56:49 johnsnow kernel: [    0.192006] pci 0000:00:13.0: reg 0x30: [mem 0xfea40000-0xfea7ffff pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.192179] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Jun 13 10:56:49 johnsnow kernel: [    0.193190] pci 0000:00:1e.0: reg 0x10: [mem 0xfead2000-0xfead20ff 64bit]
+Jun 13 10:56:49 johnsnow kernel: [    0.194394] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Jun 13 10:56:49 johnsnow kernel: [    0.196561] pci 0000:00:1f.0: reg 0x10: [mem 0xfead3000-0xfead30ff 64bit]
+Jun 13 10:56:49 johnsnow kernel: [    0.201707] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.201714] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.201726] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.204671] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.204678] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.204690] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.209982] PCI: pci_cache_line_size set to 64 bytes
+Jun 13 10:56:49 johnsnow kernel: [    0.210064] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.210067] e820: reserve RAM buffer [mem 0x3ffdf000-0x3fffffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.224391] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 13 10:56:49 johnsnow kernel: [    0.224426] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 13 10:56:49 johnsnow kernel: [    0.224450] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 13 10:56:49 johnsnow kernel: [    0.224472] pnp 00:03: [dma 2]
+Jun 13 10:56:49 johnsnow kernel: [    0.224483] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Jun 13 10:56:49 johnsnow kernel: [    0.239608] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Jun 13 10:56:49 johnsnow kernel: [    0.239609] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239610] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239611] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfebfffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239613] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239613] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239614] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.239615] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239616] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.239617] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.278551] pci 0000:00:02.0: Video device with shadowed ROM
+Jun 13 10:56:49 johnsnow kernel: [    0.278578] PCI: CLS 0 bytes, default 64
+Jun 13 10:56:49 johnsnow kernel: [    0.651389] PM: Hibernation image not present or could not be loaded.
+Jun 13 10:56:49 johnsnow kernel: [    0.905912] libata version 3.00 loaded.
+Jun 13 10:56:49 johnsnow kernel: [    1.603619] ata_piix 0000:00:01.1: version 2.13
+Jun 13 10:56:49 johnsnow kernel: [    1.613928] ahci 0000:00:07.0: version 3.0
+Jun 13 10:56:49 johnsnow kernel: [    1.635266] ahci 0000:00:07.0: irq 40 for MSI/MSI-X
+Jun 13 10:56:49 johnsnow kernel: [    1.788239] ata2.01: NODEV after polling detection
+Jun 13 10:56:49 johnsnow kernel: [    1.998124] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Jun 13 10:56:49 johnsnow kernel: [    2.036627] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jun 13 10:56:49 johnsnow kernel: [    2.171944] PM: Hibernation image partition 8:1 present
+Jun 13 10:56:49 johnsnow kernel: [    2.171945] PM: Looking for hibernation image.
+Jun 13 10:56:49 johnsnow kernel: [    2.172226] PM: Image not found (code -22)
+Jun 13 10:56:49 johnsnow kernel: [    2.172227] PM: Hibernation image not present or could not be loaded.
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 10:56:49 johnsnow xinetd[766]: removing chargen
+Jun 13 10:56:49 johnsnow xinetd[766]: removing chargen
+Jun 13 10:56:49 johnsnow xinetd[766]: removing daytime
+Jun 13 10:56:49 johnsnow xinetd[766]: removing daytime
+Jun 13 10:56:49 johnsnow xinetd[766]: removing discard
+Jun 13 10:56:49 johnsnow xinetd[766]: removing discard
+Jun 13 10:56:49 johnsnow xinetd[766]: removing echo
+Jun 13 10:56:49 johnsnow xinetd[766]: removing echo
+Jun 13 10:56:49 johnsnow xinetd[766]: removing time
+Jun 13 10:56:49 johnsnow xinetd[766]: removing time
+Jun 13 10:56:50 johnsnow heartbeat: [879]: debug: get_delnodelist: delnodelist=
+Jun 13 10:56:51 johnsnow heartbeat: [879]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 10:56:51 johnsnow heartbeat: [890]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 10:56:51 johnsnow heartbeat: [907]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 11:31:47 johnsnow heartbeat: [879]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 11:31:47 johnsnow heartbeat: [879]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 11:31:47 johnsnow heartbeat: [2307]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.8.2-0-g33fbe13 by qemu-project.org 04/01/2014
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] MTRR default type: write-back
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] MTRR fixed ranges enabled:
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   00000-9FFFF write-back
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   A0000-BFFFF uncachable
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   C0000-FFFFF write-protect
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] MTRR variable ranges enabled:
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   1 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   2 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   3 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   4 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   5 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   6 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   7 disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BRK [0x01af4000, 0x01af4fff] PGTABLE
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BRK [0x01af5000, 0x01af5fff] PGTABLE
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BRK [0x01af6000, 0x01af6fff] PGTABLE
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x3fc00000-0x3fdfffff] page 2M
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x3c000000-0x3fbfffff] page 2M
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x00200000-0x3bffffff] page 2M
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [mem 0x3fe00000-0x3ffdefff] page 4k
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BRK [0x01af7000, 0x01af7fff] PGTABLE
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]  [ffffea0000000000-ffffea0000dfffff] PMD -> [ffff88003e600000-ffff88003f3fffff] on node 0
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] On node 0 totalpages: 262013
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA32 zone: 3528 pages used for memmap
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA32 zone: 258015 pages, LIFO batch:31
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ2 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ5 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ10 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IRQ11 used by override.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] nr_irqs_gsi: 40
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] pcpu-alloc: s80896 r8192 d21504 u1048576 alloc=1*2097152
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] hpet clockevent registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044748] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jun 13 11:32:10 johnsnow kernel: [    0.044912] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jun 13 11:32:10 johnsnow kernel: [    0.045123] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Jun 13 11:32:10 johnsnow kernel: [    0.047561] pci 0000:00:01.1: reg 0x20: [io  0xe0e0-0xe0ef]
+Jun 13 11:32:10 johnsnow kernel: [    0.048582] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Jun 13 11:32:10 johnsnow kernel: [    0.051015] pci 0000:00:01.2: reg 0x20: [io  0xe080-0xe09f]
+Jun 13 11:32:10 johnsnow kernel: [    0.052101] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Jun 13 11:32:10 johnsnow kernel: [    0.052359] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Jun 13 11:32:10 johnsnow kernel: [    0.054667] pci 0000:00:02.0: reg 0x10: [mem 0xfc000000-0xfdffffff pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.056571] pci 0000:00:02.0: reg 0x14: [mem 0xfead0000-0xfead0fff]
+Jun 13 11:32:10 johnsnow kernel: [    0.062035] pci 0000:00:02.0: reg 0x30: [mem 0xfeac0000-0xfeacffff pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.062283] pci 0000:00:03.0: [1af4:1002] type 00 class 0x00ff00
+Jun 13 11:32:10 johnsnow kernel: [    0.062743] pci 0000:00:03.0: reg 0x10: [io  0xe0a0-0xe0bf]
+Jun 13 11:32:10 johnsnow kernel: [    0.066092] pci 0000:00:07.0: [8086:2922] type 00 class 0x010601
+Jun 13 11:32:10 johnsnow kernel: [    0.072903] pci 0000:00:07.0: reg 0x20: [io  0xe0c0-0xe0df]
+Jun 13 11:32:10 johnsnow kernel: [    0.073854] pci 0000:00:07.0: reg 0x24: [mem 0xfead1000-0xfead1fff]
+Jun 13 11:32:10 johnsnow kernel: [    0.075095] pci 0000:00:12.0: [8086:100e] type 00 class 0x020000
+Jun 13 11:32:10 johnsnow kernel: [    0.076003] pci 0000:00:12.0: reg 0x10: [mem 0xfea80000-0xfea9ffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.076967] pci 0000:00:12.0: reg 0x14: [io  0xe000-0xe03f]
+Jun 13 11:32:10 johnsnow kernel: [    0.081734] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.081857] pci 0000:00:13.0: [8086:100e] type 00 class 0x020000
+Jun 13 11:32:10 johnsnow kernel: [    0.084007] pci 0000:00:13.0: reg 0x10: [mem 0xfeaa0000-0xfeabffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.085192] pci 0000:00:13.0: reg 0x14: [io  0xe040-0xe07f]
+Jun 13 11:32:10 johnsnow kernel: [    0.090744] pci 0000:00:13.0: reg 0x30: [mem 0xfea40000-0xfea7ffff pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.090912] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Jun 13 11:32:10 johnsnow kernel: [    0.091796] pci 0000:00:1e.0: reg 0x10: [mem 0xfead2000-0xfead20ff 64bit]
+Jun 13 11:32:10 johnsnow kernel: [    0.092741] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Jun 13 11:32:10 johnsnow kernel: [    0.093723] pci 0000:00:1f.0: reg 0x10: [mem 0xfead3000-0xfead30ff 64bit]
+Jun 13 11:32:10 johnsnow kernel: [    0.096156] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.096163] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.096175] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.097424] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.097431] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.097444] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] PCI: pci_cache_line_size set to 64 bytes
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] e820: reserve RAM buffer [mem 0x3ffdf000-0x3fffffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.108145] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 13 11:32:10 johnsnow kernel: [    0.108176] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 13 11:32:10 johnsnow kernel: [    0.108201] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 13 11:32:10 johnsnow kernel: [    0.108220] pnp 00:03: [dma 2]
+Jun 13 11:32:10 johnsnow kernel: [    0.108231] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Jun 13 11:32:10 johnsnow kernel: [    0.120212] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Jun 13 11:32:10 johnsnow kernel: [    0.120214] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120214] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120215] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfebfffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120217] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120218] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120218] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.120219] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120220] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.120221] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.148344] pci 0000:00:02.0: Video device with shadowed ROM
+Jun 13 11:32:10 johnsnow kernel: [    0.148370] PCI: CLS 0 bytes, default 64
+Jun 13 11:32:10 johnsnow kernel: [    0.318235] PM: Hibernation image not present or could not be loaded.
+Jun 13 11:32:10 johnsnow kernel: [    0.330252] libata version 3.00 loaded.
+Jun 13 11:32:10 johnsnow kernel: [    0.330585] ahci 0000:00:07.0: version 3.0
+Jun 13 11:32:10 johnsnow kernel: [    0.349854] ahci 0000:00:07.0: irq 40 for MSI/MSI-X
+Jun 13 11:32:10 johnsnow kernel: [    0.365496] ata_piix 0000:00:01.1: version 2.13
+Jun 13 11:32:10 johnsnow kernel: [    0.528230] ata8.01: NODEV after polling detection
+Jun 13 11:32:10 johnsnow kernel: [    0.688815] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jun 13 11:32:10 johnsnow kernel: [    1.016373] sr 7:0:0:0: Attached scsi CD-ROM sr0
+Jun 13 11:32:10 johnsnow kernel: [    1.075915] PM: Hibernation image partition 8:1 present
+Jun 13 11:32:10 johnsnow kernel: [    1.075916] PM: Looking for hibernation image.
+Jun 13 11:32:10 johnsnow kernel: [    1.076994] PM: Image not found (code -22)
+Jun 13 11:32:10 johnsnow kernel: [    1.076995] PM: Hibernation image not present or could not be loaded.
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 11:32:10 johnsnow xinetd[679]: removing chargen
+Jun 13 11:32:10 johnsnow xinetd[679]: removing chargen
+Jun 13 11:32:10 johnsnow xinetd[679]: removing daytime
+Jun 13 11:32:10 johnsnow xinetd[679]: removing daytime
+Jun 13 11:32:10 johnsnow xinetd[679]: removing discard
+Jun 13 11:32:10 johnsnow xinetd[679]: removing discard
+Jun 13 11:32:10 johnsnow xinetd[679]: removing echo
+Jun 13 11:32:10 johnsnow xinetd[679]: removing echo
+Jun 13 11:32:10 johnsnow xinetd[679]: removing time
+Jun 13 11:32:10 johnsnow xinetd[679]: removing time
+Jun 13 11:32:10 johnsnow heartbeat: [911]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 14:03:08 johnsnow heartbeat: [892]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 14:03:08 johnsnow heartbeat: [892]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 14:03:08 johnsnow heartbeat: [4920]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 14:03:11 johnsnow heartbeat: [892]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 14:03:11 johnsnow heartbeat: [5061]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 14:03:11 johnsnow heartbeat: [5076]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 14:03:12 johnsnow heartbeat: [892]: debug: get_delnodelist: delnodelist=
+Jun 13 14:03:12 johnsnow heartbeat: [5091]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 14:07:49 johnsnow heartbeat: [5485]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 16:58:36 johnsnow heartbeat: [10075]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.8.2-0-g33fbe13 by qemu-project.org 04/01/2014
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] MTRR default type: write-back
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] MTRR fixed ranges enabled:
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   00000-9FFFF write-back
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   A0000-BFFFF uncachable
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   C0000-FFFFF write-protect
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] MTRR variable ranges enabled:
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   1 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   2 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   3 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   4 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   5 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   6 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   7 disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BRK [0x01af4000, 0x01af4fff] PGTABLE
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BRK [0x01af5000, 0x01af5fff] PGTABLE
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BRK [0x01af6000, 0x01af6fff] PGTABLE
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x3fc00000-0x3fdfffff] page 2M
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x3c000000-0x3fbfffff] page 2M
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x00200000-0x3bffffff] page 2M
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [mem 0x3fe00000-0x3ffdefff] page 4k
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BRK [0x01af7000, 0x01af7fff] PGTABLE
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]  [ffffea0000000000-ffffea0000dfffff] PMD -> [ffff88003e600000-ffff88003f3fffff] on node 0
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] On node 0 totalpages: 262013
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA32 zone: 3528 pages used for memmap
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA32 zone: 258015 pages, LIFO batch:31
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ2 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ5 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ10 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IRQ11 used by override.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] nr_irqs_gsi: 40
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] pcpu-alloc: s80896 r8192 d21504 u1048576 alloc=1*2097152
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] hpet clockevent registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044430] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jun 13 17:06:44 johnsnow kernel: [    0.044590] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jun 13 17:06:44 johnsnow kernel: [    0.044802] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Jun 13 17:06:44 johnsnow kernel: [    0.047356] pci 0000:00:01.1: reg 0x20: [io  0xe0e0-0xe0ef]
+Jun 13 17:06:44 johnsnow kernel: [    0.048373] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Jun 13 17:06:44 johnsnow kernel: [    0.050944] pci 0000:00:01.2: reg 0x20: [io  0xe080-0xe09f]
+Jun 13 17:06:44 johnsnow kernel: [    0.052111] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Jun 13 17:06:44 johnsnow kernel: [    0.052368] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Jun 13 17:06:44 johnsnow kernel: [    0.054433] pci 0000:00:02.0: reg 0x10: [mem 0xfc000000-0xfdffffff pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.056610] pci 0000:00:02.0: reg 0x14: [mem 0xfead0000-0xfead0fff]
+Jun 13 17:06:44 johnsnow kernel: [    0.062218] pci 0000:00:02.0: reg 0x30: [mem 0xfeac0000-0xfeacffff pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.062466] pci 0000:00:03.0: [1af4:1002] type 00 class 0x00ff00
+Jun 13 17:06:44 johnsnow kernel: [    0.062967] pci 0000:00:03.0: reg 0x10: [io  0xe0a0-0xe0bf]
+Jun 13 17:06:44 johnsnow kernel: [    0.066334] pci 0000:00:07.0: [8086:2922] type 00 class 0x010601
+Jun 13 17:06:44 johnsnow kernel: [    0.072944] pci 0000:00:07.0: reg 0x20: [io  0xe0c0-0xe0df]
+Jun 13 17:06:44 johnsnow kernel: [    0.073874] pci 0000:00:07.0: reg 0x24: [mem 0xfead1000-0xfead1fff]
+Jun 13 17:06:44 johnsnow kernel: [    0.075049] pci 0000:00:12.0: [8086:100e] type 00 class 0x020000
+Jun 13 17:06:44 johnsnow kernel: [    0.076003] pci 0000:00:12.0: reg 0x10: [mem 0xfea80000-0xfea9ffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.076984] pci 0000:00:12.0: reg 0x14: [io  0xe000-0xe03f]
+Jun 13 17:06:44 johnsnow kernel: [    0.084010] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.084128] pci 0000:00:13.0: [8086:100e] type 00 class 0x020000
+Jun 13 17:06:44 johnsnow kernel: [    0.085118] pci 0000:00:13.0: reg 0x10: [mem 0xfeaa0000-0xfeabffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.086053] pci 0000:00:13.0: reg 0x14: [io  0xe040-0xe07f]
+Jun 13 17:06:44 johnsnow kernel: [    0.091440] pci 0000:00:13.0: reg 0x30: [mem 0xfea40000-0xfea7ffff pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.091611] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Jun 13 17:06:44 johnsnow kernel: [    0.092488] pci 0000:00:1e.0: reg 0x10: [mem 0xfead2000-0xfead20ff 64bit]
+Jun 13 17:06:44 johnsnow kernel: [    0.093701] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Jun 13 17:06:44 johnsnow kernel: [    0.096587] pci 0000:00:1f.0: reg 0x10: [mem 0xfead3000-0xfead30ff 64bit]
+Jun 13 17:06:44 johnsnow kernel: [    0.098753] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.098761] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.098773] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.100361] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.100367] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.100380] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] PCI: pci_cache_line_size set to 64 bytes
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] e820: reserve RAM buffer [mem 0x3ffdf000-0x3fffffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.108324] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 13 17:06:44 johnsnow kernel: [    0.108356] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 13 17:06:44 johnsnow kernel: [    0.108380] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 13 17:06:44 johnsnow kernel: [    0.108400] pnp 00:03: [dma 2]
+Jun 13 17:06:44 johnsnow kernel: [    0.108410] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Jun 13 17:06:44 johnsnow kernel: [    0.120425] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Jun 13 17:06:44 johnsnow kernel: [    0.120426] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120427] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120427] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfebfffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120429] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120430] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120431] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.120432] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120432] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.120433] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.148541] pci 0000:00:02.0: Video device with shadowed ROM
+Jun 13 17:06:44 johnsnow kernel: [    0.148567] PCI: CLS 0 bytes, default 64
+Jun 13 17:06:44 johnsnow kernel: [    0.310723] PM: Hibernation image not present or could not be loaded.
+Jun 13 17:06:44 johnsnow kernel: [    0.331847] libata version 3.00 loaded.
+Jun 13 17:06:44 johnsnow kernel: [    0.675008] ahci 0000:00:07.0: version 3.0
+Jun 13 17:06:44 johnsnow kernel: [    0.687646] ahci 0000:00:07.0: irq 40 for MSI/MSI-X
+Jun 13 17:06:44 johnsnow kernel: [    0.689037] ata_piix 0000:00:01.1: version 2.13
+Jun 13 17:06:44 johnsnow kernel: [    0.848285] ata8.01: NODEV after polling detection
+Jun 13 17:06:44 johnsnow kernel: [    1.016399] sr 7:0:0:0: Attached scsi CD-ROM sr0
+Jun 13 17:06:44 johnsnow kernel: [    1.024964] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jun 13 17:06:44 johnsnow kernel: [    1.076027] PM: Hibernation image partition 8:1 present
+Jun 13 17:06:44 johnsnow kernel: [    1.076028] PM: Looking for hibernation image.
+Jun 13 17:06:44 johnsnow kernel: [    1.076270] PM: Image not found (code -22)
+Jun 13 17:06:44 johnsnow kernel: [    1.076272] PM: Hibernation image not present or could not be loaded.
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 17:06:44 johnsnow xinetd[748]: removing chargen
+Jun 13 17:06:44 johnsnow xinetd[748]: removing chargen
+Jun 13 17:06:44 johnsnow xinetd[748]: removing daytime
+Jun 13 17:06:44 johnsnow xinetd[748]: removing daytime
+Jun 13 17:06:44 johnsnow xinetd[748]: removing discard
+Jun 13 17:06:44 johnsnow xinetd[748]: removing discard
+Jun 13 17:06:44 johnsnow xinetd[748]: removing echo
+Jun 13 17:06:44 johnsnow xinetd[748]: removing echo
+Jun 13 17:06:44 johnsnow xinetd[748]: removing time
+Jun 13 17:06:44 johnsnow xinetd[748]: removing time
+Jun 13 17:06:45 johnsnow heartbeat: [908]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:07:18 johnsnow heartbeat: [893]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:07:18 johnsnow heartbeat: [893]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:07:19 johnsnow heartbeat: [4120]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:08:58 johnsnow heartbeat: [4310]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:08:58 johnsnow heartbeat: [893]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:08:58 johnsnow heartbeat: [4325]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:08:59 johnsnow heartbeat: [893]: debug: get_delnodelist: delnodelist=
+Jun 13 19:08:59 johnsnow heartbeat: [4340]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:09:05 johnsnow heartbeat: [4624]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:14:00 johnsnow heartbeat: [5021]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:16:47 johnsnow heartbeat: [5246]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:16:47 johnsnow heartbeat: [5261]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: debug: get_delnodelist: delnodelist=
+Jun 13 19:16:48 johnsnow heartbeat: [5276]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:17:11 johnsnow heartbeat: [5572]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:18:43 johnsnow heartbeat: [6130]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:20:55 johnsnow heartbeat: [6321]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: debug: StartNextRemoteRscReq(): child count 1
+Jun 13 19:20:55 johnsnow heartbeat: [6336]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL
+Jun 13 19:20:56 johnsnow heartbeat: [5545]: debug: get_delnodelist: delnodelist=
+Jun 13 19:20:56 johnsnow heartbeat: [6351]: debug: notify_world: setting SIGCHLD Handler to SIG_DFL

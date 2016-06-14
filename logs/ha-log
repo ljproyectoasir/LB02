@@ -1,0 +1,526 @@
+Jun 13 01:30:17 johnsnow heartbeat: [878]: info: log-rotate detected on logfile /var/log/ha-log
+Jun 13 01:30:17 johnsnow heartbeat: [878]: info: Heartbeat shutdown in progress. (878)
+Jun 13 01:30:17 johnsnow heartbeat: [6200]: info: Giving up all HA resources.
+ResourceManager(default)[6217]:	2016/06/13_01:30:17 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[6217]:	2016/06/13_01:30:17 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[6217]:	2016/06/13_01:30:17 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[6270]:	2016/06/13_01:30:17 INFO:  Success
+Jun 13 01:30:17 johnsnow heartbeat: [6200]: info: All HA resources relinquished.
+Jun 13 01:30:18 johnsnow heartbeat: [878]: info: Received shutdown notice from 'arya'.
+Jun 13 01:30:18 johnsnow heartbeat: [878]: info: Resource takeover cancelled - shutdown in progress.
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: killing HBWRITE process 884 with signal 15
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: killing HBREAD process 885 with signal 15
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: killing HBWRITE process 886 with signal 15
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: killing HBREAD process 887 with signal 15
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: killing HBFIFO process 883 with signal 15
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: Core process 884 exited. 5 remaining
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: Core process 886 exited. 4 remaining
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: Core process 883 exited. 3 remaining
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: Core process 885 exited. 2 remaining
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: Core process 887 exited. 1 remaining
+Jun 13 01:30:19 johnsnow heartbeat: [878]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Pacemaker support: false
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Initial dead time accounts for slow network startup time
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: **************************
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: heartbeat: version 3.0.5
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: Heartbeat generation: 1461585906
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Local status now set to: 'up'
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Link johnsnow:eth0 up.
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Link arya:eth0 up.
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Status update for node arya: status up
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Status update for node arya: status active
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Comm_now_up(): updating status to active
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Local status now set to: 'active'
+harc(default)[890]:	2016/06/13_10:56:51 info: Running /etc/ha.d//rc.d/status status
+harc(default)[907]:	2016/06/13_10:56:51 info: Running /etc/ha.d//rc.d/status status
+Jun 13 10:57:01 johnsnow heartbeat: [879]: info: local resource transition completed.
+Jun 13 10:57:01 johnsnow heartbeat: [879]: info: Initial resource acquisition complete (T_RESOURCES(us))
+Jun 13 10:57:01 johnsnow heartbeat: [928]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 10:57:02 johnsnow heartbeat: [879]: info: remote resource transition completed.
+Jun 13 11:21:17 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:21:17 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1480:1482]
+Jun 13 11:21:17 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:24:51 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:24:51 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1694:1696]
+Jun 13 11:24:51 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:29:21 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:29:21 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1964:1966]
+Jun 13 11:29:21 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Received shutdown notice from 'arya'.
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Resources being acquired from arya.
+Jun 13 11:31:47 johnsnow heartbeat: [2281]: info: acquire local HA resources (standby).
+Jun 13 11:31:47 johnsnow heartbeat: [2282]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 11:31:47 johnsnow heartbeat: [2281]: info: local HA resource acquisition completed (standby).
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Standby resource acquisition done [all].
+harc(default)[2307]:	2016/06/13_11:31:47 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[2322]:	2016/06/13_11:31:47 info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+ResourceManager(default)[2347]:	2016/06/13_11:31:47 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[2375]:	2016/06/13_11:31:47 INFO:  Resource is stopped
+ResourceManager(default)[2347]:	2016/06/13_11:31:47 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+IPaddr(IPaddr_192.168.1.215)[2456]:	2016/06/13_11:31:47 INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+IPaddr(IPaddr_192.168.1.215)[2456]:	2016/06/13_11:31:47 INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[2432]:	2016/06/13_11:31:47 INFO:  Success
+ResourceManager(default)[2347]:	2016/06/13_11:31:47 info: Running /etc/init.d/haproxy  start
+mach_down(default)[2322]:	2016/06/13_11:31:47 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[2322]:	2016/06/13_11:31:47 info: mach_down takeover complete for node arya.
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: mach_down takeover complete.
+Jun 13 11:31:53 johnsnow heartbeat: [879]: WARN: node arya: is dead
+Jun 13 11:31:53 johnsnow heartbeat: [879]: info: Dead node arya gave up resources.
+Jun 13 11:31:53 johnsnow heartbeat: [879]: info: Link arya:eth0 dead.
+Jun 13 11:31:55 johnsnow heartbeat: [879]: info: Heartbeat shutdown in progress. (879)
+Jun 13 11:31:55 johnsnow heartbeat: [2651]: info: Giving up all HA resources.
+ResourceManager(default)[2666]:	2016/06/13_11:31:55 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[2666]:	2016/06/13_11:31:55 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[2666]:	2016/06/13_11:31:55 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+IPaddr(IPaddr_192.168.1.215)[2745]:	2016/06/13_11:31:55 INFO: ifconfig eth0:0 down
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[2721]:	2016/06/13_11:31:55 INFO:  Success
+Jun 13 11:31:55 johnsnow heartbeat: [2651]: info: All HA resources relinquished.
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: killing HBWRITE process 884 with signal 15
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: killing HBREAD process 885 with signal 15
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: killing HBWRITE process 886 with signal 15
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: killing HBREAD process 887 with signal 15
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: killing HBFIFO process 883 with signal 15
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: Core process 887 exited. 5 remaining
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: Core process 883 exited. 4 remaining
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: Core process 884 exited. 3 remaining
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: Core process 886 exited. 2 remaining
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: Core process 885 exited. 1 remaining
+Jun 13 11:31:57 johnsnow heartbeat: [879]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Pacemaker support: false
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Initial dead time accounts for slow network startup time
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: **************************
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: heartbeat: version 3.0.5
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Heartbeat generation: 1461585907
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Local status now set to: 'up'
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Link johnsnow:eth0 up.
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Link arya:eth0 up.
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Status update for node arya: status active
+harc(default)[911]:	2016/06/13_11:32:10 info: Running /etc/ha.d//rc.d/status status
+Jun 13 11:32:11 johnsnow heartbeat: [892]: info: Comm_now_up(): updating status to active
+Jun 13 11:32:11 johnsnow heartbeat: [892]: info: Local status now set to: 'active'
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: Local Resource acquisition completed. (none)
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Received shutdown notice from 'arya'.
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Resources being acquired from arya.
+Jun 13 14:03:08 johnsnow heartbeat: [4668]: info: acquire all HA resources (standby).
+Jun 13 14:03:08 johnsnow heartbeat: [4669]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+ResourceManager(default)[4695]:	2016/06/13_14:03:08 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4722]:	2016/06/13_14:03:08 INFO:  Resource is stopped
+ResourceManager(default)[4695]:	2016/06/13_14:03:08 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+IPaddr(IPaddr_192.168.1.215)[4803]:	2016/06/13_14:03:08 INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+IPaddr(IPaddr_192.168.1.215)[4803]:	2016/06/13_14:03:08 INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4779]:	2016/06/13_14:03:08 INFO:  Success
+ResourceManager(default)[4695]:	2016/06/13_14:03:08 info: Running /etc/init.d/haproxy  start
+Jun 13 14:03:08 johnsnow heartbeat: [4668]: info: all HA resource acquisition completed (standby).
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Standby resource acquisition done [all].
+harc(default)[4920]:	2016/06/13_14:03:08 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[4935]:	2016/06/13_14:03:08 info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+ResourceManager(default)[4960]:	2016/06/13_14:03:08 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4988]:	2016/06/13_14:03:08 INFO:  Running OK
+mach_down(default)[4935]:	2016/06/13_14:03:08 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[4935]:	2016/06/13_14:03:08 info: mach_down takeover complete for node arya.
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: mach_down takeover complete.
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Heartbeat restart on node arya
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Status update for node arya: status init
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Status update for node arya: status up
+harc(default)[5061]:	2016/06/13_14:03:11 info: Running /etc/ha.d//rc.d/status status
+harc(default)[5076]:	2016/06/13_14:03:11 info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:12 johnsnow heartbeat: [892]: info: Status update for node arya: status active
+harc(default)[5091]:	2016/06/13_14:03:12 info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:13 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 14:07:45 johnsnow heartbeat: [892]: info: Heartbeat shutdown in progress. (892)
+Jun 13 14:07:45 johnsnow heartbeat: [5230]: info: Giving up all HA resources.
+ResourceManager(default)[5245]:	2016/06/13_14:07:45 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[5245]:	2016/06/13_14:07:45 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[5245]:	2016/06/13_14:07:45 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+IPaddr(IPaddr_192.168.1.215)[5325]:	2016/06/13_14:07:45 INFO: ifconfig eth0:0 down
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5301]:	2016/06/13_14:07:45 INFO:  Success
+Jun 13 14:07:45 johnsnow heartbeat: [5230]: info: All HA resources relinquished.
+Jun 13 14:07:46 johnsnow heartbeat: [892]: WARN: 1 lost packet(s) for [arya] [285:287]
+Jun 13 14:07:46 johnsnow heartbeat: [892]: info: No pkts missing from arya!
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBFIFO process 899 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBWRITE process 900 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBREAD process 901 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBWRITE process 902 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBREAD process 903 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 900 exited. 5 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 903 exited. 4 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 899 exited. 3 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 902 exited. 2 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 901 exited. 1 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Pacemaker support: false
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Initial dead time accounts for slow network startup time
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: **************************
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: heartbeat: version 3.0.5
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Heartbeat generation: 1461585908
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Local status now set to: 'up'
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Link johnsnow:eth0 up.
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Link arya:eth0 up.
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Status update for node arya: status active
+harc(default)[5485]:	2016/06/13_14:07:49 info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Comm_now_up(): updating status to active
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Local status now set to: 'active'
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: remote resource transition completed.
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: remote resource transition completed.
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: Local Resource acquisition completed. (none)
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 16:49:24 johnsnow heartbeat: [5458]: WARN: Late heartbeat: Node arya: interval 2300 ms
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: WARN: 1 lost packet(s) for [arya] [10392:10394]
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: info: No pkts missing from arya!
+Jun 13 16:58:29 johnsnow heartbeat: [5458]: info: Heartbeat shutdown in progress. (5458)
+Jun 13 16:58:29 johnsnow heartbeat: [9786]: info: Giving up all HA resources.
+ResourceManager(default)[9800]:	2016/06/13_16:58:29 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[9800]:	2016/06/13_16:58:29 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[9800]:	2016/06/13_16:58:29 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[9852]:	2016/06/13_16:58:29 INFO:  Success
+Jun 13 16:58:29 johnsnow heartbeat: [9786]: info: All HA resources relinquished.
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBFIFO process 5479 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBWRITE process 5480 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBREAD process 5481 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBWRITE process 5482 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBREAD process 5483 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5479 exited. 5 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5480 exited. 4 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5482 exited. 3 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5481 exited. 2 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5483 exited. 1 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Pacemaker support: false
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Initial dead time accounts for slow network startup time
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: **************************
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: heartbeat: version 3.0.5
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Heartbeat generation: 1461585909
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Local status now set to: 'up'
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Link johnsnow:eth0 up.
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Link arya:eth0 up.
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Status update for node arya: status active
+harc(default)[10075]:	2016/06/13_16:58:36 info: Running /etc/ha.d//rc.d/status status
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Comm_now_up(): updating status to active
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Local status now set to: 'active'
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: remote resource transition completed.
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: remote resource transition completed.
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: Local Resource acquisition completed. (none)
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: WARN: 1 lost packet(s) for [arya] [10869:10871]
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: info: No pkts missing from arya!
+Jun 13 17:04:19 johnsnow heartbeat: [10048]: info: Heartbeat shutdown in progress. (10048)
+Jun 13 17:04:19 johnsnow heartbeat: [10558]: info: Giving up all HA resources.
+ResourceManager(default)[10573]:	2016/06/13_17:04:19 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[10573]:	2016/06/13_17:04:19 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[10573]:	2016/06/13_17:04:19 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[10626]:	2016/06/13_17:04:19 INFO:  Success
+Jun 13 17:04:19 johnsnow heartbeat: [10558]: info: All HA resources relinquished.
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: killing HBFIFO process 10069 with signal 15
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: killing HBWRITE process 10070 with signal 15
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: killing HBREAD process 10071 with signal 15
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: killing HBWRITE process 10072 with signal 15
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: killing HBREAD process 10073 with signal 15
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: Core process 10072 exited. 5 remaining
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: Core process 10069 exited. 4 remaining
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: Core process 10071 exited. 3 remaining
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: Core process 10073 exited. 2 remaining
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: Core process 10070 exited. 1 remaining
+Jun 13 17:04:21 johnsnow heartbeat: [10048]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Pacemaker support: false
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Initial dead time accounts for slow network startup time
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: **************************
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: heartbeat: version 3.0.5
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Heartbeat generation: 1461585910
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Local status now set to: 'up'
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Link johnsnow:eth0 up.
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Link arya:eth0 up.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Status update for node arya: status active
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Comm_now_up(): updating status to active
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Local status now set to: 'active'
+harc(default)[908]:	2016/06/13_17:06:45 info: Running /etc/ha.d//rc.d/status status
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Local Resource acquisition completed. (none)
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:07:18 johnsnow heartbeat: [893]: info: Received shutdown notice from 'arya'.
+Jun 13 19:07:18 johnsnow heartbeat: [893]: info: Resources being acquired from arya.
+Jun 13 19:07:18 johnsnow heartbeat: [3867]: info: acquire all HA resources (standby).
+Jun 13 19:07:18 johnsnow heartbeat: [3868]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+ResourceManager(default)[3894]:	2016/06/13_19:07:18 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[3921]:	2016/06/13_19:07:18 INFO:  Resource is stopped
+ResourceManager(default)[3894]:	2016/06/13_19:07:18 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+IPaddr(IPaddr_192.168.1.215)[4001]:	2016/06/13_19:07:18 INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+IPaddr(IPaddr_192.168.1.215)[4001]:	2016/06/13_19:07:18 INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[3977]:	2016/06/13_19:07:18 INFO:  Success
+ResourceManager(default)[3894]:	2016/06/13_19:07:18 info: Running /etc/init.d/haproxy  start
+Jun 13 19:07:19 johnsnow heartbeat: [3867]: info: all HA resource acquisition completed (standby).
+Jun 13 19:07:19 johnsnow heartbeat: [893]: info: Standby resource acquisition done [all].
+harc(default)[4120]:	2016/06/13_19:07:19 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[4135]:	2016/06/13_19:07:19 info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+ResourceManager(default)[4160]:	2016/06/13_19:07:19 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4187]:	2016/06/13_19:07:19 INFO:  Running OK
+mach_down(default)[4135]:	2016/06/13_19:07:19 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[4135]:	2016/06/13_19:07:19 info: mach_down takeover complete for node arya.
+Jun 13 19:07:19 johnsnow heartbeat: [893]: info: mach_down takeover complete.
+Jun 13 19:07:23 johnsnow heartbeat: [893]: WARN: node arya: is dead
+Jun 13 19:07:23 johnsnow heartbeat: [893]: info: Dead node arya gave up resources.
+Jun 13 19:07:23 johnsnow heartbeat: [893]: info: Link arya:eth0 dead.
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Heartbeat restart on node arya
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Link arya:eth0 up.
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Status update for node arya: status init
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Status update for node arya: status up
+harc(default)[4310]:	2016/06/13_19:08:58 info: Running /etc/ha.d//rc.d/status status
+harc(default)[4325]:	2016/06/13_19:08:58 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:08:59 johnsnow heartbeat: [893]: info: Status update for node arya: status active
+harc(default)[4340]:	2016/06/13_19:08:59 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:09:00 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 19:09:02 johnsnow heartbeat: [893]: info: Heartbeat shutdown in progress. (893)
+Jun 13 19:09:02 johnsnow heartbeat: [4372]: info: Giving up all HA resources.
+ResourceManager(default)[4386]:	2016/06/13_19:09:02 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[4386]:	2016/06/13_19:09:02 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[4386]:	2016/06/13_19:09:02 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+IPaddr(IPaddr_192.168.1.215)[4465]:	2016/06/13_19:09:02 INFO: ifconfig eth0:0 down
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4441]:	2016/06/13_19:09:02 INFO:  Success
+Jun 13 19:09:02 johnsnow heartbeat: [4372]: info: All HA resources relinquished.
+Jun 13 19:09:02 johnsnow heartbeat: [893]: WARN: 1 lost packet(s) for [arya] [14:16]
+Jun 13 19:09:02 johnsnow heartbeat: [893]: info: No pkts missing from arya!
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBFIFO process 900 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBWRITE process 901 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBREAD process 902 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBWRITE process 903 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBREAD process 904 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 903 exited. 5 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 901 exited. 4 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 902 exited. 3 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 900 exited. 2 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 904 exited. 1 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Pacemaker support: false
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Initial dead time accounts for slow network startup time
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: **************************
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: heartbeat: version 3.0.5
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Heartbeat generation: 1461585911
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Local status now set to: 'up'
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Link johnsnow:eth0 up.
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Link arya:eth0 up.
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Status update for node arya: status active
+harc(default)[4624]:	2016/06/13_19:09:05 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Comm_now_up(): updating status to active
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Local status now set to: 'active'
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Local Resource acquisition completed. (none)
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Received shutdown notice from 'arya'.
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Resources being acquired from arya.
+Jun 13 19:14:00 johnsnow heartbeat: [4768]: info: acquire all HA resources (standby).
+Jun 13 19:14:00 johnsnow heartbeat: [4769]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+ResourceManager(default)[4795]:	2016/06/13_19:14:00 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4822]:	2016/06/13_19:14:00 INFO:  Resource is stopped
+ResourceManager(default)[4795]:	2016/06/13_19:14:00 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+IPaddr(IPaddr_192.168.1.215)[4903]:	2016/06/13_19:14:00 INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+IPaddr(IPaddr_192.168.1.215)[4903]:	2016/06/13_19:14:00 INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4879]:	2016/06/13_19:14:00 INFO:  Success
+ResourceManager(default)[4795]:	2016/06/13_19:14:00 info: Running /etc/init.d/haproxy  start
+Jun 13 19:14:00 johnsnow heartbeat: [4768]: info: all HA resource acquisition completed (standby).
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Standby resource acquisition done [all].
+harc(default)[5021]:	2016/06/13_19:14:00 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[5036]:	2016/06/13_19:14:00 info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+ResourceManager(default)[5061]:	2016/06/13_19:14:00 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5088]:	2016/06/13_19:14:00 INFO:  Running OK
+mach_down(default)[5036]:	2016/06/13_19:14:00 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[5036]:	2016/06/13_19:14:00 info: mach_down takeover complete for node arya.
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: mach_down takeover complete.
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: WARN: node arya: is dead
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: info: Dead node arya gave up resources.
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: info: Link arya:eth0 dead.
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Heartbeat restart on node arya
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Link arya:eth0 up.
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Status update for node arya: status init
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Status update for node arya: status up
+harc(default)[5246]:	2016/06/13_19:16:47 info: Running /etc/ha.d//rc.d/status status
+harc(default)[5261]:	2016/06/13_19:16:47 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:16:48 johnsnow heartbeat: [4597]: info: Status update for node arya: status active
+harc(default)[5276]:	2016/06/13_19:16:48 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:16:48 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:17:07 johnsnow heartbeat: [4597]: info: Heartbeat shutdown in progress. (4597)
+Jun 13 19:17:07 johnsnow heartbeat: [5317]: info: Giving up all HA resources.
+ResourceManager(default)[5331]:	2016/06/13_19:17:07 info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+ResourceManager(default)[5331]:	2016/06/13_19:17:07 info: Running /etc/init.d/haproxy  stop
+ResourceManager(default)[5331]:	2016/06/13_19:17:07 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+IPaddr(IPaddr_192.168.1.215)[5411]:	2016/06/13_19:17:07 INFO: ifconfig eth0:0 down
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5387]:	2016/06/13_19:17:07 INFO:  Success
+Jun 13 19:17:07 johnsnow heartbeat: [5317]: info: All HA resources relinquished.
+Jun 13 19:17:08 johnsnow heartbeat: [4597]: WARN: 1 lost packet(s) for [arya] [32:34]
+Jun 13 19:17:08 johnsnow heartbeat: [4597]: info: No pkts missing from arya!
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBFIFO process 4618 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBWRITE process 4619 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBREAD process 4620 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBWRITE process 4621 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBREAD process 4622 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4618 exited. 5 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4619 exited. 4 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4620 exited. 3 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4622 exited. 2 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4621 exited. 1 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Pacemaker support: false
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Initial dead time accounts for slow network startup time
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: **************************
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: heartbeat: version 3.0.5
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Heartbeat generation: 1461585912
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Local status now set to: 'up'
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Link johnsnow:eth0 up.
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Link arya:eth0 up.
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Status update for node arya: status active
+harc(default)[5572]:	2016/06/13_19:17:11 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Comm_now_up(): updating status to active
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Local status now set to: 'active'
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: remote resource transition completed.
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: remote resource transition completed.
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: Local Resource acquisition completed. (none)
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Received shutdown notice from 'arya'.
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Resources being acquired from arya.
+Jun 13 19:18:43 johnsnow heartbeat: [5873]: info: acquire all HA resources (standby).
+Jun 13 19:18:43 johnsnow heartbeat: [5874]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+ResourceManager(default)[5900]:	2016/06/13_19:18:43 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5928]:	2016/06/13_19:18:43 INFO:  Resource is stopped
+ResourceManager(default)[5900]:	2016/06/13_19:18:43 info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+IPaddr(IPaddr_192.168.1.215)[6011]:	2016/06/13_19:18:43 INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+IPaddr(IPaddr_192.168.1.215)[6011]:	2016/06/13_19:18:43 INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5987]:	2016/06/13_19:18:43 INFO:  Success
+ResourceManager(default)[5900]:	2016/06/13_19:18:43 info: Running /etc/init.d/haproxy  start
+Jun 13 19:18:43 johnsnow heartbeat: [5873]: info: all HA resource acquisition completed (standby).
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Standby resource acquisition done [all].
+harc(default)[6130]:	2016/06/13_19:18:43 info: Running /etc/ha.d//rc.d/status status
+mach_down(default)[6145]:	2016/06/13_19:18:43 info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+ResourceManager(default)[6170]:	2016/06/13_19:18:43 info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+/usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[6198]:	2016/06/13_19:18:43 INFO:  Running OK
+mach_down(default)[6145]:	2016/06/13_19:18:43 info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+mach_down(default)[6145]:	2016/06/13_19:18:43 info: mach_down takeover complete for node arya.
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: mach_down takeover complete.
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: WARN: node arya: is dead
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: info: Dead node arya gave up resources.
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: info: Link arya:eth0 dead.
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Heartbeat restart on node arya
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Link arya:eth0 up.
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Status update for node arya: status init
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Status update for node arya: status up
+harc(default)[6321]:	2016/06/13_19:20:55 info: Running /etc/ha.d//rc.d/status status
+harc(default)[6336]:	2016/06/13_19:20:55 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:20:56 johnsnow heartbeat: [5545]: info: Status update for node arya: status active
+harc(default)[6351]:	2016/06/13_19:20:56 info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:20:57 johnsnow heartbeat: [5545]: info: remote resource transition completed.

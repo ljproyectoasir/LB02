@@ -1,0 +1,1696 @@
+Apr 18 18:52:02 syslogd started: BusyBox v1.22.1
+Apr 18 18:52:02 kernel: klogd started: BusyBox v1.22.1 (Debian 1:1.22.0-9+deb8u1)
+Apr 18 18:52:02 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Apr 18 18:52:02 kernel: [    0.000000] Initializing cgroup subsys cpu
+Apr 18 18:52:02 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Apr 18 18:52:02 kernel: [    0.000000] Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) ) #1 SMP Debian 3.16.7-ckt25-1 (2016-03-06)
+Apr 18 18:52:02 kernel: [    0.000000] Command line: BOOT_IMAGE=/install/vmlinuz vga=788  --- quiet initrd=/install/initrd.gz
+Apr 18 18:52:02 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffdefff] usable
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffdf000-0x000000007fffffff] reserved
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Apr 18 18:52:02 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Apr 18 18:52:02 kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr 18 18:52:02 kernel: [    0.000000] SMBIOS 0.8 present.
+Apr 18 18:52:02 kernel: [    0.000000] DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.8.2-0-g33fbe13 by qemu-project.org 04/01/2014
+Apr 18 18:52:02 kernel: [    0.000000] Hypervisor detected: KVM
+Apr 18 18:52:02 kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Apr 18 18:52:02 kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Apr 18 18:52:02 kernel: [    0.000000] AGP: No AGP bridge found
+Apr 18 18:52:02 kernel: [    0.000000] e820: last_pfn = 0x7ffdf max_arch_pfn = 0x400000000
+Apr 18 18:52:02 kernel: [    0.000000] MTRR default type: write-back
+Apr 18 18:52:02 kernel: [    0.000000] MTRR fixed ranges enabled:
+Apr 18 18:52:02 kernel: [    0.000000]   00000-9FFFF write-back
+Apr 18 18:52:02 kernel: [    0.000000]   A0000-BFFFF uncachable
+Apr 18 18:52:02 kernel: [    0.000000]   C0000-FFFFF write-protect
+Apr 18 18:52:02 kernel: [    0.000000] MTRR variable ranges enabled:
+Apr 18 18:52:02 kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Apr 18 18:52:02 kernel: [    0.000000]   1 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   2 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   3 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   4 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   5 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   6 disabled
+Apr 18 18:52:02 kernel: [    0.000000]   7 disabled
+Apr 18 18:52:02 kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Apr 18 18:52:02 kernel: [    0.000000] found SMP MP-table at [mem 0x000f6490-0x000f649f] mapped at [ffff8800000f6490]
+Apr 18 18:52:02 kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Apr 18 18:52:02 kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Apr 18 18:52:02 kernel: [    0.000000] BRK [0x01af4000, 0x01af4fff] PGTABLE
+Apr 18 18:52:02 kernel: [    0.000000] BRK [0x01af5000, 0x01af5fff] PGTABLE
+Apr 18 18:52:02 kernel: [    0.000000] BRK [0x01af6000, 0x01af6fff] PGTABLE
+Apr 18 18:52:02 kernel: [    0.000000] init_memory_mapping: [mem 0x7f600000-0x7f7fffff]
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x7f600000-0x7f7fffff] page 2M
+Apr 18 18:52:02 kernel: [    0.000000] BRK [0x01af7000, 0x01af7fff] PGTABLE
+Apr 18 18:52:02 kernel: [    0.000000] init_memory_mapping: [mem 0x7c000000-0x7f5fffff]
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x7c000000-0x7f5fffff] page 2M
+Apr 18 18:52:02 kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x7bffffff]
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x00200000-0x7bffffff] page 2M
+Apr 18 18:52:02 kernel: [    0.000000] init_memory_mapping: [mem 0x7f800000-0x7ffdefff]
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x7f800000-0x7fdfffff] page 2M
+Apr 18 18:52:02 kernel: [    0.000000]  [mem 0x7fe00000-0x7ffdefff] page 4k
+Apr 18 18:52:02 kernel: [    0.000000] BRK [0x01af8000, 0x01af8fff] PGTABLE
+Apr 18 18:52:02 kernel: [    0.000000] RAMDISK: [mem 0x7f9bf000-0x7ffdefff]
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: RSDP 0x00000000000F62A0 000014 (v00 BOCHS )
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: RSDT 0x000000007FFE2581 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: FACP 0x000000007FFE0BDA 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: DSDT 0x000000007FFE0040 000B9A (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: FACS 0x000000007FFE0000 000040
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: SSDT 0x000000007FFE0C4E 00187B (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: APIC 0x000000007FFE24C9 000080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: HPET 0x000000007FFE2549 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Apr 18 18:52:02 kernel: [    0.000000] No NUMA configuration found
+Apr 18 18:52:02 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffdefff]
+Apr 18 18:52:02 kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x7ffdefff]
+Apr 18 18:52:02 kernel: [    0.000000]   NODE_DATA [mem 0x7f9ba000-0x7f9befff]
+Apr 18 18:52:02 kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr 18 18:52:02 kernel: [    0.000000] kvm-clock: cpu 0, msr 0:7f9b2001, primary cpu clock
+Apr 18 18:52:02 kernel: [    0.000000]  [ffffea0000000000-ffffea0001bfffff] PMD -> [ffff88007d000000-ffff88007ebfffff] on node 0
+Apr 18 18:52:02 kernel: [    0.000000] Zone ranges:
+Apr 18 18:52:02 kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Apr 18 18:52:02 kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Apr 18 18:52:02 kernel: [    0.000000]   Normal   empty
+Apr 18 18:52:02 kernel: [    0.000000] Movable zone start for each node
+Apr 18 18:52:02 kernel: [    0.000000] Early memory node ranges
+Apr 18 18:52:02 kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Apr 18 18:52:02 kernel: [    0.000000]   node   0: [mem 0x00100000-0x7ffdefff]
+Apr 18 18:52:02 kernel: [    0.000000] On node 0 totalpages: 524157
+Apr 18 18:52:02 kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Apr 18 18:52:02 kernel: [    0.000000]   DMA zone: 21 pages reserved
+Apr 18 18:52:02 kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Apr 18 18:52:02 kernel: [    0.000000]   DMA32 zone: 7112 pages used for memmap
+Apr 18 18:52:02 kernel: [    0.000000]   DMA32 zone: 520159 pages, LIFO batch:31
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x608
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Apr 18 18:52:02 kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ2 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ5 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ10 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: IRQ11 used by override.
+Apr 18 18:52:02 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Apr 18 18:52:02 kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Apr 18 18:52:02 kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Apr 18 18:52:02 kernel: [    0.000000] nr_irqs_gsi: 40
+Apr 18 18:52:02 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Apr 18 18:52:02 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Apr 18 18:52:02 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Apr 18 18:52:02 kernel: [    0.000000] e820: [mem 0x80000000-0xfeffbfff] available for PCI devices
+Apr 18 18:52:02 kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Apr 18 18:52:02 kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:2 nr_node_ids:1
+Apr 18 18:52:02 kernel: [    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88007f600000 s80896 r8192 d21504 u1048576
+Apr 18 18:52:02 kernel: [    0.000000] pcpu-alloc: s80896 r8192 d21504 u1048576 alloc=1*2097152
+Apr 18 18:52:02 kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Apr 18 18:52:02 kernel: [    0.000000] KVM setup async PF for cpu 0
+Apr 18 18:52:02 kernel: [    0.000000] kvm-stealtime: cpu 0, msr 7f60d080
+Apr 18 18:52:02 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 516968
+Apr 18 18:52:02 kernel: [    0.000000] Policy zone: DMA32
+Apr 18 18:52:02 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/install/vmlinuz vga=788  --- quiet initrd=/install/initrd.gz
+Apr 18 18:52:02 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.000000] AGP: Checking aperture...
+Apr 18 18:52:02 kernel: [    0.000000] AGP: No AGP bridge found
+Apr 18 18:52:02 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Apr 18 18:52:02 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Apr 18 18:52:02 kernel: [    0.000000] Memory: 2049840K/2096628K available (5222K kernel code, 947K rwdata, 1836K rodata, 1204K init, 840K bss, 46788K reserved)
+Apr 18 18:52:02 kernel: [    0.000000] Hierarchical RCU implementation.
+Apr 18 18:52:02 kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Apr 18 18:52:02 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+Apr 18 18:52:02 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Apr 18 18:52:02 kernel: [    0.000000] NR_IRQS:33024 nr_irqs:512 16
+Apr 18 18:52:02 kernel: [    0.000000] Console: colour dummy device 80x25
+Apr 18 18:52:02 kernel: [    0.000000] console [tty0] enabled
+Apr 18 18:52:02 kernel: [    0.000000] hpet clockevent registered
+Apr 18 18:52:02 kernel: [    0.000000] tsc: Detected 3499.996 MHz processor
+Apr 18 18:52:02 kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 6999.99 BogoMIPS (lpj=13999984)
+Apr 18 18:52:02 kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Apr 18 18:52:02 kernel: [    0.008000] ACPI: Core revision 20140424
+Apr 18 18:52:02 kernel: [    0.008000] ACPI: All ACPI Tables successfully acquired
+Apr 18 18:52:02 kernel: [    0.008000] Security Framework initialized
+Apr 18 18:52:02 kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Apr 18 18:52:02 kernel: [    0.008000] Yama: disabled by default; enable with sysctl kernel.yama.*
+Apr 18 18:52:02 kernel: [    0.008000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Apr 18 18:52:02 kernel: [    0.008000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Apr 18 18:52:02 kernel: [    0.008000] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.008000] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys memory
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys devices
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys freezer
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys net_cls
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys blkio
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys perf_event
+Apr 18 18:52:02 kernel: [    0.008000] Initializing cgroup subsys net_prio
+Apr 18 18:52:02 kernel: [    0.008000] CPU: Physical Processor ID: 0
+Apr 18 18:52:02 kernel: [    0.008000] CPU: Processor Core ID: 0
+Apr 18 18:52:02 kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Apr 18 18:52:02 kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Apr 18 18:52:02 kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Apr 18 18:52:02 kernel: [    0.008000] tlb_flushall_shift: 6
+Apr 18 18:52:02 kernel: [    0.008000] Freeing SMP alternatives memory: 20K (ffffffff81a1b000 - ffffffff81a20000)
+Apr 18 18:52:02 kernel: [    0.008000] ftrace: allocating 21683 entries in 85 pages
+Apr 18 18:52:02 kernel: [    0.012142] Enabling x2apic
+Apr 18 18:52:02 kernel: [    0.012146] Enabled x2apic
+Apr 18 18:52:02 kernel: [    0.012271] Switched APIC routing to physical x2apic.
+Apr 18 18:52:02 kernel: [    0.012903] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr 18 18:52:02 kernel: [    0.012905] smpboot: CPU0: Intel Common KVM processor (fam: 0f, model: 06, stepping: 01)
+Apr 18 18:52:02 kernel: [    0.016000] Performance Events: unsupported Netburst CPU model 6 no PMU driver, software events only.
+Apr 18 18:52:02 kernel: [    0.016000] x86: Booting SMP configuration:
+Apr 18 18:52:02 kernel: [    0.016000] .... node  #0, CPUs:      #1
+Apr 18 18:52:02 kernel: [    0.008000] kvm-clock: cpu 1, msr 0:7f9b2041, secondary cpu clock
+Apr 18 18:52:02 kernel: [    0.024101] NMI watchdog: disabled (cpu0): hardware events not enabled
+Apr 18 18:52:02 kernel: [    0.026125] x86: Booted up 1 node, 2 CPUs
+Apr 18 18:52:02 kernel: [    0.026126] smpboot: Total of 2 processors activated (13999.98 BogoMIPS)
+Apr 18 18:52:02 kernel: [    0.026115] KVM setup async PF for cpu 1
+Apr 18 18:52:02 kernel: [    0.026115] kvm-stealtime: cpu 1, msr 7f70d080
+Apr 18 18:52:02 kernel: [    0.026343] devtmpfs: initialized
+Apr 18 18:52:02 kernel: [    0.028477] pinctrl core: initialized pinctrl subsystem
+Apr 18 18:52:02 kernel: [    0.028541] NET: Registered protocol family 16
+Apr 18 18:52:02 kernel: [    0.028619] cpuidle: using governor ladder
+Apr 18 18:52:02 kernel: [    0.028621] cpuidle: using governor menu
+Apr 18 18:52:02 kernel: [    0.028665] ACPI: bus type PCI registered
+Apr 18 18:52:02 kernel: [    0.028666] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr 18 18:52:02 kernel: [    0.028762] PCI: Using configuration type 1 for base access
+Apr 18 18:52:02 kernel: [    0.040098] ACPI: Added _OSI(Module Device)
+Apr 18 18:52:02 kernel: [    0.040098] ACPI: Added _OSI(Processor Device)
+Apr 18 18:52:02 kernel: [    0.040098] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr 18 18:52:02 kernel: [    0.040098] ACPI: Added _OSI(Processor Aggregator Device)
+Apr 18 18:52:02 kernel: [    0.040940] ACPI: Interpreter enabled
+Apr 18 18:52:02 kernel: [    0.040943] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Apr 18 18:52:02 kernel: [    0.040945] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Apr 18 18:52:02 kernel: [    0.040951] ACPI: (supports S0 S3 S4 S5)
+Apr 18 18:52:02 kernel: [    0.040952] ACPI: Using IOAPIC for interrupt routing
+Apr 18 18:52:02 kernel: [    0.040960] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr 18 18:52:02 kernel: [    0.044285] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr 18 18:52:02 kernel: [    0.044288] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Apr 18 18:52:02 kernel: [    0.044291] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Apr 18 18:52:02 kernel: [    0.044299] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Apr 18 18:52:02 kernel: [    0.044458] acpiphp: Slot [3] registered
+Apr 18 18:52:02 kernel: [    0.044468] acpiphp: Slot [4] registered
+Apr 18 18:52:02 kernel: [    0.044477] acpiphp: Slot [5] registered
+Apr 18 18:52:02 kernel: [    0.044486] acpiphp: Slot [6] registered
+Apr 18 18:52:02 kernel: [    0.044495] acpiphp: Slot [7] registered
+Apr 18 18:52:02 kernel: [    0.044504] acpiphp: Slot [8] registered
+Apr 18 18:52:02 kernel: [    0.044515] acpiphp: Slot [9] registered
+Apr 18 18:52:02 kernel: [    0.044524] acpiphp: Slot [10] registered
+Apr 18 18:52:02 kernel: [    0.044533] acpiphp: Slot [11] registered
+Apr 18 18:52:02 kernel: [    0.044541] acpiphp: Slot [12] registered
+Apr 18 18:52:02 kernel: [    0.044550] acpiphp: Slot [13] registered
+Apr 18 18:52:02 kernel: [    0.044559] acpiphp: Slot [14] registered
+Apr 18 18:52:02 kernel: [    0.044567] acpiphp: Slot [15] registered
+Apr 18 18:52:02 kernel: [    0.044578] acpiphp: Slot [16] registered
+Apr 18 18:52:02 kernel: [    0.044587] acpiphp: Slot [17] registered
+Apr 18 18:52:02 kernel: [    0.044596] acpiphp: Slot [18] registered
+Apr 18 18:52:02 kernel: [    0.044605] acpiphp: Slot [19] registered
+Apr 18 18:52:02 kernel: [    0.044614] acpiphp: Slot [20] registered
+Apr 18 18:52:02 kernel: [    0.044622] acpiphp: Slot [21] registered
+Apr 18 18:52:02 kernel: [    0.044631] acpiphp: Slot [22] registered
+Apr 18 18:52:02 kernel: [    0.044642] acpiphp: Slot [23] registered
+Apr 18 18:52:02 kernel: [    0.044653] acpiphp: Slot [24] registered
+Apr 18 18:52:02 kernel: [    0.044662] acpiphp: Slot [25] registered
+Apr 18 18:52:02 kernel: [    0.044671] acpiphp: Slot [26] registered
+Apr 18 18:52:02 kernel: [    0.044679] acpiphp: Slot [27] registered
+Apr 18 18:52:02 kernel: [    0.044690] acpiphp: Slot [28] registered
+Apr 18 18:52:02 kernel: [    0.044701] acpiphp: Slot [29] registered
+Apr 18 18:52:02 kernel: [    0.044716] PCI host bridge to bus 0000:00
+Apr 18 18:52:02 kernel: [    0.044718] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr 18 18:52:02 kernel: [    0.044719] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Apr 18 18:52:02 kernel: [    0.044720] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Apr 18 18:52:02 kernel: [    0.044721] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Apr 18 18:52:02 kernel: [    0.044722] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Apr 18 18:52:02 kernel: [    0.044738] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Apr 18 18:52:02 kernel: [    0.044906] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Apr 18 18:52:02 kernel: [    0.045131] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Apr 18 18:52:02 kernel: [    0.047429] pci 0000:00:01.1: reg 0x20: [io  0xe0a0-0xe0af]
+Apr 18 18:52:02 kernel: [    0.048200] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Apr 18 18:52:02 kernel: [    0.048201] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Apr 18 18:52:02 kernel: [    0.048202] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Apr 18 18:52:02 kernel: [    0.048202] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Apr 18 18:52:02 kernel: [    0.048288] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Apr 18 18:52:02 kernel: [    0.050395] pci 0000:00:01.2: reg 0x20: [io  0xe040-0xe05f]
+Apr 18 18:52:02 kernel: [    0.051382] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Apr 18 18:52:02 kernel: [    0.051544] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Apr 18 18:52:02 kernel: [    0.051548] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Apr 18 18:52:02 kernel: [    0.051660] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Apr 18 18:52:02 kernel: [    0.052561] pci 0000:00:02.0: reg 0x10: [mem 0xfc000000-0xfdffffff pref]
+Apr 18 18:52:02 kernel: [    0.053669] pci 0000:00:02.0: reg 0x14: [mem 0xfea70000-0xfea70fff]
+Apr 18 18:52:02 kernel: [    0.061013] pci 0000:00:02.0: reg 0x30: [mem 0xfea60000-0xfea6ffff pref]
+Apr 18 18:52:02 kernel: [    0.061275] pci 0000:00:03.0: [1af4:1002] type 00 class 0x00ff00
+Apr 18 18:52:02 kernel: [    0.061699] pci 0000:00:03.0: reg 0x10: [io  0xe060-0xe07f]
+Apr 18 18:52:02 kernel: [    0.064815] pci 0000:00:07.0: [8086:2922] type 00 class 0x010601
+Apr 18 18:52:02 kernel: [    0.070734] pci 0000:00:07.0: reg 0x20: [io  0xe080-0xe09f]
+Apr 18 18:52:02 kernel: [    0.071742] pci 0000:00:07.0: reg 0x24: [mem 0xfea71000-0xfea71fff]
+Apr 18 18:52:02 kernel: [    0.073020] pci 0000:00:12.0: [8086:100e] type 00 class 0x020000
+Apr 18 18:52:02 kernel: [    0.073791] pci 0000:00:12.0: reg 0x10: [mem 0xfea40000-0xfea5ffff]
+Apr 18 18:52:02 kernel: [    0.074556] pci 0000:00:12.0: reg 0x14: [io  0xe000-0xe03f]
+Apr 18 18:52:02 kernel: [    0.078928] pci 0000:00:12.0: reg 0x30: [mem 0xfea00000-0xfea3ffff pref]
+Apr 18 18:52:02 kernel: [    0.079107] pci 0000:00:1e.0: [1b36:0001] type 01 class 0x060400
+Apr 18 18:52:02 kernel: [    0.080003] pci 0000:00:1e.0: reg 0x10: [mem 0xfea72000-0xfea720ff 64bit]
+Apr 18 18:52:02 kernel: [    0.081122] pci 0000:00:1f.0: [1b36:0001] type 01 class 0x060400
+Apr 18 18:52:02 kernel: [    0.082036] pci 0000:00:1f.0: reg 0x10: [mem 0xfea73000-0xfea730ff 64bit]
+Apr 18 18:52:02 kernel: [    0.084724] acpiphp: Slot [0] registered
+Apr 18 18:52:02 kernel: [    0.084736] acpiphp: Slot [1] registered
+Apr 18 18:52:02 kernel: [    0.084746] acpiphp: Slot [2] registered
+Apr 18 18:52:02 kernel: [    0.084760] acpiphp: Slot [3-2] registered
+Apr 18 18:52:02 kernel: [    0.084772] acpiphp: Slot [4-2] registered
+Apr 18 18:52:02 kernel: [    0.084784] acpiphp: Slot [5-2] registered
+Apr 18 18:52:02 kernel: [    0.084795] acpiphp: Slot [6-2] registered
+Apr 18 18:52:02 kernel: [    0.084807] acpiphp: Slot [7-2] registered
+Apr 18 18:52:02 kernel: [    0.084818] acpiphp: Slot [8-2] registered
+Apr 18 18:52:02 kernel: [    0.084830] acpiphp: Slot [9-2] registered
+Apr 18 18:52:02 kernel: [    0.084843] acpiphp: Slot [10-2] registered
+Apr 18 18:52:02 kernel: [    0.084855] acpiphp: Slot [11-2] registered
+Apr 18 18:52:02 kernel: [    0.084866] acpiphp: Slot [12-2] registered
+Apr 18 18:52:02 kernel: [    0.084876] acpiphp: Slot [13-2] registered
+Apr 18 18:52:02 kernel: [    0.084887] acpiphp: Slot [14-2] registered
+Apr 18 18:52:02 kernel: [    0.084898] acpiphp: Slot [15-2] registered
+Apr 18 18:52:02 kernel: [    0.084909] acpiphp: Slot [16-2] registered
+Apr 18 18:52:02 kernel: [    0.084921] acpiphp: Slot [17-2] registered
+Apr 18 18:52:02 kernel: [    0.084933] acpiphp: Slot [18-2] registered
+Apr 18 18:52:02 kernel: [    0.084944] acpiphp: Slot [19-2] registered
+Apr 18 18:52:02 kernel: [    0.084958] acpiphp: Slot [20-2] registered
+Apr 18 18:52:02 kernel: [    0.084969] acpiphp: Slot [21-2] registered
+Apr 18 18:52:02 kernel: [    0.084980] acpiphp: Slot [22-2] registered
+Apr 18 18:52:02 kernel: [    0.084993] acpiphp: Slot [23-2] registered
+Apr 18 18:52:02 kernel: [    0.085006] acpiphp: Slot [24-2] registered
+Apr 18 18:52:02 kernel: [    0.085017] acpiphp: Slot [25-2] registered
+Apr 18 18:52:02 kernel: [    0.085028] acpiphp: Slot [26-2] registered
+Apr 18 18:52:02 kernel: [    0.085039] acpiphp: Slot [27-2] registered
+Apr 18 18:52:02 kernel: [    0.085050] acpiphp: Slot [28-2] registered
+Apr 18 18:52:02 kernel: [    0.085060] acpiphp: Slot [29-2] registered
+Apr 18 18:52:02 kernel: [    0.085072] acpiphp: Slot [30] registered
+Apr 18 18:52:02 kernel: [    0.085081] acpiphp: Slot [31] registered
+Apr 18 18:52:02 kernel: [    0.085187] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Apr 18 18:52:02 kernel: [    0.085195] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Apr 18 18:52:02 kernel: [    0.085202] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Apr 18 18:52:02 kernel: [    0.085215] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.085953] acpiphp: Slot [0-2] registered
+Apr 18 18:52:02 kernel: [    0.085970] acpiphp: Slot [1-2] registered
+Apr 18 18:52:02 kernel: [    0.085982] acpiphp: Slot [2-2] registered
+Apr 18 18:52:02 kernel: [    0.085993] acpiphp: Slot [3-3] registered
+Apr 18 18:52:02 kernel: [    0.086005] acpiphp: Slot [4-3] registered
+Apr 18 18:52:02 kernel: [    0.086016] acpiphp: Slot [5-3] registered
+Apr 18 18:52:02 kernel: [    0.086027] acpiphp: Slot [6-3] registered
+Apr 18 18:52:02 kernel: [    0.086038] acpiphp: Slot [7-3] registered
+Apr 18 18:52:02 kernel: [    0.086052] acpiphp: Slot [8-3] registered
+Apr 18 18:52:02 kernel: [    0.086063] acpiphp: Slot [9-3] registered
+Apr 18 18:52:02 kernel: [    0.086075] acpiphp: Slot [10-3] registered
+Apr 18 18:52:02 kernel: [    0.086087] acpiphp: Slot [11-3] registered
+Apr 18 18:52:02 kernel: [    0.086099] acpiphp: Slot [12-3] registered
+Apr 18 18:52:02 kernel: [    0.086110] acpiphp: Slot [13-3] registered
+Apr 18 18:52:02 kernel: [    0.086122] acpiphp: Slot [14-3] registered
+Apr 18 18:52:02 kernel: [    0.086136] acpiphp: Slot [15-3] registered
+Apr 18 18:52:02 kernel: [    0.086148] acpiphp: Slot [16-3] registered
+Apr 18 18:52:02 kernel: [    0.086160] acpiphp: Slot [17-3] registered
+Apr 18 18:52:02 kernel: [    0.086172] acpiphp: Slot [18-3] registered
+Apr 18 18:52:02 kernel: [    0.086185] acpiphp: Slot [19-3] registered
+Apr 18 18:52:02 kernel: [    0.086197] acpiphp: Slot [20-3] registered
+Apr 18 18:52:02 kernel: [    0.086212] acpiphp: Slot [21-3] registered
+Apr 18 18:52:02 kernel: [    0.086224] acpiphp: Slot [22-3] registered
+Apr 18 18:52:02 kernel: [    0.086235] acpiphp: Slot [23-3] registered
+Apr 18 18:52:02 kernel: [    0.086247] acpiphp: Slot [24-3] registered
+Apr 18 18:52:02 kernel: [    0.086258] acpiphp: Slot [25-3] registered
+Apr 18 18:52:02 kernel: [    0.086272] acpiphp: Slot [26-3] registered
+Apr 18 18:52:02 kernel: [    0.086284] acpiphp: Slot [27-3] registered
+Apr 18 18:52:02 kernel: [    0.086298] acpiphp: Slot [28-3] registered
+Apr 18 18:52:02 kernel: [    0.086310] acpiphp: Slot [29-3] registered
+Apr 18 18:52:02 kernel: [    0.086322] acpiphp: Slot [30-2] registered
+Apr 18 18:52:02 kernel: [    0.086333] acpiphp: Slot [31-2] registered
+Apr 18 18:52:02 kernel: [    0.086438] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Apr 18 18:52:02 kernel: [    0.086445] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Apr 18 18:52:02 kernel: [    0.086452] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Apr 18 18:52:02 kernel: [    0.086465] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.088747] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Apr 18 18:52:02 kernel: [    0.088798] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Apr 18 18:52:02 kernel: [    0.088838] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Apr 18 18:52:02 kernel: [    0.088877] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Apr 18 18:52:02 kernel: [    0.088898] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Apr 18 18:52:02 kernel: [    0.089075] ACPI: Enabled 16 GPEs in block 00 to 0F
+Apr 18 18:52:02 kernel: [    0.089220] vgaarb: setting as boot device: PCI:0000:00:02.0
+Apr 18 18:52:02 kernel: [    0.089220] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Apr 18 18:52:02 kernel: [    0.089220] vgaarb: loaded
+Apr 18 18:52:02 kernel: [    0.089220] vgaarb: bridge control possible 0000:00:02.0
+Apr 18 18:52:02 kernel: [    0.089220] PCI: Using ACPI for IRQ routing
+Apr 18 18:52:02 kernel: [    0.089220] PCI: pci_cache_line_size set to 64 bytes
+Apr 18 18:52:02 kernel: [    0.089220] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Apr 18 18:52:02 kernel: [    0.089220] e820: reserve RAM buffer [mem 0x7ffdf000-0x7fffffff]
+Apr 18 18:52:02 kernel: [    0.089220] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Apr 18 18:52:02 kernel: [    0.089220] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Apr 18 18:52:02 kernel: [    0.089220] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Apr 18 18:52:02 kernel: [    0.093078] Switched to clocksource kvm-clock
+Apr 18 18:52:02 kernel: [    0.096584] pnp: PnP ACPI init
+Apr 18 18:52:02 kernel: [    0.096591] ACPI: bus type PNP registered
+Apr 18 18:52:02 kernel: [    0.096648] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Apr 18 18:52:02 kernel: [    0.096682] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Apr 18 18:52:02 kernel: [    0.096709] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Apr 18 18:52:02 kernel: [    0.096730] pnp 00:03: [dma 2]
+Apr 18 18:52:02 kernel: [    0.096740] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Apr 18 18:52:02 kernel: [    0.096905] pnp: PnP ACPI: found 4 devices
+Apr 18 18:52:02 kernel: [    0.096905] ACPI: bus type PNP unregistered
+Apr 18 18:52:02 kernel: [    0.104195] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Apr 18 18:52:02 kernel: [    0.104202] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Apr 18 18:52:02 kernel: [    0.104824] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Apr 18 18:52:02 kernel: [    0.105291] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.106192] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Apr 18 18:52:02 kernel: [    0.106198] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Apr 18 18:52:02 kernel: [    0.106920] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Apr 18 18:52:02 kernel: [    0.107390] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.108281] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Apr 18 18:52:02 kernel: [    0.108283] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Apr 18 18:52:02 kernel: [    0.108283] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Apr 18 18:52:02 kernel: [    0.108284] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff]
+Apr 18 18:52:02 kernel: [    0.108286] pci_bus 0000:01: resource 0 [io  0xd000-0xdfff]
+Apr 18 18:52:02 kernel: [    0.108286] pci_bus 0000:01: resource 1 [mem 0xfe800000-0xfe9fffff]
+Apr 18 18:52:02 kernel: [    0.108287] pci_bus 0000:01: resource 2 [mem 0xfe200000-0xfe3fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.108288] pci_bus 0000:02: resource 0 [io  0xc000-0xcfff]
+Apr 18 18:52:02 kernel: [    0.108289] pci_bus 0000:02: resource 1 [mem 0xfe600000-0xfe7fffff]
+Apr 18 18:52:02 kernel: [    0.108290] pci_bus 0000:02: resource 2 [mem 0xfe000000-0xfe1fffff 64bit pref]
+Apr 18 18:52:02 kernel: [    0.108388] NET: Registered protocol family 2
+Apr 18 18:52:02 kernel: [    0.108617] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Apr 18 18:52:02 kernel: [    0.108671] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Apr 18 18:52:02 kernel: [    0.108753] TCP: Hash tables configured (established 16384 bind 16384)
+Apr 18 18:52:02 kernel: [    0.108802] TCP: reno registered
+Apr 18 18:52:02 kernel: [    0.108804] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.108817] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.108875] NET: Registered protocol family 1
+Apr 18 18:52:02 kernel: [    0.108891] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr 18 18:52:02 kernel: [    0.108902] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Apr 18 18:52:02 kernel: [    0.108910] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr 18 18:52:02 kernel: [    0.123328] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Apr 18 18:52:02 kernel: [    0.137817] pci 0000:00:02.0: Video device with shadowed ROM
+Apr 18 18:52:02 kernel: [    0.137840] PCI: CLS 0 bytes, default 64
+Apr 18 18:52:02 kernel: [    0.137893] Unpacking initramfs...
+Apr 18 18:52:02 kernel: [    0.210295] Freeing initrd memory: 6272K (ffff88007f9bf000 - ffff88007ffdf000)
+Apr 18 18:52:02 kernel: [    0.210492] microcode: CPU0 sig=0xf61, pf=0x1, revision=0x1
+Apr 18 18:52:02 kernel: [    0.210510] microcode: CPU1 sig=0xf61, pf=0x1, revision=0x1
+Apr 18 18:52:02 kernel: [    0.210570] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Apr 18 18:52:02 kernel: [    0.210625] simple-framebuffer simple-framebuffer.0: framebuffer at 0xfc000000, 0xeb000 bytes, mapped to 0xffffc90000400000
+Apr 18 18:52:02 kernel: [    0.210626] simple-framebuffer simple-framebuffer.0: format=r5g6b5, mode=800x600x16, linelength=1600
+Apr 18 18:52:02 kernel: [    0.211173] Console: switching to colour frame buffer device 100x37
+Apr 18 18:52:02 kernel: [    0.211479] simple-framebuffer simple-framebuffer.0: fb0: simplefb registered!
+Apr 18 18:52:02 kernel: [    0.211652] futex hash table entries: 512 (order: 3, 32768 bytes)
+Apr 18 18:52:02 kernel: [    0.211697] audit: initializing netlink subsys (disabled)
+Apr 18 18:52:02 kernel: [    0.211712] audit: type=2000 audit(1461005523.317:1): initialized
+Apr 18 18:52:02 kernel: [    0.211944] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Apr 18 18:52:02 kernel: [    0.211959] zbud: loaded
+Apr 18 18:52:02 kernel: [    0.212198] VFS: Disk quotas dquot_6.5.2
+Apr 18 18:52:02 kernel: [    0.212211] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr 18 18:52:02 kernel: [    0.212259] msgmni has been set to 4015
+Apr 18 18:52:02 kernel: [    0.212542] alg: No test for stdrng (krng)
+Apr 18 18:52:02 kernel: [    0.212564] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Apr 18 18:52:02 kernel: [    0.212603] io scheduler noop registered
+Apr 18 18:52:02 kernel: [    0.212605] io scheduler deadline registered
+Apr 18 18:52:02 kernel: [    0.212631] io scheduler cfq registered (default)
+Apr 18 18:52:02 kernel: [    0.212698] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Apr 18 18:52:02 kernel: [    0.212707] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Apr 18 18:52:02 kernel: [    0.212739] GHES: HEST is not enabled!
+Apr 18 18:52:02 kernel: [    0.212791] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr 18 18:52:02 kernel: [    0.213073] Linux agpgart interface v0.103
+Apr 18 18:52:02 kernel: [    0.213160] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Apr 18 18:52:02 kernel: [    0.214214] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr 18 18:52:02 kernel: [    0.214218] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr 18 18:52:02 kernel: [    0.214314] mousedev: PS/2 mouse device common for all mice
+Apr 18 18:52:02 kernel: [    0.214446] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Apr 18 18:52:02 kernel: [    0.214570] rtc_cmos 00:00: RTC can wake from S4
+Apr 18 18:52:02 kernel: [    0.214729] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Apr 18 18:52:02 kernel: [    0.214803] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+Apr 18 18:52:02 kernel: [    0.214814] ledtrig-cpu: registered to indicate activity on CPUs
+Apr 18 18:52:02 kernel: [    0.214855] AMD IOMMUv2 driver by Joerg Roedel <joerg.roedel@amd.com>
+Apr 18 18:52:02 kernel: [    0.214855] AMD IOMMUv2 functionality not available on this system
+Apr 18 18:52:02 kernel: [    0.214906] TCP: cubic registered
+Apr 18 18:52:02 kernel: [    0.214965] NET: Registered protocol family 10
+Apr 18 18:52:02 kernel: [    0.215124] mip6: Mobile IPv6
+Apr 18 18:52:02 kernel: [    0.215127] NET: Registered protocol family 17
+Apr 18 18:52:02 kernel: [    0.215132] mpls_gso: MPLS GSO support
+Apr 18 18:52:02 kernel: [    0.215321] registered taskstats version 1
+Apr 18 18:52:02 kernel: [    0.215593] rtc_cmos 00:00: setting system clock to 2016-04-18 18:52:02 UTC (1461005522)
+Apr 18 18:52:02 kernel: [    0.215626] PM: Hibernation image not present or could not be loaded.
+Apr 18 18:52:02 kernel: [    0.216130] Freeing unused kernel memory: 1204K (ffffffff818ee000 - ffffffff81a1b000)
+Apr 18 18:52:02 kernel: [    0.216131] Write protecting the kernel read-only data: 8192k
+Apr 18 18:52:02 kernel: [    0.216435] Freeing unused kernel memory: 912K (ffff88000151c000 - ffff880001600000)
+Apr 18 18:52:02 kernel: [    0.216707] Freeing unused kernel memory: 212K (ffff8800017cb000 - ffff880001800000)
+Apr 18 18:52:02 kernel: [    0.219854] systemd-udevd[49]: starting version 215
+Apr 18 18:52:02 kernel: [    0.219982] random: systemd-udevd urandom read with 1 bits of entropy available
+Apr 18 18:52:02 kernel: [    0.224919] SCSI subsystem initialized
+Apr 18 18:52:02 kernel: [    0.226752] ACPI: bus type USB registered
+Apr 18 18:52:02 kernel: [    0.226767] usbcore: registered new interface driver usbfs
+Apr 18 18:52:02 kernel: [    0.226773] usbcore: registered new interface driver hub
+Apr 18 18:52:02 kernel: [    0.228728] libata version 3.00 loaded.
+Apr 18 18:52:02 kernel: [    0.229089] ahci 0000:00:07.0: version 3.0
+Apr 18 18:52:02 kernel: [    0.232177] usbcore: registered new device driver usb
+Apr 18 18:52:02 kernel: [    0.232427] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Apr 18 18:52:02 kernel: [    0.232600] uhci_hcd: USB Universal Host Controller Interface driver
+Apr 18 18:52:02 kernel: [    0.248691] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Apr 18 18:52:02 kernel: [    0.248780] ahci 0000:00:07.0: irq 40 for MSI/MSI-X
+Apr 18 18:52:02 kernel: [    0.248964] ahci 0000:00:07.0: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Apr 18 18:52:02 kernel: [    0.248966] ahci 0000:00:07.0: flags: ncq only 
+Apr 18 18:52:02 kernel: [    0.249688] scsi0 : ahci
+Apr 18 18:52:02 kernel: [    0.249794] scsi1 : ahci
+Apr 18 18:52:02 kernel: [    0.249874] scsi2 : ahci
+Apr 18 18:52:02 kernel: [    0.249943] scsi3 : ahci
+Apr 18 18:52:02 kernel: [    0.250018] scsi4 : ahci
+Apr 18 18:52:02 kernel: [    0.250090] scsi5 : ahci
+Apr 18 18:52:02 kernel: [    0.250128] ata1: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71100 irq 40
+Apr 18 18:52:02 kernel: [    0.250131] ata2: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71180 irq 40
+Apr 18 18:52:02 kernel: [    0.250134] ata3: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71200 irq 40
+Apr 18 18:52:02 kernel: [    0.250136] ata4: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71280 irq 40
+Apr 18 18:52:02 kernel: [    0.250139] ata5: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71300 irq 40
+Apr 18 18:52:02 kernel: [    0.250141] ata6: SATA max UDMA/133 abar m4096@0xfea71000 port 0xfea71380 irq 40
+Apr 18 18:52:02 kernel: [    0.263565] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Apr 18 18:52:02 kernel: [    0.263570] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Apr 18 18:52:02 kernel: [    0.263579] uhci_hcd 0000:00:01.2: detected 2 ports
+Apr 18 18:52:02 kernel: [    0.263621] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000e040
+Apr 18 18:52:02 kernel: [    0.263662] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Apr 18 18:52:02 kernel: [    0.263666] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 18 18:52:02 kernel: [    0.263667] usb usb1: Product: UHCI Host Controller
+Apr 18 18:52:02 kernel: [    0.263668] usb usb1: Manufacturer: Linux 3.16.0-4-amd64 uhci_hcd
+Apr 18 18:52:02 kernel: [    0.263668] usb usb1: SerialNumber: 0000:00:01.2
+Apr 18 18:52:02 kernel: [    0.263736] hub 1-0:1.0: USB hub found
+Apr 18 18:52:02 kernel: [    0.263739] hub 1-0:1.0: 2 ports detected
+Apr 18 18:52:02 kernel: [    0.263831] ata_piix 0000:00:01.1: version 2.13
+Apr 18 18:52:02 kernel: [    0.264770] scsi6 : ata_piix
+Apr 18 18:52:02 kernel: [    0.264855] scsi7 : ata_piix
+Apr 18 18:52:02 kernel: [    0.264880] ata7: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xe0a0 irq 14
+Apr 18 18:52:02 kernel: [    0.264881] ata8: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xe0a8 irq 15
+Apr 18 18:52:02 kernel: [    0.420303] ata8.01: NODEV after polling detection
+Apr 18 18:52:02 kernel: [    0.420461] ata8.00: ATAPI: QEMU DVD-ROM, 2.4.1, max UDMA/100
+Apr 18 18:52:02 kernel: [    0.420715] ata8.00: configured for MWDMA2
+Apr 18 18:52:02 kernel: [    0.568091] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Apr 18 18:52:02 kernel: [    0.568122] ata1.00: ATA-7: QEMU HARDDISK, 2.4.1, max UDMA/100
+Apr 18 18:52:02 kernel: [    0.568123] ata1.00: 41943040 sectors, multi 16: LBA48 NCQ (depth 31/32)
+Apr 18 18:52:02 kernel: [    0.568124] ata1.00: applying bridge limits
+Apr 18 18:52:02 kernel: [    0.568158] ata1.00: configured for UDMA/100
+Apr 18 18:52:02 kernel: [    0.568230] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    1    PQ: 0 ANSI: 5
+Apr 18 18:52:02 kernel: [    0.572054] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Apr 18 18:52:02 kernel: [    0.572097] ata6: SATA link down (SStatus 0 SControl 300)
+Apr 18 18:52:02 kernel: [    0.572155] ata4: SATA link down (SStatus 0 SControl 300)
+Apr 18 18:52:02 kernel: [    0.572207] ata5: SATA link down (SStatus 0 SControl 300)
+Apr 18 18:52:02 kernel: [    0.576082] ata3: SATA link down (SStatus 0 SControl 300)
+Apr 18 18:52:02 kernel: [    0.576135] ata2: SATA link down (SStatus 0 SControl 300)
+Apr 18 18:52:02 kernel: [    0.576314] scsi 7:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.4. PQ: 0 ANSI: 5
+Apr 18 18:52:02 kernel: [    0.578999] sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Apr 18 18:52:02 kernel: [    0.579001] cdrom: Uniform CD-ROM driver Revision: 3.20
+Apr 18 18:52:02 kernel: [    0.579124] sr 7:0:0:0: Attached scsi CD-ROM sr0
+Apr 18 18:52:02 kernel: [    0.579585] scsi 0:0:0:0: Attached scsi generic sg0 type 0
+Apr 18 18:52:02 kernel: [    0.579617] sr 7:0:0:0: Attached scsi generic sg1 type 5
+Apr 18 18:52:02 kernel: [    0.579859] sd 0:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Apr 18 18:52:02 kernel: [    0.579935] sd 0:0:0:0: [sda] Write Protect is off
+Apr 18 18:52:02 kernel: [    0.579937] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Apr 18 18:52:02 kernel: [    0.579942] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Apr 18 18:52:02 kernel: [    0.580764]  sda: unknown partition table
+Apr 18 18:52:02 kernel: [    0.580855] sd 0:0:0:0: [sda] Attached SCSI disk
+Apr 18 18:52:03 kernel: [    0.732990] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Apr 18 18:52:03 kernel: [    0.732992] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Apr 18 18:52:03 kernel: [    0.732993] usb 1-1: Product: QEMU USB Tablet
+Apr 18 18:52:03 kernel: [    0.732996] usb 1-1: Manufacturer: QEMU
+Apr 18 18:52:03 kernel: [    0.732996] usb 1-1: SerialNumber: 42
+Apr 18 18:52:03 kernel: [    0.737688] hidraw: raw HID events driver (C) Jiri Kosina
+Apr 18 18:52:03 kernel: [    0.741235] usbcore: registered new interface driver usbhid
+Apr 18 18:52:03 kernel: [    0.741236] usbhid: USB HID core driver
+Apr 18 18:52:03 kernel: [    0.742215] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input2
+Apr 18 18:52:03 kernel: [    0.742287] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Apr 18 18:52:03 kernel: [    0.753964] vga16fb: initializing
+Apr 18 18:52:03 kernel: [    0.753966] vga16fb: mapped to 0xffff8800000a0000
+Apr 18 18:52:03 kernel: [    0.753968] checking generic (fc000000 eb000) vs hw (a0000 10000)
+Apr 18 18:52:03 kernel: [    0.753995] fb1: VGA16 VGA frame buffer device
+Apr 18 18:52:03 init: starting pid 185, tty '': '/sbin/reopen-console /sbin/debian-installer'
+Apr 18 18:52:03 init: starting pid 188, tty '/dev/tty4': '/usr/bin/tail -f /var/log/syslog'
+Apr 18 18:52:03 debconf: Setting debconf/language to en
+Apr 18 18:52:03 main-menu[205]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Apr 18 18:52:03 main-menu[205]: INFO: Menu item 'localechooser' selected
+Apr 18 18:52:03 debconf: Setting debconf/language to en
+Apr 18 18:52:03 kernel: [    1.208096] tsc: Refined TSC clocksource calibration: 3500.006 MHz
+Apr 18 18:52:10 localechooser: info: Language = 'es'
+Apr 18 18:52:10 localechooser: info: line=es;1;ES;es_ES.UTF-8;;console-setup
+Apr 18 18:52:10 localechooser: info: Set debian-installer/language = 'es'
+Apr 18 18:52:10 localechooser: info: Default country = 'ES'
+Apr 18 18:52:10 localechooser: info: Default locale = 'es_ES.UTF-8'
+Apr 18 18:52:10 localechooser: info: Set debian-installer/consoledisplay = 'console-setup'
+Apr 18 18:52:10 debconf: Setting debconf/language to es
+Apr 18 18:52:10 localechooser: info: Set debian-installer/country = 'ES'
+Apr 18 18:52:10 localechooser: info: Set debian-installer/locale = 'es_ES.UTF-8'
+Apr 18 18:52:10 localechooser: info: System locale (debian-installer/locale) = 'es_ES.UTF-8'
+Apr 18 18:52:10 main-menu[205]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Apr 18 18:52:10 main-menu[205]: INFO: Menu item 'console-setup-udeb' selected
+Apr 18 18:52:11 main-menu[205]: (process:1144): gzip is not accessible. Will not save cached keyboard map.
+Apr 18 18:52:11 main-menu[205]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Apr 18 18:52:11 main-menu[205]: INFO: Menu item 'cdrom-detect' selected
+Apr 18 18:52:11 anna-install: Queueing udeb virtio-modules for later installation
+Apr 18 18:52:11 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Apr 18 18:52:11 hw-detect: Detected module 'usb-storage' for 'USB storage'
+Apr 18 18:52:11 hw-detect: insmod /lib/modules/3.16.0-4-amd64/kernel/drivers/usb/storage/usb-storage.ko 
+Apr 18 18:52:11 kernel: [    9.148223] usbcore: registered new interface driver usb-storage
+Apr 18 18:52:11 apt-install: Queueing package udev for later installation
+Apr 18 18:52:11 apt-install: Queueing package pciutils for later installation
+Apr 18 18:52:11 apt-install: Queueing package usbutils for later installation
+Apr 18 18:52:11 apt-install: Queueing package acpi for later installation
+Apr 18 18:52:11 apt-install: Queueing package acpid for later installation
+Apr 18 18:52:11 apt-install: Queueing package acpi-support-base for later installation
+Apr 18 18:52:11 apt-install: Queueing package eject for later installation
+Apr 18 18:52:12 check-missing-firmware: looking at dmesg for the first time
+Apr 18 18:52:12 check-missing-firmware: saving timestamp for a later use: [    9.148223]
+Apr 18 18:52:12 check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Apr 18 18:52:12 check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Apr 18 18:52:12 check-missing-firmware: no missing firmware in loaded kernel modules
+Apr 18 18:52:12 cdrom-detect: Searching for Debian installation media...
+Apr 18 18:52:12 cdrom-detect: Devices: '/dev/sr0'
+Apr 18 18:52:12 cdrom-detect: CD-ROM mount succeeded: device=/dev/sr0 fstype=iso9660
+Apr 18 18:52:12 kernel: [   10.204499] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:52:12 kernel: [   10.205218] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:52:12 cdrom-detect: Detected CD 'Debian GNU/Linux 8 "Jessie" - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26'
+Apr 18 18:52:12 cdrom-detect: Detected CD with 'jessie' (jessie) distribution
+Apr 18 18:52:12 anna-install: Queueing udeb eject-udeb for later installation
+Apr 18 18:52:12 anna-install: Queueing udeb apt-mirror-setup for later installation
+Apr 18 18:52:12 anna-install: Queueing udeb apt-cdrom-setup for later installation
+Apr 18 18:52:12 anna-install: Queueing udeb jessie-support for later installation
+Apr 18 18:52:12 main-menu[205]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Apr 18 18:52:12 main-menu[205]: INFO: Menu item 'load-cdrom' selected
+Apr 18 18:52:12 anna[1700]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Apr 18 18:52:12 anna[1700]: DEBUG: resolver (scsi-modules): package doesn't exist (ignored)
+Apr 18 18:52:12 anna[1700]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Apr 18 18:52:12 anna[1700]: DEBUG: resolver (scsi-modules): package doesn't exist (ignored)
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving btrfs-tools-udeb 3.17-1.1
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving bootstrap-base 1.154
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving base-installer 1.154
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving mdadm-udeb 3.3.2-5+deb8u1
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving debootstrap-udeb 1.0.67
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving di-utils-mapdevfs 1.110
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving dosfstools-udeb 3.0.27-1
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving debian-archive-keyring-udeb 2014.3
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving liblzo2-2-udeb 2.08-1.2
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving libdevmapper1.02.1-udeb 2:1.02.90-2.2
+Apr 18 18:52:12 anna[1700]: DEBUG: retrieving live-installer 49
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving jfs-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving virtio-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving md-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving xfs-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving efi-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving nic-wireless-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving nic-usb-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving nic-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving nic-shared-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving btrfs-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving scsi-extra-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 kernel: [   11.361457] random: nonblocking pool is initialized
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving ext4-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving loop-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving nic-pcmcia-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving crypto-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving lilo-installer 1.47
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving wpasupplicant-udeb 2.3-1+deb8u3
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving wide-dhcpv6-client-udeb 20080615-12
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving libiw30-udeb 30~pre9-8
+Apr 18 18:52:13 anna[1700]: DEBUG: retrieving libsmartcols1-udeb 2.25.2-6
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving fdisk-udeb 2.25.2-6
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving user-setup-udeb 1.61
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving ntfs-3g-udeb 1:2014.2.15AR.2-1+deb8u2
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving netcfg 1.131+deb8u1
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving rdnssd-udeb 1.0.1-1+b1
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving ndisc6-udeb 1.0.1-1+b1
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving nobootloader 1.45
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving tzsetup-udeb 1:0.66
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving libnl-genl-3-200-udeb 3.2.24-2
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving libnl-3-200-udeb 3.2.24-2
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving rdate-udeb 1:1.2-6
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving disk-detect 1.108
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving ethdetect 1.108
+Apr 18 18:52:14 anna[1700]: DEBUG: retrieving partman-xfs 55
+Apr 18 18:52:15 anna[1700]: DEBUG: retrieving partman-partitioning 108
+Apr 18 18:52:15 anna[1700]: DEBUG: retrieving partman-efi 67
+Apr 18 18:52:15 anna[1700]: DEBUG: retrieving partman-iscsi 36
+Apr 18 18:52:15 anna[1700]: DEBUG: retrieving partman-target 96
+Apr 18 18:52:15 anna[1700]: DEBUG: retrieving partman-auto-raid 28
+Apr 18 18:52:16 anna[1700]: DEBUG: retrieving partman-basicmethods 58
+Apr 18 18:52:16 anna[1700]: DEBUG: retrieving partman-jfs 45
+Apr 18 18:52:16 anna[1700]: DEBUG: retrieving network-preseed 1.66
+Apr 18 18:52:16 anna[1700]: DEBUG: retrieving pkgsel 0.43
+Apr 18 18:52:16 anna[1700]: DEBUG: retrieving partman-md 74
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving partman-ext3 84
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving libparted2-udeb 3.2-7
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving libparted-fs-resize0-udeb 3.2-7
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving partman-base 184
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving partman-utils 184
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving partman-basicfilesystems 113
+Apr 18 18:52:17 anna[1700]: DEBUG: retrieving partman-auto 126
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving partman-btrfs 17
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving libbsd0-udeb 0.7.0-2
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving clock-setup 0.123
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving choose-mirror-bin 2.62
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving xfsprogs-udeb 3.2.1
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving e2fsprogs-udeb 1.42.12-1.1
+Apr 18 18:52:18 anna[1700]: DEBUG: retrieving eject-udeb 2.1.5+deb1+cvs20081104-13.1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving kickseed-common 0.61
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving os-prober-udeb 1.65
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving libcrypto1.0.0-udeb 1.0.1k-3+deb8u4
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving open-iscsi-udeb 2.0.873+git0.3b4b4500-8+deb8u1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving jfsutils-udeb 1.1.15-2.1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving grub-installer 1.117+deb8u1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving libnss-files-udeb 2.19-18+deb8u4
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving libc6-udeb 2.19-18+deb8u4
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving grub-mount-udeb 2.02~beta2-22+deb8u1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving gpgv-udeb 1.4.18-7+deb8u1
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving libattr1-udeb 1:2.4.47-2
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving attr-udeb 1:2.4.47-2
+Apr 18 18:52:19 anna[1700]: DEBUG: retrieving apt-mirror-setup 1:0.97
+Apr 18 18:52:20 anna[1700]: DEBUG: retrieving apt-setup-udeb 1:0.97
+Apr 18 18:52:20 anna[1700]: DEBUG: retrieving apt-cdrom-setup 1:0.97
+Apr 18 18:52:20 anna[1700]: DEBUG: retrieving finish-install 2.56
+Apr 18 18:52:21 anna[1700]: DEBUG: retrieving libfuse2-udeb 2.9.3-15+deb8u2
+Apr 18 18:52:21 anna[1700]: DEBUG: retrieving fuse-udeb 2.9.3-15+deb8u2
+Apr 18 18:52:21 main-menu[205]: INFO: Menu item 'ethdetect' selected
+Apr 18 18:52:21 anna-install: Installing virtio-modules
+Apr 18 18:52:21 kernel: [   19.455180] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Apr 18 18:52:21 kernel: [   19.455182] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Apr 18 18:52:21 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Apr 18 18:52:21 kernel: [   19.486401] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+Apr 18 18:52:22 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Apr 18 18:52:22 kernel: [   19.786157] e1000 0000:00:12.0 eth0: (PCI:33MHz:32-bit) 36:33:61:62:30:32
+Apr 18 18:52:22 kernel: [   19.786161] e1000 0000:00:12.0 eth0: Intel(R) PRO/1000 Network Connection
+Apr 18 18:52:23 check-missing-firmware: looking at dmesg again, restarting from \[    9.148223\]
+Apr 18 18:52:23 check-missing-firmware: timestamp found, truncating dmesg accordingly
+Apr 18 18:52:23 check-missing-firmware: saving timestamp for a later use: [   19.786161]
+Apr 18 18:52:23 check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Apr 18 18:52:23 check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Apr 18 18:52:23 check-missing-firmware: no missing firmware in loaded kernel modules
+Apr 18 18:52:23 check-missing-firmware: taking network interface eth0 up/down
+Apr 18 18:52:23 kernel: [   20.845712] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Apr 18 18:52:23 kernel: [   20.852406] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr 18 18:52:24 check-missing-firmware: looking at dmesg again, restarting from \[   19.786161\]
+Apr 18 18:52:24 check-missing-firmware: timestamp found, truncating dmesg accordingly
+Apr 18 18:52:24 check-missing-firmware: saving timestamp for a later use: [   20.852406]
+Apr 18 18:52:24 check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Apr 18 18:52:24 check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Apr 18 18:52:24 check-missing-firmware: no missing firmware in loaded kernel modules
+Apr 18 18:52:24 main-menu[205]: INFO: Menu item 'netcfg' selected
+Apr 18 18:52:24 netcfg[4365]: INFO: Starting netcfg v.1.131+deb8u1
+Apr 18 18:52:24 netcfg[4365]: WARNING **: Couldn't read Wpasupplicant pid file, not trying to kill.
+Apr 18 18:52:24 netcfg[4365]: INFO: Could not find valid BOOTIF= entry in /proc/cmdline
+Apr 18 18:52:24 netcfg[4365]: INFO: Taking down interface eth0
+Apr 18 18:52:24 netcfg[4365]: INFO: Taking down interface lo
+Apr 18 18:52:24 netcfg[4365]: INFO: Activating interface eth0
+Apr 18 18:52:24 netcfg[4365]: DEBUG: State is now 0
+Apr 18 18:52:24 netcfg[4365]: DEBUG: Want link on eth0
+Apr 18 18:52:24 netcfg[4365]: INFO: Waiting time set to 3
+Apr 18 18:52:24 kernel: [   22.223103] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Apr 18 18:52:24 kernel: [   22.224432] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr 18 18:52:24 kernel: [   22.224675] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Apr 18 18:52:24 netcfg[4365]: INFO: ethtool-lite: eth0 is connected.
+Apr 18 18:52:24 netcfg[4365]: INFO: Found link on eth0
+Apr 18 18:52:24 netcfg[4365]: DEBUG: Commencing network autoconfiguration on eth0
+Apr 18 18:52:24 netcfg[4365]: DEBUG: rdnssd started; PID: 4380
+Apr 18 18:52:25 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:25 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link tentative 
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:25 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:25 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link tentative 
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:25 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:25 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link tentative 
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:25 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:25 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link tentative 
+Apr 18 18:52:25 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:26 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:26 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link tentative 
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:26 netcfg[4365]: DEBUG: nc_v6_interface_configured(eth0, scope local)
+Apr 18 18:52:26 netcfg[4365]: DEBUG: Running ip addr show eth0 to look for address
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line: 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:     link/ether 36:33:61:62:30:32 brd ff:ff:ff:ff:ff:ff
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:     inet6 fe80::3433:61ff:fe62:3032/64 scope link 
+Apr 18 18:52:26 netcfg[4365]: DEBUG: Configured address found
+Apr 18 18:52:26 netcfg[4365]: DEBUG: ip line:        valid_lft forever preferred_lft forever
+Apr 18 18:52:26 netcfg[4365]: DEBUG: Running rdisc6 -1 -r 1 -w 500 -n eth0 to get IPv6 config flags
+Apr 18 18:52:26 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:26 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:26 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:26 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:27 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:28 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:29 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:30 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:31 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:32 netcfg[4365]: DEBUG: rdisc6 line: Soliciting ff02::2 (ff02::2) on eth0...
+Apr 18 18:52:32 netcfg[4365]: DEBUG: rdisc6 line: Timed out.
+Apr 18 18:52:32 netcfg[4365]: DEBUG: rdisc6 line: No response.
+Apr 18 18:52:32 netcfg[4365]: DEBUG: rdisc6 parsing finished
+Apr 18 18:52:32 netcfg[4365]: DEBUG: Stopping rdnssd, PID 4380
+Apr 18 18:52:32 netcfg[4365]: DEBUG: No RA received; attempting IPv4 autoconfig
+Apr 18 18:52:32 netcfg[4365]: WARNING **: Started DHCP client; PID is 4418
+Apr 18 18:52:32 udhcpc: Got IP 10.0.2.15 (using eth0) and routing through 10.0.2.2
+Apr 18 18:52:35 netcfg[4365]: DEBUG: Reading domain name returned via DHCP
+Apr 18 18:52:35 netcfg[4365]: DEBUG: DHCP domain name is ''
+Apr 18 18:52:35 netcfg[4365]: DEBUG: Reading nameservers from /etc/resolv.conf
+Apr 18 18:52:35 netcfg[4365]: DEBUG: Read nameserver 10.0.2.3
+Apr 18 18:52:35 netcfg[4365]: DEBUG: State is now 1
+Apr 18 18:52:35 netcfg[4365]: DEBUG: State is now 2
+Apr 18 18:52:35 netcfg[4365]: DEBUG: State is now 5
+Apr 18 18:52:35 netcfg[4365]: INFO: DHCP hostname: "Debian8-base"
+Apr 18 18:52:35 netcfg[4365]: DEBUG: Debian8-base is a valid FQDN
+Apr 18 18:52:39 netcfg[4365]: DEBUG: State is now 6
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Network config complete
+Apr 18 18:52:42 netcfg[4365]: DEBUG: No interface given; clearing /etc/network/interfaces
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Writing informative header
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Success!
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Writing loopback interface
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Success!
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Writing DHCP stanza for eth0
+Apr 18 18:52:42 netcfg[4365]: INFO: Detected eth0 as a hotpluggable device
+Apr 18 18:52:42 netcfg[4365]: DEBUG: Success!
+Apr 18 18:52:43 main-menu[205]: (process:4364): udhcpc (v1.22.1) started
+Apr 18 18:52:43 main-menu[205]: (process:4364): Sending discover...
+Apr 18 18:52:43 main-menu[205]: (process:4364): Sending select for 10.0.2.15...
+Apr 18 18:52:43 main-menu[205]: (process:4364): Lease of 10.0.2.15 obtained, lease time 86400
+Apr 18 18:52:43 main-menu[205]: INFO: Menu item 'user-setup-udeb' selected
+Apr 18 18:52:57 main-menu[205]: INFO: Menu item 'clock-setup' selected
+Apr 18 18:52:57 clock-setup: rdate called using NTP server 0.debian.pool.ntp.org.
+Apr 18 18:52:59 clock-setup: Mon Apr 18 18:52:59 UTC 2016
+Apr 18 18:52:59 clock-setup: rdate: adjust local clock by 0.933440 seconds
+Apr 18 18:53:01 main-menu[205]: INFO: Menu item 'disk-detect' selected
+Apr 18 18:53:01 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Apr 18 18:53:01 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Apr 18 18:53:02 check-missing-firmware: looking at dmesg again, restarting from \[   20.852406\]
+Apr 18 18:53:02 check-missing-firmware: timestamp found, truncating dmesg accordingly
+Apr 18 18:53:02 check-missing-firmware: saving timestamp for a later use: [   22.224675]
+Apr 18 18:53:02 check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Apr 18 18:53:02 check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Apr 18 18:53:02 check-missing-firmware: no missing firmware in loaded kernel modules
+Apr 18 18:53:02 kernel: [   59.059421]  sda: unknown partition table
+Apr 18 18:53:03 check-missing-firmware: looking at dmesg again, restarting from \[   22.224675\]
+Apr 18 18:53:03 check-missing-firmware: timestamp found, truncating dmesg accordingly
+Apr 18 18:53:03 check-missing-firmware: saving timestamp for a later use: [   59.059421]
+Apr 18 18:53:03 check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Apr 18 18:53:03 check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Apr 18 18:53:03 check-missing-firmware: no missing firmware in loaded kernel modules
+Apr 18 18:53:03 main-menu[205]: INFO: Menu item 'partman-base' selected
+Apr 18 18:53:03 anna-install: Installing partman-auto-lvm
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (cdebconf-udeb): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (di-utils): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (kernel-image-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (core-modules-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (libdebian-installer4-udeb): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (archdetect): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: resolver (hw-detect): package doesn't exist (ignored)
+Apr 18 18:53:03 anna[4823]: DEBUG: retrieving lvm2-udeb 2.02.111-2.2
+Apr 18 18:53:03 anna[4823]: DEBUG: retrieving partman-lvm 107
+Apr 18 18:53:04 anna[4823]: DEBUG: retrieving partman-auto-lvm 56
+Apr 18 18:53:04 anna-install: Installing partman-auto-crypto
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (cdebconf-udeb): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (di-utils): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (kernel-image-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (core-modules-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (libdebian-installer4-udeb): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (archdetect): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: resolver (hw-detect): package doesn't exist (ignored)
+Apr 18 18:53:04 anna[4929]: DEBUG: retrieving partman-auto-crypto 22
+Apr 18 18:53:04 anna[4929]: DEBUG: retrieving partman-crypto 81
+Apr 18 18:53:05 kernel: [   62.044028] raid6: sse2x1   11956 MB/s
+Apr 18 18:53:05 kernel: [   62.112026] raid6: sse2x2   15421 MB/s
+Apr 18 18:53:05 kernel: [   62.180023] raid6: sse2x4   17988 MB/s
+Apr 18 18:53:05 kernel: [   62.180024] raid6: using algorithm sse2x4 (17988 MB/s)
+Apr 18 18:53:05 kernel: [   62.180025] raid6: using intx1 recovery algorithm
+Apr 18 18:53:05 kernel: [   62.180232] xor: measuring software checksum speed
+Apr 18 18:53:05 kernel: [   62.220023]    prefetch64-sse: 20200.000 MB/sec
+Apr 18 18:53:05 kernel: [   62.260023]    generic_sse: 18804.000 MB/sec
+Apr 18 18:53:05 kernel: [   62.260024] xor: using function: prefetch64-sse (20200.000 MB/sec)
+Apr 18 18:53:05 kernel: [   62.263819] Btrfs loaded
+Apr 18 18:53:05 kernel: [   62.271233] JFS: nTxBlock = 8192, nTxLock = 65536
+Apr 18 18:53:05 kernel: [   62.280424] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+Apr 18 18:53:05 md-devices: mdadm: No arrays found in config file or automatically
+Apr 18 18:53:05 kernel: [   62.411730] device-mapper: uevent: version 1.0.3
+Apr 18 18:53:05 kernel: [   62.411965] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Apr 18 18:53:05 partman:   No matching physical volumes found
+Apr 18 18:53:05 partman:   Reading all physical volumes.  This may take a while...
+Apr 18 18:53:05 partman:   No volume groups found
+Apr 18 18:53:05 partman-lvm:   No volume groups found
+Apr 18 18:53:05 kernel: [   62.478943]  sda: unknown partition table
+Apr 18 18:53:05 kernel: [   62.586885]  sda: unknown partition table
+Apr 18 18:53:13 kernel: [   70.151198]  sda: unknown partition table
+Apr 18 18:53:36 kernel: [   92.911990]  sda: sda1 sda2
+Apr 18 18:53:36 kernel: [   93.055305] Adding 975868k swap on /dev/sda1.  Priority:-1 extents:1 across:975868k FS
+Apr 18 18:53:36 partman: mke2fs 1.42.12 (29-Aug-2014)
+Apr 18 18:53:36 kernel: [   93.496409] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Apr 18 18:53:37 apt-install: Queueing package e2fsprogs for later installation
+Apr 18 18:53:37 main-menu[205]: (process:4809): /lib/partman/free_space/50new/do_option: line 226: /lib/partman/active_partition/copy/choices: not found
+Apr 18 18:53:37 main-menu[205]: (process:4809): /lib/partman/free_space/50new/do_option: 
+Apr 18 18:53:37 main-menu[205]: (process:4809): line 226: 
+Apr 18 18:53:37 main-menu[205]: (process:4809): /lib/partman/active_partition/copy/choices: not found
+Apr 18 18:53:37 main-menu[205]: (process:4809): 
+Apr 18 18:53:37 main-menu[205]: (process:4809): /lib/partman/free_space/50new/do_option: 
+Apr 18 18:53:37 main-menu[205]: (process:4809): line 226: 
+Apr 18 18:53:37 main-menu[205]: (process:4809): /lib/partman/active_partition/copy/choices: not found
+Apr 18 18:53:37 main-menu[205]: (process:4809): 
+Apr 18 18:53:37 main-menu[205]: INFO: Menu item 'live-installer' selected
+Apr 18 18:53:37 base-installer: info: Using squashfs support for /cdrom/live/filesystem.squashfs
+Apr 18 18:53:37 anna-install: Installing squashfs-modules
+Apr 18 18:53:37 anna[7480]: DEBUG: resolver (kernel-image-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:53:37 anna[7480]: DEBUG: retrieving squashfs-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:53:37 kernel: [   94.545404] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Apr 18 18:53:37 kernel: [   94.547230] loop: module loaded
+Apr 18 18:54:30 /usr/lib/live-installer.d/openssh-server: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:30 live-installer: locale: Cannot set LC_CTYPE to default locale: No such file or directory
+Apr 18 18:54:30 live-installer: locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+Apr 18 18:54:30 live-installer: locale: Cannot set LC_ALL to default locale: No such file or directory
+Apr 18 18:54:31 live-installer: Creating SSH2 RSA key; this may take some time ...
+Apr 18 18:54:31 live-installer: 
+Apr 18 18:54:31 live-installer: 2048 ca:4b:0d:8f:e7:d5:37:47:62:d4:99:ab:45:90:7b:ee /etc/ssh/ssh_host_rsa_key.pub (RSA)
+Apr 18 18:54:31 live-installer: Creating SSH2 DSA key; this may take some time ...
+Apr 18 18:54:31 live-installer: 
+Apr 18 18:54:31 live-installer: 1024 df:2f:0b:f6:cc:21:28:92:1b:84:e4:e6:e8:96:58:8c /etc/ssh/ssh_host_dsa_key.pub (DSA)
+Apr 18 18:54:31 live-installer: Creating SSH2 ECDSA key; this may take some time ...
+Apr 18 18:54:31 live-installer: 
+Apr 18 18:54:31 live-installer: 256 52:bc:97:dd:4d:de:02:87:78:2b:2d:1c:d1:e3:69:1c /etc/ssh/ssh_host_ecdsa_key.pub (ECDSA)
+Apr 18 18:54:31 live-installer: Creating SSH2 ED25519 key; this may take some time ...
+Apr 18 18:54:31 live-installer: 
+Apr 18 18:54:31 live-installer: 256 23:e1:77:e0:18:90:13:ca:2a:2f:4d:b4:3a:b2:2e:db /etc/ssh/ssh_host_ed25519_key.pub (ED25519)
+Apr 18 18:54:32 live-installer: invoke-rc.d: policy-rc.d denied execution of restart.
+Apr 18 18:54:33 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:33 apt-install: Queueing package keyboard-configuration for later installation
+Apr 18 18:54:33 apt-install: Queueing package console-setup for later installation
+Apr 18 18:54:34 base-installer: Using CD-ROM mount point /media/cdrom/
+Apr 18 18:54:34 base-installer: Identifying... 
+Apr 18 18:54:34 base-installer: [74890613817736443ec922182d81eaab-2]
+Apr 18 18:54:34 base-installer: Scanning disc for index files...
+Apr 18 18:54:34 base-installer: Found 1 package indexes, 0 source indexes, 0 translation indexes and 0 signatures
+Apr 18 18:54:34 base-installer: Found label 'Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26'
+Apr 18 18:54:34 base-installer: This disc is called: 
+Apr 18 18:54:34 base-installer: 'Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26'
+Apr 18 18:54:34 base-installer: Copying package lists...
+Apr 18 18:54:34 base-installer: ^MReading Package Indexes... 0%^M^MReading Package Indexes... 4%^M
+Apr 18 18:54:34 base-installer: ^MReading Package Indexes... Done^M
+Apr 18 18:54:34 base-installer: Writing new source list
+Apr 18 18:54:34 base-installer: Source list entries for this disc are:
+Apr 18 18:54:34 base-installer: deb cdrom:[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26]/ jessie main
+Apr 18 18:54:34 base-installer: Repeat this process for the rest of the CDs in your set.
+Apr 18 18:54:34 base-installer: Ign cdrom://[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26] jessie InRelease
+Apr 18 18:54:34 base-installer: Ign cdrom://[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26] jessie Release.gpg
+Apr 18 18:54:34 base-installer: Ign cdrom://[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26] jessie Release
+Apr 18 18:54:34 base-installer: Ign cdrom://[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26] jessie/main amd64 Packages/DiffIndex
+Apr 18 18:54:34 base-installer: Ign cdrom://[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26] jessie/main Translation-en
+Apr 18 18:54:34 base-installer: Reading package lists...
+Apr 18 18:54:35 base-installer: 
+Apr 18 18:54:36 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:36 in-target: Reading package lists...
+Apr 18 18:54:36 in-target: 
+Apr 18 18:54:36 in-target: Building dependency tree...
+Apr 18 18:54:36 in-target: 
+Apr 18 18:54:36 in-target: Reading state information...
+Apr 18 18:54:36 in-target: 
+Apr 18 18:54:36 in-target: locales is already the newest version.
+Apr 18 18:54:36 in-target: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Apr 18 18:54:36 localechooser: Adding locale 'es_ES.UTF-8'
+Apr 18 18:54:36 localechooser: Generating added locales...
+Apr 18 18:54:37 /usr/lib/post-base-installer.d/25live-installer-console-setup: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:37 live-installer: update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Apr 18 18:54:37 live-installer: update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Apr 18 18:54:38 base-installer: info: Installing queued packages into /target/.
+Apr 18 18:54:38 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:38 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:38 in-target: 
+Apr 18 18:54:38 in-target: Creando árbol de dependencias...
+Apr 18 18:54:38 in-target: 
+Apr 18 18:54:38 in-target: Leyendo la información de estado...
+Apr 18 18:54:38 in-target: 
+Apr 18 18:54:38 in-target: udev ya está en su versión más reciente.
+Apr 18 18:54:38 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:38 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:39 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: Creando árbol de dependencias...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: Leyendo la información de estado...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: pciutils ya está en su versión más reciente.
+Apr 18 18:54:39 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:39 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:39 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: Creando árbol de dependencias...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: Leyendo la información de estado...
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 in-target: E
+Apr 18 18:54:39 in-target: : 
+Apr 18 18:54:39 in-target: No se ha podido localizar el paquete usbutils
+Apr 18 18:54:39 in-target: 
+Apr 18 18:54:39 base-installer: warning: Failed to install usbutils into /target/: 100
+Apr 18 18:54:40 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:40 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:40 in-target: 
+Apr 18 18:54:40 in-target: Creando árbol de dependencias...
+Apr 18 18:54:40 in-target: 
+Apr 18 18:54:40 in-target: Leyendo la información de estado...
+Apr 18 18:54:40 in-target: acpi ya está en su versión más reciente.
+Apr 18 18:54:40 in-target: fijado acpi como instalado manualmente.
+Apr 18 18:54:40 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:40 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:40 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:40 in-target: 
+Apr 18 18:54:40 in-target: Creando árbol de dependencias...
+Apr 18 18:54:40 in-target: Leyendo la información de estado...
+Apr 18 18:54:40 in-target: E
+Apr 18 18:54:40 in-target: : 
+Apr 18 18:54:40 in-target: No se ha podido localizar el paquete acpid
+Apr 18 18:54:40 in-target: 
+Apr 18 18:54:41 base-installer: warning: Failed to install acpid into /target/: 100
+Apr 18 18:54:41 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:41 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:41 in-target: 
+Apr 18 18:54:41 in-target: Creando árbol de dependencias...
+Apr 18 18:54:41 in-target: Leyendo la información de estado...
+Apr 18 18:54:41 in-target: E
+Apr 18 18:54:41 in-target: : 
+Apr 18 18:54:41 in-target: No se ha podido localizar el paquete acpi-support-base
+Apr 18 18:54:41 in-target: 
+Apr 18 18:54:41 base-installer: warning: Failed to install acpi-support-base into /target/: 100
+Apr 18 18:54:41 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:41 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:41 in-target: 
+Apr 18 18:54:41 in-target: Creando árbol de dependencias...
+Apr 18 18:54:41 in-target: Leyendo la información de estado...
+Apr 18 18:54:41 in-target: Package eject is not available, but is referred to by another package.
+Apr 18 18:54:41 in-target: This may mean that the package is missing, has been obsoleted, or
+Apr 18 18:54:41 in-target: is only available from another source
+Apr 18 18:54:41 in-target: 
+Apr 18 18:54:41 in-target: E
+Apr 18 18:54:41 in-target: : 
+Apr 18 18:54:41 in-target: Package 'eject' has no installation candidate
+Apr 18 18:54:41 in-target: 
+Apr 18 18:54:42 base-installer: warning: Failed to install eject into /target/: 100
+Apr 18 18:54:42 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:42 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:42 in-target: 
+Apr 18 18:54:42 in-target: Creando árbol de dependencias...
+Apr 18 18:54:42 in-target: 
+Apr 18 18:54:42 in-target: Leyendo la información de estado...
+Apr 18 18:54:42 in-target: 
+Apr 18 18:54:42 in-target: e2fsprogs ya está en su versión más reciente.
+Apr 18 18:54:42 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:42 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:43 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: Creando árbol de dependencias...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: Leyendo la información de estado...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: keyboard-configuration ya está en su versión más reciente.
+Apr 18 18:54:43 in-target: fijado keyboard-configuration como instalado manualmente.
+Apr 18 18:54:43 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:43 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:54:43 in-target: Leyendo lista de paquetes...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: Creando árbol de dependencias...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: Leyendo la información de estado...
+Apr 18 18:54:43 in-target: 
+Apr 18 18:54:43 in-target: Se instalarán los siguientes paquetes extras:
+Apr 18 18:54:43 in-target:   console-setup-linux kbd xkb-data
+Apr 18 18:54:43 in-target: Se instalarán los siguientes paquetes NUEVOS:
+Apr 18 18:54:43 in-target:   console-setup console-setup-linux kbd xkb-data
+Apr 18 18:54:45 in-target: Preconfigurando paquetes ...
+Apr 18 18:54:45 in-target: 0 actualizados, 4 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Apr 18 18:54:45 in-target: Se necesita descargar 0 B/2.022 kB de archivos.
+Apr 18 18:54:45 in-target: Se utilizarán 8.833 kB de espacio de disco adicional después de esta operación.
+Apr 18 18:54:47 in-target: Seleccionando el paquete kbd previamente no seleccionado.^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... ^M(Leyendo la base de datos ... 5%^M(Leyendo la base de datos ... 10%^M(Leyendo la base de datos ... 15%^M(Leyendo la base de datos ... 20%^M(Leyendo la base de datos ... 25%^M(Leyendo la base de datos ... 30%^M(Leyendo la base de datos ... 35%^M(Leyendo la base de datos ... 40%^M(Leyendo la base de datos ... 45%^M(Leyendo la base de datos ... 50%^M(Leyendo la base de datos ... 55%^M(Leyendo la base de datos ... 60%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:54:47 in-target: (Leyendo la base de datos ... 100%^M(Leyendo la base de datos ... 44339 ficheros o directorios instalados actualmente.)
+Apr 18 18:54:47 in-target: ^M
+Apr 18 18:54:47 in-target: Preparando para desempaquetar .../k/kbd/kbd_1.15.5-2_amd64.deb ...^M
+Apr 18 18:54:47 in-target: Desempaquetando kbd (1.15.5-2) ...^M
+Apr 18 18:54:51 in-target: Seleccionando el paquete console-setup-linux previamente no seleccionado.^M
+Apr 18 18:54:51 in-target: Preparando para desempaquetar .../console-setup-linux_1.123_all.deb ...^M
+Apr 18 18:54:51 in-target: Desempaquetando console-setup-linux (1.123) ...^M
+Apr 18 18:54:57 in-target: Seleccionando el paquete xkb-data previamente no seleccionado.^M
+Apr 18 18:54:57 in-target: Preparando para desempaquetar .../xkb-data_2.12-1_all.deb ...^M
+Apr 18 18:54:57 in-target: Desempaquetando xkb-data (2.12-1) ...^M
+Apr 18 18:55:03 in-target: Seleccionando el paquete console-setup previamente no seleccionado.^M
+Apr 18 18:55:03 in-target: Preparando para desempaquetar .../console-setup_1.123_all.deb ...^M
+Apr 18 18:55:04 in-target: Desempaquetando console-setup (1.123) ...^M
+Apr 18 18:55:05 in-target: Procesando disparadores para systemd (215-17+deb8u4) ...^M
+Apr 18 18:55:06 in-target: Procesando disparadores para man-db (2.7.0.2-5) ...^M
+Apr 18 18:55:37 in-target: Configurando kbd (1.15.5-2) ...^M
+Apr 18 18:55:39 in-target: invoke-rc.d: policy-rc.d denied execution of start.^M
+Apr 18 18:55:39 in-target: Configurando console-setup-linux (1.123) ...^M
+Apr 18 18:55:50 in-target: Configurando xkb-data (2.12-1) ...^M
+Apr 18 18:55:51 in-target: Configurando console-setup (1.123) ...^M
+Apr 18 18:55:53 in-target: ^[%G
+Apr 18 18:55:54 in-target: Procesando disparadores para systemd (215-17+deb8u4) ...^M
+Apr 18 18:55:57 main-menu[205]: INFO: Menu item 'apt-setup-udeb' selected
+Apr 18 18:55:57 apt-setup: umount: can't umount /target/media/cdrom0: Invalid argument
+Apr 18 18:55:57 /usr/lib/apt-setup/generators/40cdrom: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:55:57 apt-setup: Usando el punto de montaje /media/cdrom/ del CD-ROM
+Apr 18 18:55:57 apt-setup: Desmontando el CD-ROM...
+Apr 18 18:55:57 apt-setup: Esperando el disco...
+Apr 18 18:55:57 apt-setup: Introduzca un disco en la unidad y pulse Intro 
+Apr 18 18:55:57 apt-setup: Montando el CD-ROM...
+Apr 18 18:55:58 kernel: [  234.959088] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:55:58 kernel: [  234.959520] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:55:58 apt-setup: Identificando... 
+Apr 18 18:55:58 apt-setup: [74890613817736443ec922182d81eaab-2]
+Apr 18 18:55:58 apt-setup: Buscando en el disco ficheros de índices...
+Apr 18 18:55:58 apt-setup: Se encontraron 1 índices de paquetes, 0 índices de fuentes, 0 índices de traducción y 0 firmas
+Apr 18 18:55:58 apt-setup: Este disco se llama: 
+Apr 18 18:55:58 apt-setup: «Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26»
+Apr 18 18:55:58 apt-setup: Copiando las listas de paquetes...
+Apr 18 18:55:58 apt-setup: ^MReading Package Indexes... 0%^M^MReading Package Indexes... 4%^M
+Apr 18 18:55:58 apt-setup: ^MReading Package Indexes... Hecho^M
+Apr 18 18:55:58 apt-setup: Escribiendo nueva lista de fuentes
+Apr 18 18:55:58 apt-setup: Las entradas de la lista de fuentes para este disco son:
+Apr 18 18:55:58 apt-setup: deb cdrom:[Debian GNU/Linux 8 _Jessie_ - Official Snapshot amd64 LIVE/INSTALL Binary 20160402-21:26]/ jessie main
+Apr 18 18:55:58 apt-setup: Desmontando el CD-ROM...
+Apr 18 18:55:58 apt-setup: Repita este proceso para el resto de los CDs del conjunto.
+Apr 18 18:55:58 kernel: [  235.091168] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:55:58 kernel: [  235.091468] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:55:58 kernel: [  235.120776] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:55:58 kernel: [  235.121106] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:04 apt-setup: warning: /usr/lib/apt-setup/generators/50mirror returned error code 1; discarding output
+Apr 18 18:56:04 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:05 in-target: Des:1 http://security.debian.org jessie/updates InRelease [63,1 kB]
+Apr 18 18:56:05 in-target: Des:2 http://security.debian.org jessie/updates/main amd64 Packages [233 kB]
+Apr 18 18:56:05 in-target: Des:3 http://security.debian.org jessie/updates/main Translation-en [127 kB]
+Apr 18 18:56:05 in-target: Descargados 423 kB en 0s (561 kB/s)
+Apr 18 18:56:05 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:06 in-target: 
+Apr 18 18:56:07 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:07 in-target: Obj http://security.debian.org jessie/updates InRelease
+Apr 18 18:56:07 in-target: Obj http://security.debian.org jessie/updates/main amd64 Packages
+Apr 18 18:56:07 in-target: Obj http://security.debian.org jessie/updates/main Translation-en
+Apr 18 18:56:07 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:08 in-target: 
+Apr 18 18:56:09 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:09 in-target: Obj http://security.debian.org jessie/updates InRelease
+Apr 18 18:56:09 in-target: Des:1 http://security.debian.org jessie/updates/main Sources [128 kB]
+Apr 18 18:56:09 in-target: Descargados 128 kB en 0s (459 kB/s)
+Apr 18 18:56:09 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:10 in-target: 
+Apr 18 18:56:11 main-menu[205]: INFO: Menu item 'grub-installer' selected
+Apr 18 18:56:11 grub-installer: info: architecture: amd64/generic
+Apr 18 18:56:11 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:11 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:12 in-target: 
+Apr 18 18:56:12 in-target: Creando árbol de dependencias...
+Apr 18 18:56:12 in-target: 
+Apr 18 18:56:12 in-target: Leyendo la información de estado...
+Apr 18 18:56:12 in-target: 
+Apr 18 18:56:12 in-target: Se instalarán los siguientes paquetes extras:
+Apr 18 18:56:12 in-target:   libfuse2
+Apr 18 18:56:12 in-target: Paquetes sugeridos:
+Apr 18 18:56:12 in-target:   multiboot-doc grub-emu xorriso desktop-base fuse
+Apr 18 18:56:12 in-target: Paquetes recomendados:
+Apr 18 18:56:12 in-target:   os-prober
+Apr 18 18:56:12 in-target: Se instalarán los siguientes paquetes NUEVOS:
+Apr 18 18:56:12 in-target:   grub-common libfuse2
+Apr 18 18:56:12 kernel: [  249.758079] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:12 kernel: [  249.758384] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:13 in-target: 0 actualizados, 2 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Apr 18 18:56:13 in-target: Se necesita descargar 0 B/2.854 kB de archivos.
+Apr 18 18:56:13 in-target: Se utilizarán 15,3 MB de espacio de disco adicional después de esta operación.
+Apr 18 18:56:14 in-target: Seleccionando el paquete libfuse2:amd64 previamente no seleccionado.^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... ^M(Leyendo la base de datos ... 5%^M(Leyendo la base de datos ... 10%^M(Leyendo la base de datos ... 15%^M(Leyendo la base de datos ... 20%^M(Leyendo la base de datos ... 25%^M(Leyendo la base de datos ... 30%^M(Leyendo la base de datos ... 35%^M(Leyendo la base de datos ... 40%^M(Leyendo la base de datos ... 45%^M(Leyendo la base de datos ... 50%^M(Leyendo la base de datos ... 55%^M(Leyendo la base de datos ... 60%^M(Leyendo la base de datos ... 65%^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:56:14 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:56:15 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:56:15 in-target: (Leyendo la base de datos ... 100%^M(Leyendo la base de datos ... 45188 ficheros o directorios instalados actualmente.)^M
+Apr 18 18:56:15 in-target: Preparando para desempaquetar .../libfuse2_2.9.3-15+deb8u2_amd64.deb ...^M
+Apr 18 18:56:15 in-target: Desempaquetando libfuse2:amd64 (2.9.3-15+deb8u2) ...^M
+Apr 18 18:56:18 in-target: Seleccionando el paquete grub-common previamente no seleccionado.^M
+Apr 18 18:56:18 in-target: Preparando para desempaquetar .../grub-common_2.02~beta2-22+deb8u1_amd64.deb ...^M
+Apr 18 18:56:19 in-target: Desempaquetando grub-common (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:56:22 in-target: Procesando disparadores para man-db (2.7.0.2-5) ...^M
+Apr 18 18:56:24 in-target: Configurando libfuse2:amd64 (2.9.3-15+deb8u2) ...
+Apr 18 18:56:24 in-target: ^M
+Apr 18 18:56:26 in-target: Configurando grub-common (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:56:32 in-target: Procesando disparadores para libc-bin (2.19-18+deb8u4) ...^M
+Apr 18 18:56:40 kernel: [  277.263551] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:40 kernel: [  277.263889] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:40 kernel: [  277.279860] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:40 kernel: [  277.280212] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:40 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:40 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:40 in-target: 
+Apr 18 18:56:40 in-target: Creando árbol de dependencias...
+Apr 18 18:56:40 in-target: 
+Apr 18 18:56:40 in-target: Leyendo la información de estado...
+Apr 18 18:56:40 in-target: 
+Apr 18 18:56:40 in-target: grub-common ya está en su versión más reciente.
+Apr 18 18:56:40 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Apr 18 18:56:41 kernel: [  277.995828] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:41 kernel: [  277.996129] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:41 kernel: [  278.011574] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:41 kernel: [  278.011876] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:41 grub-installer: info: Identified partition label for /dev/sda2: msdos
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-legacy which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-efi which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64-bin which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64 which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32-bin which isn't installed
+Apr 18 18:56:43 grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32 which isn't installed
+Apr 18 18:56:43 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:56:43 in-target: Leyendo lista de paquetes...
+Apr 18 18:56:44 in-target: 
+Apr 18 18:56:44 in-target: Creando árbol de dependencias...
+Apr 18 18:56:44 in-target: 
+Apr 18 18:56:44 in-target: Leyendo la información de estado...
+Apr 18 18:56:44 in-target: 
+Apr 18 18:56:44 in-target: Se instalarán los siguientes paquetes extras:
+Apr 18 18:56:44 in-target:   grub-pc-bin grub2-common
+Apr 18 18:56:44 in-target: Paquetes sugeridos:
+Apr 18 18:56:44 in-target:   desktop-base
+Apr 18 18:56:44 in-target: Se instalarán los siguientes paquetes NUEVOS:
+Apr 18 18:56:44 in-target:   grub-pc grub-pc-bin grub2-common
+Apr 18 18:56:44 kernel: [  281.282087] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:56:44 kernel: [  281.282550] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:56:44 in-target: Preconfigurando paquetes ...
+Apr 18 18:56:45 in-target: 0 actualizados, 3 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Apr 18 18:56:45 in-target: Se necesita descargar 0 B/1.601 kB de archivos.
+Apr 18 18:56:45 in-target: Se utilizarán 4.443 kB de espacio de disco adicional después de esta operación.
+Apr 18 18:56:45 in-target: Seleccionando el paquete grub2-common previamente no seleccionado.^M
+Apr 18 18:56:45 in-target: (Leyendo la base de datos ... ^M(Leyendo la base de datos ... 5%^M(Leyendo la base de datos ... 10%^M(Leyendo la base de datos ... 15%^M(Leyendo la base de datos ... 20%^M(Leyendo la base de datos ... 25%^M(Leyendo la base de datos ... 30%^M(Leyendo la base de datos ... 35%^M(Leyendo la base de datos ... 40%^M(Leyendo la base de datos ... 45%^M(Leyendo la base de datos ... 50%^M(Leyendo la base de datos ... 55%^M(Leyendo la base de datos ... 60%^M(Leyendo la base de datos ... 65%^M(Leyendo la base de datos ... 70%^M(Leyendo la base de datos ... 75%^M(Leyendo la base de datos ... 80%^M(Leyendo la base de datos ... 85%^M(Leyendo la base de datos ... 90%^M
+Apr 18 18:56:45 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:56:45 in-target: (Leyendo la base de datos ... 100%^M(Leyendo la base de datos ... 45330 ficheros o directorios instalados actualmente.)^M
+Apr 18 18:56:45 in-target: Preparando para desempaquetar .../grub2-common_2.02~beta2-22+deb8u1_amd64.deb ...^M
+Apr 18 18:56:46 in-target: Desempaquetando grub2-common (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:56:49 in-target: Seleccionando el paquete grub-pc-bin previamente no seleccionado.^M
+Apr 18 18:56:49 in-target: Preparando para desempaquetar .../grub-pc-bin_2.02~beta2-22+deb8u1_amd64.deb ...^M
+Apr 18 18:56:49 in-target: Desempaquetando grub-pc-bin (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:56:57 in-target: Seleccionando el paquete grub-pc previamente no seleccionado.^M
+Apr 18 18:56:57 in-target: Preparando para desempaquetar .../grub-pc_2.02~beta2-22+deb8u1_amd64.deb ...^M
+Apr 18 18:56:57 in-target: Desempaquetando grub-pc (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:56:58 in-target: Procesando disparadores para man-db (2.7.0.2-5) ...^M
+Apr 18 18:57:00 in-target: Procesando disparadores para install-info (5.2.0.dfsg.1-6) ...^M
+Apr 18 18:57:01 in-target: Configurando grub2-common (2.02~beta2-22+deb8u1) ...
+Apr 18 18:57:01 in-target: ^M
+Apr 18 18:57:03 in-target: Configurando grub-pc-bin (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:57:04 in-target: Configurando grub-pc (2.02~beta2-22+deb8u1) ...^M
+Apr 18 18:57:06 in-target: ^M
+Apr 18 18:57:06 in-target: Creating config file /etc/default/grub with new version^M
+Apr 18 18:57:06 in-target: Use of uninitialized value $template in exists at /usr/share/perl5/Debconf/Template.pm line 81, <GEN2> line 65.
+Apr 18 18:57:06 in-target: Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <GEN2> line 65.
+Apr 18 18:57:06 in-target: Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <GEN2> line 65.
+Apr 18 18:57:06 in-target: Use of uninitialized value $template in exists at /usr/share/perl5/Debconf/Template.pm line 81, <GEN2> line 74.
+Apr 18 18:57:06 in-target: Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <GEN2> line 74.
+Apr 18 18:57:06 in-target: Use of uninitialized value $item in exists at /usr/share/perl5/Debconf/DbDriver/Cache.pm line 39, <GEN2> line 74.
+Apr 18 18:57:09 kernel: [  306.663290] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:57:09 kernel: [  306.663653] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:57:09 kernel: [  306.703872] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:57:09 kernel: [  306.704221] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:57:09 anna-install: Installing ext2-modules
+Apr 18 18:57:09 anna-install: Installing ext3-modules
+Apr 18 18:57:09 anna-install: Installing ext4-modules
+Apr 18 18:57:09 anna-install: Installing xfs-modules
+Apr 18 18:57:09 anna-install: Installing jfs-modules
+Apr 18 18:57:09 anna-install: Installing msdos-modules
+Apr 18 18:57:09 os-prober: unknown udeb msdos-modules
+Apr 18 18:57:09 anna-install: Installing vfat-modules
+Apr 18 18:57:09 os-prober: unknown udeb vfat-modules
+Apr 18 18:57:09 anna-install: Installing ntfs-modules
+Apr 18 18:57:09 anna[25385]: DEBUG: resolver (kernel-image-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:57:09 anna[25385]: DEBUG: retrieving ntfs-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:57:09 anna-install: Installing minix-modules
+Apr 18 18:57:09 os-prober: unknown udeb minix-modules
+Apr 18 18:57:09 anna-install: Installing hfs-modules
+Apr 18 18:57:10 os-prober: unknown udeb hfs-modules
+Apr 18 18:57:10 anna-install: Installing hfsplus-modules
+Apr 18 18:57:10 os-prober: unknown udeb hfsplus-modules
+Apr 18 18:57:10 anna-install: Installing qnx4-modules
+Apr 18 18:57:10 os-prober: unknown udeb qnx4-modules
+Apr 18 18:57:10 anna-install: Installing ufs-modules
+Apr 18 18:57:10 os-prober: unknown udeb ufs-modules
+Apr 18 18:57:10 anna-install: Installing btrfs-modules
+Apr 18 18:57:10 anna-install: Installing fuse-modules
+Apr 18 18:57:10 anna[25470]: DEBUG: resolver (kernel-image-3.16.0-4-amd64-di): package doesn't exist (ignored)
+Apr 18 18:57:10 anna[25470]: DEBUG: retrieving fuse-modules-3.16.0-4-amd64-di 3.16.7-ckt25-1
+Apr 18 18:57:10 anna-install: Installing fs-core-modules
+Apr 18 18:57:10 os-prober: unknown udeb fs-core-modules
+Apr 18 18:57:10 anna-install: Installing fs-secondary-modules
+Apr 18 18:57:10 os-prober: unknown udeb fs-secondary-modules
+Apr 18 18:57:10 kernel: [  306.892864] ntfs: driver 2.1.30 [Flags: R/W MODULE].
+Apr 18 18:57:10 kernel: [  306.897086] fuse init (API version 7.23)
+Apr 18 18:57:10 os-prober: File descriptor 3 (pipe:[1371]) leaked on lvs invocation. Parent PID 25574: log-output
+Apr 18 18:57:10 os-prober: File descriptor 4 (/dev/pts/0) leaked on lvs invocation. Parent PID 25574: log-output
+Apr 18 18:57:10 os-prober: File descriptor 5 (/dev/pts/0) leaked on lvs invocation. Parent PID 25574: log-output
+Apr 18 18:57:10 os-prober: File descriptor 6 (/dev/pts/0) leaked on lvs invocation. Parent PID 25574: log-output
+Apr 18 18:57:10 os-prober:   No volume groups found
+Apr 18 18:57:10 os-prober: debug: /dev/sda1: is active swap
+Apr 18 18:57:41 grub-installer: info: Installing grub on '/dev/sda'
+Apr 18 18:57:41 grub-installer: info: grub-install does not support --no-floppy
+Apr 18 18:57:41 grub-installer: info: Running chroot /target grub-install  --force "/dev/sda"
+Apr 18 18:57:41 grub-installer: Installing for i386-pc platform.
+Apr 18 18:58:36 grub-installer: Installation finished. No error reported.
+Apr 18 18:58:36 grub-installer: info: grub-install ran successfully
+Apr 18 18:58:36 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:58:37 in-target: Leyendo lista de paquetes...
+Apr 18 18:58:37 in-target: 
+Apr 18 18:58:37 in-target: Creando árbol de dependencias...
+Apr 18 18:58:37 in-target: 
+Apr 18 18:58:37 in-target: Leyendo la información de estado...
+Apr 18 18:58:37 in-target: 
+Apr 18 18:58:37 in-target: grub-common ya está en su versión más reciente.
+Apr 18 18:58:37 in-target: 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Apr 18 18:58:37 kernel: [  394.110875] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:58:37 kernel: [  394.111180] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:58:37 kernel: [  394.161040] ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 18 18:58:37 kernel: [  394.161383] ISO 9660 Extensions: RRIP_1991A
+Apr 18 18:58:38 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:58:40 main-menu[205]: (process:23723): File descriptor 3 (pipe:[1371]) leaked on lvdisplay invocation.
+Apr 18 18:58:40 main-menu[205]: (process:23723):  Parent PID 24598: /bin/sh
+Apr 18 18:58:40 main-menu[205]: (process:23723): File descriptor 4 (/dev/pts/0) leaked on lvdisplay invocation.
+Apr 18 18:58:40 main-menu[205]: (process:23723):  Parent PID 24598: /bin/sh
+Apr 18 18:58:40 main-menu[205]: (process:23723): File descriptor 5 (/dev/pts/0) leaked on lvdisplay invocation.
+Apr 18 18:58:40 main-menu[205]: (process:23723):  Parent PID 24598: /bin/sh
+Apr 18 18:58:40 main-menu[205]: (process:23723): File descriptor 6 (/dev/pts/0) leaked on lvdisplay invocation.
+Apr 18 18:58:40 main-menu[205]: (process:23723):  Parent PID 24598: /bin/sh
+Apr 18 18:58:40 main-menu[205]: (process:23723):   
+Apr 18 18:58:40 main-menu[205]: (process:23723): Volume group "sda" not found
+Apr 18 18:58:40 main-menu[205]: (process:23723): 
+Apr 18 18:58:40 main-menu[205]: (process:23723):   
+Apr 18 18:58:40 main-menu[205]: (process:23723): Skipping volume group sda
+Apr 18 18:58:40 main-menu[205]: (process:23723): 
+Apr 18 18:58:40 main-menu[205]: (process:23723): Setting partition 2 of /dev/sda to active... done.
+Apr 18 18:58:41 main-menu[205]: INFO: Menu item 'finish-install' selected
+Apr 18 18:58:41 finish-install: info: Running /usr/lib/finish-install.d/01kickseed
+Apr 18 18:58:41 finish-install: info: Running /usr/lib/finish-install.d/05localechooser
+Apr 18 18:58:41 finish-install: info: Running /usr/lib/finish-install.d/06user-setup
+Apr 18 20:58:41 pwconv[26355]: failed to change the mode of /etc/passwd- to 0600
+Apr 18 18:58:41 user-setup: pwconv: failed to change the mode of /etc/passwd- to 0600
+Apr 18 18:58:42 user-setup: Shadow passwords are now on.
+Apr 18 20:58:42 chpasswd[26381]: pam_unix(chpasswd:chauthtok): password changed for root
+Apr 18 18:58:42 user-setup: Adding user `juego' ...
+Apr 18 18:58:42 user-setup: Adding new group `juego' (1000) ...
+Apr 18 20:58:42 groupadd[26389]: group added to /etc/group: name=juego, GID=1000
+Apr 18 20:58:43 groupadd[26389]: group added to /etc/gshadow: name=juego
+Apr 18 20:58:43 groupadd[26389]: new group: name=juego, GID=1000
+Apr 18 18:58:43 user-setup: Adding new user `juego' (1000) with group `juego' ...
+Apr 18 20:58:43 useradd[26393]: new user: name=juego, UID=1000, GID=1000, home=/home/juego, shell=/bin/bash
+Apr 18 18:58:45 user-setup: Creating home directory `/home/juego' ...
+Apr 18 18:58:45 user-setup: Copying files from `/etc/skel' ...
+Apr 18 20:58:45 usermod[26400]: change user 'juego' password
+Apr 18 20:58:46 chfn[26405]: changed user 'juego' information
+Apr 18 20:58:46 chpasswd[26412]: pam_unix(chpasswd:chauthtok): password changed for juego
+Apr 18 18:58:46 user-setup: Adding user `juego' to group `audio' ...
+Apr 18 18:58:46 user-setup: Adding user juego to group audio
+Apr 18 20:58:47 gpasswd[26416]: user juego added by root to group audio
+Apr 18 18:58:47 user-setup: Done.
+Apr 18 18:58:47 user-setup: Adding user `juego' to group `cdrom' ...
+Apr 18 18:58:47 user-setup: Adding user juego to group cdrom
+Apr 18 20:58:48 gpasswd[26422]: user juego added by root to group cdrom
+Apr 18 18:58:48 user-setup: Done.
+Apr 18 18:58:48 user-setup: Adding user `juego' to group `dip' ...
+Apr 18 18:58:48 user-setup: Adding user juego to group dip
+Apr 18 20:58:49 gpasswd[26428]: user juego added by root to group dip
+Apr 18 18:58:49 user-setup: Done.
+Apr 18 18:58:49 user-setup: Adding user `juego' to group `floppy' ...
+Apr 18 18:58:49 user-setup: Adding user juego to group floppy
+Apr 18 20:58:50 gpasswd[26434]: user juego added by root to group floppy
+Apr 18 18:58:50 user-setup: Done.
+Apr 18 18:58:50 user-setup: Adding user `juego' to group `video' ...
+Apr 18 18:58:50 user-setup: Adding user juego to group video
+Apr 18 20:58:51 gpasswd[26440]: user juego added by root to group video
+Apr 18 18:58:51 user-setup: Done.
+Apr 18 18:58:51 user-setup: Adding user `juego' to group `plugdev' ...
+Apr 18 18:58:51 user-setup: Adding user juego to group plugdev
+Apr 18 20:58:52 gpasswd[26446]: user juego added by root to group plugdev
+Apr 18 18:58:52 user-setup: Done.
+Apr 18 18:58:52 user-setup: Adding user `juego' to group `netdev' ...
+Apr 18 18:58:52 user-setup: Adding user juego to group netdev
+Apr 18 20:58:53 gpasswd[26452]: user juego added by root to group netdev
+Apr 18 18:58:53 user-setup: Done.
+Apr 18 18:58:53 user-setup: adduser: The group `scanner' does not exist.
+Apr 18 18:58:53 user-setup: Adding user `juego' to group `bluetooth' ...
+Apr 18 18:58:53 user-setup: Adding user juego to group bluetooth
+Apr 18 20:58:54 gpasswd[26460]: user juego added by root to group bluetooth
+Apr 18 18:58:54 user-setup: Done.
+Apr 18 18:58:54 user-setup: adduser: The group `debian-tor' does not exist.
+Apr 18 18:58:54 user-setup: adduser: The group `lpadmin' does not exist.
+Apr 18 18:58:54 finish-install: info: Running /usr/lib/finish-install.d/07brltty
+Apr 18 18:58:54 finish-install: info: Running /usr/lib/finish-install.d/07preseed
+Apr 18 18:58:54 finish-install: info: Running /usr/lib/finish-install.d/07speakup
+Apr 18 18:58:54 finish-install: info: Running /usr/lib/finish-install.d/10apt-cdrom-setup
+Apr 18 18:58:54 finish-install: info: Running /usr/lib/finish-install.d/10clock-setup
+Apr 18 18:58:54 anna-install: Installing os-prober-udeb
+Apr 18 18:58:54 os-prober: File descriptor 3 (pipe:[1371]) leaked on lvs invocation. Parent PID 26538: log-output
+Apr 18 18:58:54 os-prober: File descriptor 4 (/dev/pts/0) leaked on lvs invocation. Parent PID 26538: log-output
+Apr 18 18:58:54 os-prober: File descriptor 5 (/dev/pts/0) leaked on lvs invocation. Parent PID 26538: log-output
+Apr 18 18:58:54 os-prober: File descriptor 6 (/dev/pts/0) leaked on lvs invocation. Parent PID 26538: log-output
+Apr 18 18:58:54 os-prober:   No volume groups found
+Apr 18 18:58:54 os-prober: debug: /dev/sda1: is active swap
+Apr 18 18:58:54 anna-install: Installing rtc-modules
+Apr 18 18:58:54 finish-install: unknown udeb rtc-modules
+Apr 18 18:58:54 hw-detect: modprobe: FATAL: Module rtc not found.
+Apr 18 18:58:54 clock-setup: rtc module not loaded
+Apr 18 18:58:54 hw-detect: modprobe: FATAL: Module rtc-dev not found.
+Apr 18 18:58:54 clock-setup: rtc-dev module not loaded
+Apr 18 18:58:56 clock-setup: hwclock from util-linux 2.25.2
+Apr 18 18:58:56 clock-setup: Using the /dev interface to the clock.
+Apr 18 18:58:56 clock-setup: Last drift adjustment done at 0 seconds after 1969
+Apr 18 18:58:56 clock-setup: Last calibration done at 0 seconds after 1969
+Apr 18 18:58:56 clock-setup: Hardware clock is on UTC time
+Apr 18 18:58:56 clock-setup: Assuming hardware clock is kept in UTC time.
+Apr 18 18:58:56 clock-setup: Waiting for clock tick...
+Apr 18 18:58:56 clock-setup: ...got clock tick
+Apr 18 18:58:56 clock-setup: Time read from Hardware Clock: 2016/04/18 18:58:55
+Apr 18 18:58:56 clock-setup: Hw clock time : 2016/04/18 18:58:55 = 1461005935 seconds since 1969
+Apr 18 18:58:56 clock-setup: missed it - 1461005935.627635 is too far past 1461005935.500000 (0.127635 > 0.001000)
+Apr 18 18:58:56 clock-setup: 1461005936.500000 is close enough to 1461005936.500000 (0.000000 < 0.002000)
+Apr 18 18:58:56 clock-setup: Set RTC to 1461005936 (1461005935 + 1; refsystime = 1461005935.000000)
+Apr 18 18:58:56 clock-setup: Setting Hardware Clock to 18:58:56 = 1461005936 seconds since 1969
+Apr 18 18:58:56 clock-setup: ioctl(RTC_SET_TIME) was successful.
+Apr 18 18:58:56 clock-setup: Not adjusting drift factor because last calibration time is zero,
+Apr 18 18:58:56 clock-setup: so history is bad and calibration startover is necessary.
+Apr 18 18:58:56 finish-install: info: Running /usr/lib/finish-install.d/10open-iscsi
+Apr 18 18:58:56 finish-install: info: Running /usr/lib/finish-install.d/10update-initramfs
+Apr 18 18:58:56 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:58:57 finish-install: info: Running /usr/lib/finish-install.d/15cdrom-detect
+Apr 18 18:58:57 cdrom-detect: Unmounting and ejecting '/dev/sr0'
+Apr 18 18:58:57 finish-install: info: Running /usr/lib/finish-install.d/20final-message
+Apr 18 18:59:19 finish-install: info: Running /usr/lib/finish-install.d/30hw-detect
+Apr 18 18:59:19 finish-install: info: Running /usr/lib/finish-install.d/50config-target-network
+Apr 18 18:59:19 finish-install: info: Running /usr/lib/finish-install.d/55netcfg-copy-config
+Apr 18 18:59:20 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:20 finish-install: info: Running /usr/lib/finish-install.d/60cleanup
+Apr 18 18:59:20 finish-install: info: Running /usr/lib/finish-install.d/60remove-live-packages
+Apr 18 18:59:20 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:20 in-target: Leyendo lista de paquetes...
+Apr 18 18:59:21 in-target: 
+Apr 18 18:59:21 in-target: Creando árbol de dependencias...
+Apr 18 18:59:21 in-target: 
+Apr 18 18:59:21 in-target: Leyendo la información de estado...
+Apr 18 18:59:21 in-target: 
+Apr 18 18:59:21 in-target: Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+Apr 18 18:59:21 in-target:   live-boot-doc live-boot-initramfs-tools
+Apr 18 18:59:21 in-target: Utilice «apt-get autoremove» para eliminarlos.
+Apr 18 18:59:21 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 18:59:21 in-target:   live-boot*
+Apr 18 18:59:21 in-target: 0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 3 no actualizados.
+Apr 18 18:59:21 in-target: Se liberarán 163 kB después de esta operación.
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... ^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 5%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 10%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 15%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 20%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 25%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 30%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 35%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 40%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 45%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 50%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 55%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 60%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 100%^M
+Apr 18 18:59:21 in-target: (Leyendo la base de datos ... 
+Apr 18 18:59:21 in-target: 45652 ficheros o directorios instalados actualmente.)
+Apr 18 18:59:21 in-target: ^M
+Apr 18 18:59:21 in-target: Desinstalando live-boot (4.0.2-1) ...
+Apr 18 18:59:21 in-target: ^M
+Apr 18 18:59:23 in-target: Purgando ficheros de configuración de live-boot (4.0.2-1) ...^M
+Apr 18 18:59:27 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:27 in-target: Leyendo lista de paquetes...
+Apr 18 18:59:27 in-target: 
+Apr 18 18:59:27 in-target: Creando árbol de dependencias...
+Apr 18 18:59:27 in-target: 
+Apr 18 18:59:27 in-target: Leyendo la información de estado...
+Apr 18 18:59:27 in-target: 
+Apr 18 18:59:27 in-target: El paquete indicado a continuación se instaló de forma automática y ya no es necesario.
+Apr 18 18:59:27 in-target:   live-boot-doc
+Apr 18 18:59:27 in-target: Utilice «apt-get autoremove» para eliminarlo.
+Apr 18 18:59:27 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 18:59:27 in-target:   live-boot-initramfs-tools*
+Apr 18 18:59:27 in-target: 0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 3 no actualizados.
+Apr 18 18:59:27 in-target: Se liberarán 69,6 kB después de esta operación.
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... ^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 5%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 10%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 15%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 20%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 25%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 30%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 35%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 40%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 45%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 50%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 55%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 60%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 100%^M
+Apr 18 18:59:27 in-target: (Leyendo la base de datos ... 
+Apr 18 18:59:27 in-target: 45624 ficheros o directorios instalados actualmente.)
+Apr 18 18:59:27 in-target: ^M
+Apr 18 18:59:27 in-target: Desinstalando live-boot-initramfs-tools (4.0.2-1) ...
+Apr 18 18:59:27 in-target: ^M
+Apr 18 18:59:28 in-target: update-initramfs: deferring update (trigger activated)^M
+Apr 18 18:59:29 in-target: Purgando ficheros de configuración de live-boot-initramfs-tools (4.0.2-1) ...^M
+Apr 18 18:59:32 in-target: Procesando disparadores para initramfs-tools (0.120+deb8u1) ...^M
+Apr 18 18:59:33 in-target: update-initramfs: Generating /boot/initrd.img-3.16.0-4-amd64^M
+Apr 18 18:59:50 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:50 in-target: Leyendo lista de paquetes...
+Apr 18 18:59:50 in-target: 
+Apr 18 18:59:50 in-target: Creando árbol de dependencias...
+Apr 18 18:59:50 in-target: 
+Apr 18 18:59:50 in-target: Leyendo la información de estado...
+Apr 18 18:59:50 in-target: 
+Apr 18 18:59:50 in-target: Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+Apr 18 18:59:50 in-target:   live-boot-doc live-config-doc user-setup
+Apr 18 18:59:50 in-target: Utilice «apt-get autoremove» para eliminarlos.
+Apr 18 18:59:50 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 18:59:50 in-target:   live-config*
+Apr 18 18:59:50 in-target: 0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 3 no actualizados.
+Apr 18 18:59:50 in-target: Se liberarán 160 kB después de esta operación.
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... ^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 5%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 10%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 15%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 20%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 25%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 30%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 35%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 40%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 45%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 50%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 55%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 60%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 100%^M
+Apr 18 18:59:50 in-target: (Leyendo la base de datos ... 
+Apr 18 18:59:50 in-target: 45619 ficheros o directorios instalados actualmente.)
+Apr 18 18:59:50 in-target: ^M
+Apr 18 18:59:50 in-target: Desinstalando live-config (4.0.4-1) ...
+Apr 18 18:59:50 in-target: ^M
+Apr 18 18:59:51 in-target: Purgando ficheros de configuración de live-config (4.0.4-1) ...^M
+Apr 18 18:59:53 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:53 in-target: Leyendo lista de paquetes...
+Apr 18 18:59:53 in-target: 
+Apr 18 18:59:53 in-target: Creando árbol de dependencias...
+Apr 18 18:59:53 in-target: 
+Apr 18 18:59:53 in-target: Leyendo la información de estado...
+Apr 18 18:59:53 in-target: 
+Apr 18 18:59:53 in-target: Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+Apr 18 18:59:53 in-target:   live-boot-doc live-config-doc user-setup
+Apr 18 18:59:53 in-target: Utilice «apt-get autoremove» para eliminarlos.
+Apr 18 18:59:53 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 18:59:53 in-target:   live-config-systemd*
+Apr 18 18:59:53 in-target: 0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 3 no actualizados.
+Apr 18 18:59:53 in-target: Se liberarán 72,7 kB después de esta operación.
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... ^M(Leyendo la base de datos ... 5%^M(Leyendo la base de datos ... 10%^M(Leyendo la base de datos ... 15%^M(Leyendo la base de datos ... 20%^M(Leyendo la base de datos ... 25%^M(Leyendo la base de datos ... 30%^M(Leyendo la base de datos ... 35%^M(Leyendo la base de datos ... 40%^M(Leyendo la base de datos ... 45%^M(Leyendo la base de datos ... 50%^M(Leyendo la base de datos ... 55%^M(Leyendo la base de datos ... 60%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:59:54 in-target: (Leyendo la base de datos ... 100%^M(Leyendo la base de datos ... 45570 ficheros o directorios instalados actualmente.)^M
+Apr 18 18:59:54 in-target: Desinstalando live-config-systemd (4.0.4-1) ...^M
+Apr 18 18:59:55 in-target: Purgando ficheros de configuración de live-config-systemd (4.0.4-1) ...^M
+Apr 18 18:59:57 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 18:59:57 in-target: Leyendo lista de paquetes...
+Apr 18 18:59:57 in-target: 
+Apr 18 18:59:57 in-target: Creando árbol de dependencias...
+Apr 18 18:59:57 in-target: 
+Apr 18 18:59:57 in-target: Leyendo la información de estado...
+Apr 18 18:59:57 in-target: 
+Apr 18 18:59:57 in-target: Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+Apr 18 18:59:57 in-target:   live-boot-doc live-config-doc user-setup
+Apr 18 18:59:57 in-target: Utilice «apt-get autoremove» para eliminarlos.
+Apr 18 18:59:57 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 18:59:57 in-target:   debian-installer-launcher*
+Apr 18 18:59:57 in-target: 0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 3 no actualizados.
+Apr 18 18:59:57 in-target: Se liberarán 85,0 kB después de esta operación.
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... ^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 5%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 10%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 15%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 20%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 25%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 30%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 35%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 40%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 45%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 50%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 55%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 60%^M
+Apr 18 18:59:57 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 100%^M
+Apr 18 18:59:58 in-target: (Leyendo la base de datos ... 
+Apr 18 18:59:58 in-target: 45564 ficheros o directorios instalados actualmente.)
+Apr 18 18:59:58 in-target: ^M
+Apr 18 18:59:58 in-target: Desinstalando debian-installer-launcher (19+deb8u1) ...
+Apr 18 18:59:58 in-target: ^M
+Apr 18 19:00:00 in-target: Purgando ficheros de configuración de debian-installer-launcher (19+deb8u1) ...^M
+Apr 18 19:00:01 in-target: debconf: no se pudo inicializar la interfaz: Passthrough^M
+Apr 18 19:00:01 in-target: debconf: (Failed to open fd 3: Descriptor de fichero erróneo at (eval 18) line 3.)^M
+Apr 18 19:00:01 in-target: debconf: probando ahora la interfaz: Noninteractive^M
+Apr 18 19:00:02 in-target: Procesando disparadores para man-db (2.7.0.2-5) ...^M
+Apr 18 19:00:03 in-target: Procesando disparadores para mime-support (3.58) ...^M
+Apr 18 19:00:03 in-target: Procesando disparadores para menu (2.1.47) ...^M
+Apr 18 19:00:05 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 19:00:05 in-target: update-initramfs: Generating /boot/initrd.img-3.16.0-4-amd64
+Apr 18 19:00:09 /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Apr 18 19:00:09 in-target: Leyendo lista de paquetes...
+Apr 18 19:00:09 in-target: 
+Apr 18 19:00:09 in-target: Creando árbol de dependencias...
+Apr 18 19:00:09 in-target: 
+Apr 18 19:00:09 in-target: Leyendo la información de estado...
+Apr 18 19:00:09 in-target: 
+Apr 18 19:00:09 in-target: Los siguientes paquetes se ELIMINARÁN:
+Apr 18 19:00:09 in-target:   live-boot-doc live-config-doc menu user-setup
+Apr 18 19:00:09 in-target: 0 actualizados, 0 nuevos se instalarán, 4 para eliminar y 3 no actualizados.
+Apr 18 19:00:09 in-target: Se liberarán 2.595 kB después de esta operación.
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... ^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 5%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 10%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 15%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 20%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 25%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 30%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 35%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 40%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 45%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 50%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 55%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 60%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 65%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 70%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 75%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 80%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 85%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 90%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 95%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 100%^M
+Apr 18 19:00:09 in-target: (Leyendo la base de datos ... 
+Apr 18 19:00:09 in-target: 45544 ficheros o directorios instalados actualmente.)
+Apr 18 19:00:09 in-target: ^M
+Apr 18 19:00:09 in-target: Desinstalando live-boot-doc (4.0.2-1) ...
+Apr 18 19:00:09 in-target: ^M
+Apr 18 19:00:11 in-target: Desinstalando live-config-doc (4.0.4-1) ...^M
+Apr 18 19:00:13 in-target: Desinstalando menu (2.1.47) ...^M
+Apr 18 19:00:14 in-target: Desinstalando user-setup (1.61) ...^M
+Apr 18 19:00:15 in-target: Procesando disparadores para man-db (2.7.0.2-5) ...^M
+Apr 18 19:00:18 in-target: Procesando disparadores para install-info (5.2.0.dfsg.1-6) ...^M
+Apr 18 19:00:19 finish-install: info: Running /usr/lib/finish-install.d/65partman-md
+Apr 18 19:00:19 finish-install: info: Running /usr/lib/finish-install.d/90base-installer
+Apr 18 19:00:19 finish-install: info: Running /usr/lib/finish-install.d/90console
+Apr 18 19:00:19 finish-install: info: Running /usr/lib/finish-install.d/94random-seed
+Apr 18 19:00:19 finish-install: info: Running /usr/lib/finish-install.d/94save-logs

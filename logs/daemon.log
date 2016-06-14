@@ -1,0 +1,203 @@
+Jun 13 10:56:49 johnsnow keyboard-setup[173]: Setting preliminary keymap...done.
+Jun 13 10:56:49 johnsnow kbd[244]: Setting console screen modes.
+Jun 13 10:56:49 johnsnow kbd[244]: setterm: $TERM no está definido.
+Jun 13 10:56:49 johnsnow networking[248]: Configuring network interfaces...done.
+Jun 13 10:56:49 johnsnow rpcbind[416]: Starting rpcbind daemon....
+Jun 13 10:56:49 johnsnow console-setup[301]: Setting up console font and keymap...done.
+Jun 13 10:56:49 johnsnow rpc.statd[450]: Version 1.2.8 starting
+Jun 13 10:56:49 johnsnow sm-notify[451]: Version 1.2.8 starting
+Jun 13 10:56:49 johnsnow nfs-common[444]: Starting NFS common utilities: statd idmapd.
+Jun 13 10:56:49 johnsnow ntpd[494]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 10:56:49 johnsnow ntpd[529]: proto: precision = 0.160 usec
+Jun 13 10:56:49 johnsnow ntp[475]: Starting NTP server: ntpd.
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen normally on 3 eth0 192.168.1.220 UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen normally on 4 eth1 10.0.10.20 UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: Listen normally on 5 lo ::1 UDP 123
+Jun 13 10:56:49 johnsnow ntpd[529]: peers refreshed
+Jun 13 10:56:49 johnsnow ntpd[529]: Listening on routing socket on fd #22 for interface updates
+Jun 13 10:56:49 johnsnow irqbalance[476]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 10:56:49 johnsnow openhpid[474]: Starting openhpid: success.
+Jun 13 10:56:49 johnsnow logd[473]: Starting ha_logd: ok
+Jun 13 10:56:49 johnsnow logd: [557]: info: logd started with /etc/logd.cf.
+Jun 13 10:56:49 johnsnow logd: [557]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 10:56:49 johnsnow logd: [557]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 10:56:49 johnsnow logd: [557]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 10:56:49 johnsnow systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 10:56:49 johnsnow openhpid[658]: Stopping openhpid: success.
+Jun 13 10:56:49 johnsnow systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 10:56:49 johnsnow xinetd[471]: Starting internet superserver: xinetd.
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 10:56:49 johnsnow xinetd[766]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 10:56:49 johnsnow xinetd[766]: removing chargen
+Jun 13 10:56:49 johnsnow xinetd[766]: removing chargen
+Jun 13 10:56:49 johnsnow xinetd[766]: removing daytime
+Jun 13 10:56:49 johnsnow xinetd[766]: removing daytime
+Jun 13 10:56:49 johnsnow xinetd[766]: removing discard
+Jun 13 10:56:49 johnsnow xinetd[766]: removing discard
+Jun 13 10:56:49 johnsnow xinetd[766]: removing echo
+Jun 13 10:56:49 johnsnow xinetd[766]: removing echo
+Jun 13 10:56:49 johnsnow xinetd[766]: removing time
+Jun 13 10:56:49 johnsnow xinetd[766]: removing time
+Jun 13 10:56:49 johnsnow xinetd[766]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 10:56:49 johnsnow xinetd[766]: Started working: 1 available service
+Jun 13 10:56:49 johnsnow heartbeat[558]: Starting High-Availability services: 2016/06/13_10:56:49 INFO:  Resource is stopped
+Jun 13 10:56:49 johnsnow heartbeat[558]: Done.
+Jun 13 10:57:02 johnsnow exim4[472]: Starting MTA: exim4.
+Jun 13 10:57:06 johnsnow ntpd[529]: Listen normally on 6 eth1 fe80::6461:31ff:fe61:6136 UDP 123
+Jun 13 10:57:06 johnsnow ntpd[529]: Listen normally on 7 eth0 fe80::3033:39ff:fe39:3162 UDP 123
+Jun 13 10:57:06 johnsnow ntpd[529]: peers refreshed
+Jun 13 11:30:14 johnsnow networking[2033]: Deconfiguring network interfaces...done.
+Jun 13 11:30:14 johnsnow networking[2086]: Configuring network interfaces...done.
+Jun 13 11:31:49 johnsnow ntpd[529]: Listen normally on 8 eth0:0 192.168.1.215 UDP 123
+Jun 13 11:31:49 johnsnow ntpd[529]: peers refreshed
+Jun 13 11:32:10 johnsnow keyboard-setup[170]: Setting preliminary keymap...done.
+Jun 13 11:32:10 johnsnow kbd[241]: Setting console screen modes.
+Jun 13 11:32:10 johnsnow kbd[241]: setterm: $TERM no está definido.
+Jun 13 11:32:10 johnsnow networking[249]: Configuring network interfaces...done.
+Jun 13 11:32:10 johnsnow console-setup[287]: Setting up console font and keymap...done.
+Jun 13 11:32:10 johnsnow rpcbind[430]: Starting rpcbind daemon....
+Jun 13 11:32:10 johnsnow rpc.statd[450]: Version 1.2.8 starting
+Jun 13 11:32:10 johnsnow sm-notify[451]: Version 1.2.8 starting
+Jun 13 11:32:10 johnsnow nfs-common[445]: Starting NFS common utilities: statd idmapd.
+Jun 13 11:32:10 johnsnow dbus[477]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 13 11:32:10 johnsnow ntpd[500]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 11:32:10 johnsnow ntp[475]: Starting NTP server: ntpd.
+Jun 13 11:32:10 johnsnow ntpd[519]: proto: precision = 0.157 usec
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen normally on 3 eth0 192.168.1.220 UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen normally on 4 eth1 10.0.10.20 UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: Listen normally on 5 lo ::1 UDP 123
+Jun 13 11:32:10 johnsnow ntpd[519]: peers refreshed
+Jun 13 11:32:10 johnsnow ntpd[519]: Listening on routing socket on fd #22 for interface updates
+Jun 13 11:32:10 johnsnow irqbalance[476]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 11:32:10 johnsnow logd[473]: Starting ha_logd: ok
+Jun 13 11:32:10 johnsnow openhpid[474]: Starting openhpid: success.
+Jun 13 11:32:10 johnsnow logd: [544]: info: logd started with /etc/logd.cf.
+Jun 13 11:32:10 johnsnow logd: [544]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 11:32:10 johnsnow logd: [544]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 11:32:10 johnsnow logd: [544]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 11:32:10 johnsnow systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 11:32:10 johnsnow openhpid[558]: Stopping openhpid: success.
+Jun 13 11:32:10 johnsnow systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 11:32:10 johnsnow xinetd[471]: Starting internet superserver: xinetd.
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 11:32:10 johnsnow xinetd[679]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 11:32:10 johnsnow xinetd[679]: removing chargen
+Jun 13 11:32:10 johnsnow xinetd[679]: removing chargen
+Jun 13 11:32:10 johnsnow xinetd[679]: removing daytime
+Jun 13 11:32:10 johnsnow xinetd[679]: removing daytime
+Jun 13 11:32:10 johnsnow xinetd[679]: removing discard
+Jun 13 11:32:10 johnsnow xinetd[679]: removing discard
+Jun 13 11:32:10 johnsnow xinetd[679]: removing echo
+Jun 13 11:32:10 johnsnow xinetd[679]: removing echo
+Jun 13 11:32:10 johnsnow xinetd[679]: removing time
+Jun 13 11:32:10 johnsnow xinetd[679]: removing time
+Jun 13 11:32:10 johnsnow xinetd[679]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 11:32:10 johnsnow xinetd[679]: Started working: 1 available service
+Jun 13 11:32:10 johnsnow heartbeat[547]: Starting High-Availability services: 2016/06/13_11:32:10 INFO:  Resource is stopped
+Jun 13 11:32:10 johnsnow exim4[472]: Starting MTA: exim4.
+Jun 13 11:32:10 johnsnow heartbeat[547]: Done.
+Jun 13 11:32:13 johnsnow ntpd[519]: Listen normally on 6 eth1 fe80::6461:31ff:fe61:6136 UDP 123
+Jun 13 11:32:13 johnsnow ntpd[519]: Listen normally on 7 eth0 fe80::3033:39ff:fe39:3162 UDP 123
+Jun 13 11:32:13 johnsnow ntpd[519]: peers refreshed
+Jun 13 14:03:09 johnsnow ntpd[519]: Listen normally on 8 eth0:0 192.168.1.215 UDP 123
+Jun 13 14:03:09 johnsnow ntpd[519]: peers refreshed
+Jun 13 14:07:46 johnsnow ntpd[519]: Deleting interface #8 eth0:0, 192.168.1.215#123, interface stats: received=0, sent=0, dropped=0, active_time=277 secs
+Jun 13 14:07:46 johnsnow ntpd[519]: peers refreshed
+Jun 13 14:07:48 johnsnow heartbeat[5222]: Stopping High-Availability services: Done.
+Jun 13 14:07:48 johnsnow heartbeat[5354]: Starting High-Availability services: 2016/06/13_14:07:48 INFO:  Resource is stopped
+Jun 13 14:07:48 johnsnow heartbeat[5354]: Done.
+Jun 13 16:57:43 johnsnow systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 16:57:43 johnsnow systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 16:57:43 johnsnow systemd[1]: Unit haproxy.service entered failed state.
+Jun 13 16:57:44 johnsnow systemd[1]: haproxy.service start request repeated too quickly, refusing to start.
+Jun 13 16:57:44 johnsnow systemd[1]: Failed to start HAProxy Load Balancer.
+Jun 13 16:58:32 johnsnow heartbeat[9778]: Stopping High-Availability services: Done.
+Jun 13 16:58:35 johnsnow heartbeat[9944]: Starting High-Availability services: 2016/06/13_16:58:35 INFO:  Resource is stopped
+Jun 13 16:58:35 johnsnow heartbeat[9944]: Done.
+Jun 13 17:03:46 johnsnow networking[10274]: Deconfiguring network interfaces...done.
+Jun 13 17:03:46 johnsnow networking[10327]: Configuring network interfaces...done.
+Jun 13 17:06:44 johnsnow keyboard-setup[172]: Setting preliminary keymap...done.
+Jun 13 17:06:44 johnsnow kbd[246]: Setting console screen modes.
+Jun 13 17:06:44 johnsnow kbd[246]: setterm: $TERM no está definido.
+Jun 13 17:06:44 johnsnow networking[254]: Configuring network interfaces...done.
+Jun 13 17:06:44 johnsnow rpcbind[417]: Starting rpcbind daemon....
+Jun 13 17:06:44 johnsnow console-setup[303]: Setting up console font and keymap...done.
+Jun 13 17:06:44 johnsnow rpc.statd[452]: Version 1.2.8 starting
+Jun 13 17:06:44 johnsnow sm-notify[453]: Version 1.2.8 starting
+Jun 13 17:06:44 johnsnow nfs-common[445]: Starting NFS common utilities: statd idmapd.
+Jun 13 17:06:44 johnsnow ntpd[499]: ntpd 4.2.6p5@1.2349-o Wed Oct 28 20:16:08 UTC 2015 (1)
+Jun 13 17:06:44 johnsnow ntp[478]: Starting NTP server: ntpd.
+Jun 13 17:06:44 johnsnow ntpd[516]: proto: precision = 0.107 usec
+Jun 13 17:06:44 johnsnow irqbalance[479]: Starting SMP IRQ Balancer: irqbalance.
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen and drop on 1 v6wildcard :: UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen normally on 3 eth0 192.168.1.220 UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen normally on 4 eth1 10.0.10.20 UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: Listen normally on 5 lo ::1 UDP 123
+Jun 13 17:06:44 johnsnow ntpd[516]: peers refreshed
+Jun 13 17:06:44 johnsnow ntpd[516]: Listening on routing socket on fd #22 for interface updates
+Jun 13 17:06:44 johnsnow logd[476]: Starting ha_logd: ok
+Jun 13 17:06:44 johnsnow openhpid[477]: Starting openhpid: success.
+Jun 13 17:06:44 johnsnow logd: [591]: info: logd started with /etc/logd.cf.
+Jun 13 17:06:44 johnsnow logd: [591]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 17:06:44 johnsnow logd: [591]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 17:06:44 johnsnow logd: [591]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 17:06:44 johnsnow xinetd[473]: Starting internet superserver: xinetd.
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Jun 13 17:06:44 johnsnow systemd[1]: openhpid.service: main process exited, code=exited, status=8/n/a
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/nrpe [file=/etc/xinetd.d/nrpe] [line=26]
+Jun 13 17:06:44 johnsnow xinetd[748]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=16]
+Jun 13 17:06:44 johnsnow xinetd[748]: removing chargen
+Jun 13 17:06:44 johnsnow xinetd[748]: removing chargen
+Jun 13 17:06:44 johnsnow xinetd[748]: removing daytime
+Jun 13 17:06:44 johnsnow xinetd[748]: removing daytime
+Jun 13 17:06:44 johnsnow xinetd[748]: removing discard
+Jun 13 17:06:44 johnsnow xinetd[748]: removing discard
+Jun 13 17:06:44 johnsnow xinetd[748]: removing echo
+Jun 13 17:06:44 johnsnow xinetd[748]: removing echo
+Jun 13 17:06:44 johnsnow xinetd[748]: removing time
+Jun 13 17:06:44 johnsnow xinetd[748]: removing time
+Jun 13 17:06:44 johnsnow xinetd[748]: xinetd Version 2.3.15 started with libwrap loadavg options compiled in.
+Jun 13 17:06:44 johnsnow xinetd[748]: Started working: 1 available service
+Jun 13 17:06:44 johnsnow openhpid[762]: Stopping openhpid: success.
+Jun 13 17:06:44 johnsnow systemd[1]: Unit openhpid.service entered failed state.
+Jun 13 17:06:44 johnsnow exim4[475]: Starting MTA: exim4.
+Jun 13 17:06:44 johnsnow heartbeat[604]: Starting High-Availability services: 2016/06/13_17:06:44 INFO:  Resource is stopped
+Jun 13 17:06:44 johnsnow heartbeat[604]: Done.
+Jun 13 17:06:47 johnsnow ntpd[516]: Listen normally on 6 eth1 fe80::6461:31ff:fe61:6136 UDP 123
+Jun 13 17:06:47 johnsnow ntpd[516]: Listen normally on 7 eth0 fe80::3033:39ff:fe39:3162 UDP 123
+Jun 13 17:06:47 johnsnow ntpd[516]: peers refreshed
+Jun 13 19:07:20 johnsnow ntpd[516]: Listen normally on 8 eth0:0 192.168.1.215 UDP 123
+Jun 13 19:07:20 johnsnow ntpd[516]: peers refreshed
+Jun 13 19:09:03 johnsnow ntpd[516]: Deleting interface #8 eth0:0, 192.168.1.215#123, interface stats: received=0, sent=0, dropped=0, active_time=103 secs
+Jun 13 19:09:03 johnsnow ntpd[516]: peers refreshed
+Jun 13 19:09:05 johnsnow heartbeat[4364]: Stopping High-Availability services: Done.
+Jun 13 19:09:05 johnsnow heartbeat[4492]: Starting High-Availability services: 2016/06/13_19:09:05 INFO:  Resource is stopped
+Jun 13 19:09:05 johnsnow heartbeat[4492]: Done.
+Jun 13 19:14:02 johnsnow ntpd[516]: Listen normally on 9 eth0:0 192.168.1.215 UDP 123
+Jun 13 19:14:02 johnsnow ntpd[516]: peers refreshed
+Jun 13 19:17:08 johnsnow ntpd[516]: Deleting interface #9 eth0:0, 192.168.1.215#123, interface stats: received=0, sent=0, dropped=0, active_time=186 secs
+Jun 13 19:17:08 johnsnow ntpd[516]: peers refreshed
+Jun 13 19:17:10 johnsnow heartbeat[5309]: Stopping High-Availability services: Done.
+Jun 13 19:17:10 johnsnow heartbeat[5439]: Starting High-Availability services: 2016/06/13_19:17:10 INFO:  Resource is stopped
+Jun 13 19:17:10 johnsnow heartbeat[5439]: Done.
+Jun 13 19:18:44 johnsnow ntpd[516]: Listen normally on 10 eth0:0 192.168.1.215 UDP 123
+Jun 13 19:18:44 johnsnow ntpd[516]: peers refreshed

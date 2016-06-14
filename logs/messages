@@ -1,0 +1,1833 @@
+Jun 12 22:11:14 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="502" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jun 12 22:12:12 johnsnow rsyslogd0: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+Jun 12 22:12:12 johnsnow rsyslogd-2359: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+Jun 13 01:30:17 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="502" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jun 13 10:56:49 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="531" x-info="http://www.rsyslog.com"] start
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpu
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) ) #1 SMP Debian 3.16.7-ckt25-2 (2016-04-08)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffdefff] usable
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000003ffdf000-0x000000003fffffff] reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] SMBIOS 0.8 present.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Hypervisor detected: KVM
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] e820: last_pfn = 0x3ffdf max_arch_pfn = 0x400000000
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] found SMP MP-table at [mem 0x000f6490-0x000f649f] mapped at [ffff8800000f6490]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fc00000-0x3fdfffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3c000000-0x3fbfffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x3bffffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fe00000-0x3ffdefff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] RAMDISK: [mem 0x363e0000-0x371e7fff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: RSDP 0x00000000000F62A0 000014 (v00 BOCHS )
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: RSDT 0x000000003FFE2581 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: FACP 0x000000003FFE0BDA 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: DSDT 0x000000003FFE0040 000B9A (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: FACS 0x000000003FFE0000 000040
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: SSDT 0x000000003FFE0C4E 00187B (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: APIC 0x000000003FFE24C9 000080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: HPET 0x000000003FFE2549 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] No NUMA configuration found
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffdefff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x3ffdefff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   NODE_DATA [mem 0x3ffda000-0x3ffdefff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ffd2001, primary cpu clock
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Zone ranges:
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   Normal   empty
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Movable zone start for each node
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Early memory node ranges
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000]   node   0: [mem 0x00100000-0x3ffdefff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x608
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] e820: [mem 0x40000000-0xfeffbfff] available for PCI devices
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:2 nr_node_ids:1
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88003fc00000 s80896 r8192 d21504 u1048576
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] KVM setup async PF for cpu 0
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] kvm-stealtime: cpu 0, msr 3fc0d080
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258408
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Policy zone: DMA32
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] AGP: Checking aperture...
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Memory: 1007504K/1048052K available (5222K kernel code, 947K rwdata, 1836K rodata, 1204K init, 840K bss, 40548K reserved)
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Hierarchical RCU implementation.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] NR_IRQS:33024 nr_irqs:512 16
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] Console: colour VGA+ 80x25
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] console [tty0] enabled
+Jun 13 10:56:49 johnsnow kernel: [    0.000000] tsc: Detected 3500.132 MHz processor
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 7000.26 BogoMIPS (lpj=14000528)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] ACPI: Core revision 20140424
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] ACPI: All ACPI Tables successfully acquired
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Security Framework initialized
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys memory
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys devices
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys freezer
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_cls
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys blkio
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys perf_event
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_prio
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] CPU: Physical Processor ID: 0
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] CPU: Processor Core ID: 0
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] tlb_flushall_shift: 6
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] Freeing SMP alternatives memory: 20K (ffffffff81a1b000 - ffffffff81a20000)
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] ftrace: allocating 21683 entries in 85 pages
+Jun 13 10:56:49 johnsnow kernel: [    0.012152] Enabling x2apic
+Jun 13 10:56:49 johnsnow kernel: [    0.012155] Enabled x2apic
+Jun 13 10:56:49 johnsnow kernel: [    0.012274] Switched APIC routing to physical x2apic.
+Jun 13 10:56:49 johnsnow kernel: [    0.012902] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 13 10:56:49 johnsnow kernel: [    0.012903] smpboot: CPU0: Intel Common KVM processor (fam: 0f, model: 06, stepping: 01)
+Jun 13 10:56:49 johnsnow kernel: [    0.016000] Performance Events: unsupported Netburst CPU model 6 no PMU driver, software events only.
+Jun 13 10:56:49 johnsnow kernel: [    0.016000] x86: Booting SMP configuration:
+Jun 13 10:56:49 johnsnow kernel: [    0.016000] .... node  #0, CPUs:      #1
+Jun 13 10:56:49 johnsnow kernel: [    0.008000] kvm-clock: cpu 1, msr 0:3ffd2041, secondary cpu clock
+Jun 13 10:56:49 johnsnow kernel: [    0.025109] NMI watchdog: disabled (cpu0): hardware events not enabled
+Jun 13 10:56:49 johnsnow kernel: [    0.028028] x86: Booted up 1 node, 2 CPUs
+Jun 13 10:56:49 johnsnow kernel: [    0.028029] smpboot: Total of 2 processors activated (14000.52 BogoMIPS)
+Jun 13 10:56:49 johnsnow kernel: [    0.032002] KVM setup async PF for cpu 1
+Jun 13 10:56:49 johnsnow kernel: [    0.032004] kvm-stealtime: cpu 1, msr 3fd0d080
+Jun 13 10:56:49 johnsnow kernel: [    0.048068] devtmpfs: initialized
+Jun 13 10:56:49 johnsnow kernel: [    0.052847] pinctrl core: initialized pinctrl subsystem
+Jun 13 10:56:49 johnsnow kernel: [    0.056621] NET: Registered protocol family 16
+Jun 13 10:56:49 johnsnow kernel: [    0.056701] cpuidle: using governor ladder
+Jun 13 10:56:49 johnsnow kernel: [    0.056703] cpuidle: using governor menu
+Jun 13 10:56:49 johnsnow kernel: [    0.056753] ACPI: bus type PCI registered
+Jun 13 10:56:49 johnsnow kernel: [    0.056754] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 13 10:56:49 johnsnow kernel: [    0.056859] PCI: Using configuration type 1 for base access
+Jun 13 10:56:49 johnsnow kernel: [    0.096024] ACPI: Added _OSI(Module Device)
+Jun 13 10:56:49 johnsnow kernel: [    0.096026] ACPI: Added _OSI(Processor Device)
+Jun 13 10:56:49 johnsnow kernel: [    0.096027] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 13 10:56:49 johnsnow kernel: [    0.096027] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 13 10:56:49 johnsnow kernel: [    0.098187] ACPI: Interpreter enabled
+Jun 13 10:56:49 johnsnow kernel: [    0.098190] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Jun 13 10:56:49 johnsnow kernel: [    0.098192] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Jun 13 10:56:49 johnsnow kernel: [    0.098198] ACPI: (supports S0 S3 S4 S5)
+Jun 13 10:56:49 johnsnow kernel: [    0.098199] ACPI: Using IOAPIC for interrupt routing
+Jun 13 10:56:49 johnsnow kernel: [    0.098209] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 13 10:56:49 johnsnow kernel: [    0.105025] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 13 10:56:49 johnsnow kernel: [    0.105029] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jun 13 10:56:49 johnsnow kernel: [    0.105032] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jun 13 10:56:49 johnsnow kernel: [    0.105042] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jun 13 10:56:49 johnsnow kernel: [    0.105201] acpiphp: Slot [3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105211] acpiphp: Slot [4] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105220] acpiphp: Slot [5] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105228] acpiphp: Slot [6] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105237] acpiphp: Slot [7] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105246] acpiphp: Slot [8] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105254] acpiphp: Slot [9] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105265] acpiphp: Slot [10] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105274] acpiphp: Slot [11] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105282] acpiphp: Slot [12] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105291] acpiphp: Slot [13] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105299] acpiphp: Slot [14] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.105308] acpiphp: Slot [15] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108003] acpiphp: Slot [16] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108017] acpiphp: Slot [17] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108027] acpiphp: Slot [18] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108036] acpiphp: Slot [19] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108044] acpiphp: Slot [20] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108052] acpiphp: Slot [21] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108061] acpiphp: Slot [22] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108071] acpiphp: Slot [23] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108080] acpiphp: Slot [24] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108091] acpiphp: Slot [25] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108100] acpiphp: Slot [26] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108108] acpiphp: Slot [27] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108116] acpiphp: Slot [28] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108127] acpiphp: Slot [29] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.108142] PCI host bridge to bus 0000:00
+Jun 13 10:56:49 johnsnow kernel: [    0.108144] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 13 10:56:49 johnsnow kernel: [    0.108145] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Jun 13 10:56:49 johnsnow kernel: [    0.108146] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.108146] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.108147] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfebfffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.116774] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jun 13 10:56:49 johnsnow kernel: [    0.116775] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jun 13 10:56:49 johnsnow kernel: [    0.116776] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jun 13 10:56:49 johnsnow kernel: [    0.116776] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jun 13 10:56:49 johnsnow kernel: [    0.121450] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Jun 13 10:56:49 johnsnow kernel: [    0.121455] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Jun 13 10:56:49 johnsnow kernel: [    0.201244] acpiphp: Slot [0] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201256] acpiphp: Slot [1] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201265] acpiphp: Slot [2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201279] acpiphp: Slot [3-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201291] acpiphp: Slot [4-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201302] acpiphp: Slot [5-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201313] acpiphp: Slot [6-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201324] acpiphp: Slot [7-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201335] acpiphp: Slot [8-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201349] acpiphp: Slot [9-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201363] acpiphp: Slot [10-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201376] acpiphp: Slot [11-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201386] acpiphp: Slot [12-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201397] acpiphp: Slot [13-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201407] acpiphp: Slot [14-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201418] acpiphp: Slot [15-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201428] acpiphp: Slot [16-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201440] acpiphp: Slot [17-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201452] acpiphp: Slot [18-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201463] acpiphp: Slot [19-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201479] acpiphp: Slot [20-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201490] acpiphp: Slot [21-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201501] acpiphp: Slot [22-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201513] acpiphp: Slot [23-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201524] acpiphp: Slot [24-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201537] acpiphp: Slot [25-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201548] acpiphp: Slot [26-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201558] acpiphp: Slot [27-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201569] acpiphp: Slot [28-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201579] acpiphp: Slot [29-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201590] acpiphp: Slot [30] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201599] acpiphp: Slot [31] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.201699] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 10:56:49 johnsnow kernel: [    0.204201] acpiphp: Slot [0-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204218] acpiphp: Slot [1-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204231] acpiphp: Slot [2-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204242] acpiphp: Slot [3-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204254] acpiphp: Slot [4-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204265] acpiphp: Slot [5-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204277] acpiphp: Slot [6-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204287] acpiphp: Slot [7-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204300] acpiphp: Slot [8-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204311] acpiphp: Slot [9-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204323] acpiphp: Slot [10-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204334] acpiphp: Slot [11-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204344] acpiphp: Slot [12-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204355] acpiphp: Slot [13-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204367] acpiphp: Slot [14-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204379] acpiphp: Slot [15-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204391] acpiphp: Slot [16-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204401] acpiphp: Slot [17-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204412] acpiphp: Slot [18-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204423] acpiphp: Slot [19-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204436] acpiphp: Slot [20-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204449] acpiphp: Slot [21-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204463] acpiphp: Slot [22-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204474] acpiphp: Slot [23-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204485] acpiphp: Slot [24-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204495] acpiphp: Slot [25-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204507] acpiphp: Slot [26-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204518] acpiphp: Slot [27-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204532] acpiphp: Slot [28-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204543] acpiphp: Slot [29-3] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204555] acpiphp: Slot [30-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204566] acpiphp: Slot [31-2] registered
+Jun 13 10:56:49 johnsnow kernel: [    0.204663] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 10:56:49 johnsnow kernel: [    0.208774] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 13 10:56:49 johnsnow kernel: [    0.208824] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 13 10:56:49 johnsnow kernel: [    0.208862] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 13 10:56:49 johnsnow kernel: [    0.208898] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 13 10:56:49 johnsnow kernel: [    0.208919] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Jun 13 10:56:49 johnsnow kernel: [    0.209097] ACPI: Enabled 16 GPEs in block 00 to 0F
+Jun 13 10:56:49 johnsnow kernel: [    0.209903] vgaarb: setting as boot device: PCI:0000:00:02.0
+Jun 13 10:56:49 johnsnow kernel: [    0.209905] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jun 13 10:56:49 johnsnow kernel: [    0.209906] vgaarb: loaded
+Jun 13 10:56:49 johnsnow kernel: [    0.209907] vgaarb: bridge control possible 0000:00:02.0
+Jun 13 10:56:49 johnsnow kernel: [    0.209980] PCI: Using ACPI for IRQ routing
+Jun 13 10:56:49 johnsnow kernel: [    0.210226] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jun 13 10:56:49 johnsnow kernel: [    0.210235] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jun 13 10:56:49 johnsnow kernel: [    0.210237] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jun 13 10:56:49 johnsnow kernel: [    0.216056] Switched to clocksource kvm-clock
+Jun 13 10:56:49 johnsnow kernel: [    0.224326] pnp: PnP ACPI init
+Jun 13 10:56:49 johnsnow kernel: [    0.224334] ACPI: bus type PNP registered
+Jun 13 10:56:49 johnsnow kernel: [    0.224652] pnp: PnP ACPI: found 4 devices
+Jun 13 10:56:49 johnsnow kernel: [    0.224653] ACPI: bus type PNP unregistered
+Jun 13 10:56:49 johnsnow kernel: [    0.235059] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 10:56:49 johnsnow kernel: [    0.235067] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.235829] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.236342] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.237391] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 10:56:49 johnsnow kernel: [    0.237398] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 10:56:49 johnsnow kernel: [    0.238179] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 10:56:49 johnsnow kernel: [    0.238687] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 10:56:49 johnsnow kernel: [    0.239699] NET: Registered protocol family 2
+Jun 13 10:56:49 johnsnow kernel: [    0.239912] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.239941] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.239981] TCP: Hash tables configured (established 8192 bind 8192)
+Jun 13 10:56:49 johnsnow kernel: [    0.240039] TCP: reno registered
+Jun 13 10:56:49 johnsnow kernel: [    0.240042] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.240049] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.240106] NET: Registered protocol family 1
+Jun 13 10:56:49 johnsnow kernel: [    0.240122] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun 13 10:56:49 johnsnow kernel: [    0.240132] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jun 13 10:56:49 johnsnow kernel: [    0.240140] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun 13 10:56:49 johnsnow kernel: [    0.260571] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Jun 13 10:56:49 johnsnow kernel: [    0.278638] Unpacking initramfs...
+Jun 13 10:56:49 johnsnow kernel: [    0.600575] Freeing initrd memory: 14368K (ffff8800363e0000 - ffff8800371e8000)
+Jun 13 10:56:49 johnsnow kernel: [    0.600749] microcode: CPU0 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 10:56:49 johnsnow kernel: [    0.600757] microcode: CPU1 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 10:56:49 johnsnow kernel: [    0.600801] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Jun 13 10:56:49 johnsnow kernel: [    0.600974] futex hash table entries: 512 (order: 3, 32768 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.601015] audit: initializing netlink subsys (disabled)
+Jun 13 10:56:49 johnsnow kernel: [    0.601031] audit: type=2000 audit(1465808204.959:1): initialized
+Jun 13 10:56:49 johnsnow kernel: [    0.615215] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jun 13 10:56:49 johnsnow kernel: [    0.615231] zbud: loaded
+Jun 13 10:56:49 johnsnow kernel: [    0.618480] VFS: Disk quotas dquot_6.5.2
+Jun 13 10:56:49 johnsnow kernel: [    0.618498] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 13 10:56:49 johnsnow kernel: [    0.618568] msgmni has been set to 1995
+Jun 13 10:56:49 johnsnow kernel: [    0.619262] alg: No test for stdrng (krng)
+Jun 13 10:56:49 johnsnow kernel: [    0.625930] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jun 13 10:56:49 johnsnow kernel: [    0.629258] io scheduler noop registered
+Jun 13 10:56:49 johnsnow kernel: [    0.629260] io scheduler deadline registered
+Jun 13 10:56:49 johnsnow kernel: [    0.637915] io scheduler cfq registered (default)
+Jun 13 10:56:49 johnsnow kernel: [    0.637996] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jun 13 10:56:49 johnsnow kernel: [    0.638005] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jun 13 10:56:49 johnsnow kernel: [    0.638040] GHES: HEST is not enabled!
+Jun 13 10:56:49 johnsnow kernel: [    0.638097] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 13 10:56:49 johnsnow kernel: [    0.638397] Linux agpgart interface v0.103
+Jun 13 10:56:49 johnsnow kernel: [    0.638483] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 13 10:56:49 johnsnow kernel: [    0.638877] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 13 10:56:49 johnsnow kernel: [    0.638881] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 13 10:56:49 johnsnow kernel: [    0.638978] mousedev: PS/2 mouse device common for all mice
+Jun 13 10:56:49 johnsnow kernel: [    0.639107] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jun 13 10:56:49 johnsnow kernel: [    0.639233] rtc_cmos 00:00: RTC can wake from S4
+Jun 13 10:56:49 johnsnow kernel: [    0.639367] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Jun 13 10:56:49 johnsnow kernel: [    0.639452] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+Jun 13 10:56:49 johnsnow kernel: [    0.639464] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 13 10:56:49 johnsnow kernel: [    0.639505] AMD IOMMUv2 driver by Joerg Roedel <joerg.roedel@amd.com>
+Jun 13 10:56:49 johnsnow kernel: [    0.639506] AMD IOMMUv2 functionality not available on this system
+Jun 13 10:56:49 johnsnow kernel: [    0.639558] TCP: cubic registered
+Jun 13 10:56:49 johnsnow kernel: [    0.639614] NET: Registered protocol family 10
+Jun 13 10:56:49 johnsnow kernel: [    0.649985] mip6: Mobile IPv6
+Jun 13 10:56:49 johnsnow kernel: [    0.649988] NET: Registered protocol family 17
+Jun 13 10:56:49 johnsnow kernel: [    0.649993] mpls_gso: MPLS GSO support
+Jun 13 10:56:49 johnsnow kernel: [    0.650186] registered taskstats version 1
+Jun 13 10:56:49 johnsnow kernel: [    0.651354] rtc_cmos 00:00: setting system clock to 2016-06-13 08:56:45 UTC (1465808205)
+Jun 13 10:56:49 johnsnow kernel: [    0.651883] Freeing unused kernel memory: 1204K (ffffffff818ee000 - ffffffff81a1b000)
+Jun 13 10:56:49 johnsnow kernel: [    0.651884] Write protecting the kernel read-only data: 8192k
+Jun 13 10:56:49 johnsnow kernel: [    0.652207] Freeing unused kernel memory: 912K (ffff88000151c000 - ffff880001600000)
+Jun 13 10:56:49 johnsnow kernel: [    0.652472] Freeing unused kernel memory: 212K (ffff8800017cb000 - ffff880001800000)
+Jun 13 10:56:49 johnsnow kernel: [    0.726346] random: systemd-udevd urandom read with 1 bits of entropy available
+Jun 13 10:56:49 johnsnow kernel: [    0.742387] SCSI subsystem initialized
+Jun 13 10:56:49 johnsnow kernel: [    0.751029] ACPI: bus type USB registered
+Jun 13 10:56:49 johnsnow kernel: [    0.751043] usbcore: registered new interface driver usbfs
+Jun 13 10:56:49 johnsnow kernel: [    0.751048] usbcore: registered new interface driver hub
+Jun 13 10:56:49 johnsnow kernel: [    0.768017] usbcore: registered new device driver usb
+Jun 13 10:56:49 johnsnow kernel: [    0.816052] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Jun 13 10:56:49 johnsnow kernel: [    0.826544] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jun 13 10:56:49 johnsnow kernel: [    0.826545] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jun 13 10:56:49 johnsnow kernel: [    0.832460] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 13 10:56:49 johnsnow kernel: [    0.832716] uhci_hcd: USB Universal Host Controller Interface driver
+Jun 13 10:56:49 johnsnow kernel: [    0.885943] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+Jun 13 10:56:49 johnsnow kernel: [    0.956086] FDC 0 is a S82078B
+Jun 13 10:56:49 johnsnow kernel: [    1.209997] e1000 0000:00:12.0 eth0: (PCI:33MHz:32-bit) 32:33:39:39:31:62
+Jun 13 10:56:49 johnsnow kernel: [    1.210002] e1000 0000:00:12.0 eth0: Intel(R) PRO/1000 Network Connection
+Jun 13 10:56:49 johnsnow kernel: [    1.561984] e1000 0000:00:13.0 eth1: (PCI:33MHz:32-bit) 66:61:31:61:61:36
+Jun 13 10:56:49 johnsnow kernel: [    1.561988] e1000 0000:00:13.0 eth1: Intel(R) PRO/1000 Network Connection
+Jun 13 10:56:49 johnsnow kernel: [    1.593788] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Jun 13 10:56:49 johnsnow kernel: [    1.593796] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Jun 13 10:56:49 johnsnow kernel: [    1.593805] uhci_hcd 0000:00:01.2: detected 2 ports
+Jun 13 10:56:49 johnsnow kernel: [    1.593847] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000e080
+Jun 13 10:56:49 johnsnow kernel: [    1.593894] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 13 10:56:49 johnsnow kernel: [    1.593895] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 13 10:56:49 johnsnow kernel: [    1.593896] usb usb1: Product: UHCI Host Controller
+Jun 13 10:56:49 johnsnow kernel: [    1.593897] usb usb1: Manufacturer: Linux 3.16.0-4-amd64 uhci_hcd
+Jun 13 10:56:49 johnsnow kernel: [    1.593897] usb usb1: SerialNumber: 0000:00:01.2
+Jun 13 10:56:49 johnsnow kernel: [    1.593974] hub 1-0:1.0: USB hub found
+Jun 13 10:56:49 johnsnow kernel: [    1.593977] hub 1-0:1.0: 2 ports detected
+Jun 13 10:56:49 johnsnow kernel: [    1.604403] scsi0 : ata_piix
+Jun 13 10:56:49 johnsnow kernel: [    1.613842] scsi1 : ata_piix
+Jun 13 10:56:49 johnsnow kernel: [    1.613870] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xe0e0 irq 14
+Jun 13 10:56:49 johnsnow kernel: [    1.613871] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xe0e8 irq 15
+Jun 13 10:56:49 johnsnow kernel: [    1.623893] tsc: Refined TSC clocksource calibration: 3499.984 MHz
+Jun 13 10:56:49 johnsnow kernel: [    1.635422] ahci 0000:00:07.0: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jun 13 10:56:49 johnsnow kernel: [    1.635424] ahci 0000:00:07.0: flags: ncq only 
+Jun 13 10:56:49 johnsnow kernel: [    1.642429] scsi2 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642512] scsi3 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642580] scsi4 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642638] scsi5 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642704] scsi6 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642770] scsi7 : ahci
+Jun 13 10:56:49 johnsnow kernel: [    1.642825] ata3: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1100 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.642829] ata4: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1180 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.642831] ata5: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1200 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.642834] ata6: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1280 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.642836] ata7: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1300 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.642839] ata8: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1380 irq 40
+Jun 13 10:56:49 johnsnow kernel: [    1.780508] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2
+Jun 13 10:56:49 johnsnow kernel: [    1.788401] ata2.00: ATAPI: QEMU DVD-ROM, 2.4.1, max UDMA/100
+Jun 13 10:56:49 johnsnow kernel: [    1.788659] ata2.00: configured for MWDMA2
+Jun 13 10:56:49 johnsnow kernel: [    1.788990] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.4. PQ: 0 ANSI: 5
+Jun 13 10:56:49 johnsnow kernel: [    1.904024] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Jun 13 10:56:49 johnsnow kernel: [    1.960074] ata4: SATA link down (SStatus 0 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960132] ata5: SATA link down (SStatus 0 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960186] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960240] ata3.00: ATA-7: QEMU HARDDISK, 2.4.1, max UDMA/100
+Jun 13 10:56:49 johnsnow kernel: [    1.960241] ata3.00: 41943040 sectors, multi 16: LBA48 NCQ (depth 31/32)
+Jun 13 10:56:49 johnsnow kernel: [    1.960242] ata3.00: applying bridge limits
+Jun 13 10:56:49 johnsnow kernel: [    1.960288] ata3.00: configured for UDMA/100
+Jun 13 10:56:49 johnsnow kernel: [    1.960380] ata6: SATA link down (SStatus 0 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960430] ata8: SATA link down (SStatus 0 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960479] ata7: SATA link down (SStatus 0 SControl 300)
+Jun 13 10:56:49 johnsnow kernel: [    1.960511] scsi 2:0:0:0: Direct-Access     ATA      QEMU HARDDISK    1    PQ: 0 ANSI: 5
+Jun 13 10:56:49 johnsnow kernel: [    1.996305] sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Jun 13 10:56:49 johnsnow kernel: [    1.996308] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jun 13 10:56:49 johnsnow kernel: [    2.000025] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Jun 13 10:56:49 johnsnow kernel: [    2.000071] scsi 2:0:0:0: Attached scsi generic sg1 type 0
+Jun 13 10:56:49 johnsnow kernel: [    2.036608] sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Jun 13 10:56:49 johnsnow kernel: [    2.036626] sd 2:0:0:0: [sda] Write Protect is off
+Jun 13 10:56:49 johnsnow kernel: [    2.036632] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 13 10:56:49 johnsnow kernel: [    2.041931]  sda: sda1 sda2
+Jun 13 10:56:49 johnsnow kernel: [    2.042074] sd 2:0:0:0: [sda] Attached SCSI disk
+Jun 13 10:56:49 johnsnow kernel: [    2.079064] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Jun 13 10:56:49 johnsnow kernel: [    2.079067] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Jun 13 10:56:49 johnsnow kernel: [    2.079068] usb 1-1: Product: QEMU USB Tablet
+Jun 13 10:56:49 johnsnow kernel: [    2.079068] usb 1-1: Manufacturer: QEMU
+Jun 13 10:56:49 johnsnow kernel: [    2.079071] usb 1-1: SerialNumber: 42
+Jun 13 10:56:49 johnsnow kernel: [    2.094069] hidraw: raw HID events driver (C) Jiri Kosina
+Jun 13 10:56:49 johnsnow kernel: [    2.116149] usbcore: registered new interface driver usbhid
+Jun 13 10:56:49 johnsnow kernel: [    2.116151] usbhid: USB HID core driver
+Jun 13 10:56:49 johnsnow kernel: [    2.133938] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input3
+Jun 13 10:56:49 johnsnow kernel: [    2.134027] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Jun 13 10:56:49 johnsnow kernel: [    2.171941] PM: Starting manual resume from disk
+Jun 13 10:56:49 johnsnow kernel: [    2.330169] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Jun 13 10:56:49 johnsnow kernel: [    2.970000] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input4
+Jun 13 10:56:49 johnsnow kernel: [    2.970004] ACPI: Power Button [PWRF]
+Jun 13 10:56:49 johnsnow kernel: [    3.014342] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jun 13 10:56:49 johnsnow kernel: [    3.024284] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Jun 13 10:56:49 johnsnow kernel: [    3.039389] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Jun 13 10:56:49 johnsnow kernel: [    3.093974] [drm] Initialized drm 1.1.0 20060810
+Jun 13 10:56:49 johnsnow kernel: [    3.098027] ppdev: user-space parallel port driver
+Jun 13 10:56:49 johnsnow kernel: [    3.241990] Adding 975868k swap on /dev/sda1.  Priority:-1 extents:1 across:975868k FS
+Jun 13 10:56:49 johnsnow kernel: [    3.316146] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+Jun 13 10:56:49 johnsnow kernel: [    3.508911] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 13 10:56:49 johnsnow kernel: [    3.524672] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 10:56:49 johnsnow kernel: [    3.524977] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 13 10:56:49 johnsnow kernel: [    3.571154] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Jun 13 10:56:49 johnsnow kernel: [    3.573353] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 10:56:49 johnsnow kernel: [    3.573600] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Jun 13 10:56:49 johnsnow kernel: [    3.645835] random: nonblocking pool is initialized
+Jun 13 10:56:49 johnsnow kernel: [    3.917494] RPC: Registered named UNIX socket transport module.
+Jun 13 10:56:49 johnsnow kernel: [    3.917496] RPC: Registered udp transport module.
+Jun 13 10:56:49 johnsnow kernel: [    3.917497] RPC: Registered tcp transport module.
+Jun 13 10:56:49 johnsnow kernel: [    3.917497] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jun 13 10:56:49 johnsnow kernel: [    3.926350] FS-Cache: Loaded
+Jun 13 10:56:49 johnsnow kernel: [    3.941844] FS-Cache: Netfs 'nfs' registered for caching
+Jun 13 10:56:49 johnsnow kernel: [    3.969110] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jun 13 10:56:49 johnsnow rsyslogd-2007: action 'action 19' suspended, next retry is Mon Jun 13 10:57:19 2016 [try http://www.rsyslog.com/e/2007 ]
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Pacemaker support: false
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Initial dead time accounts for slow network startup time
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 10:56:49 johnsnow heartbeat: [878]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: **************************
+Jun 13 10:56:49 johnsnow heartbeat: [878]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: heartbeat: version 3.0.5
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: Heartbeat generation: 1461585906
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 10:56:49 johnsnow heartbeat: [879]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Local status now set to: 'up'
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Link johnsnow:eth0 up.
+Jun 13 10:56:50 johnsnow heartbeat: [879]: info: Link arya:eth0 up.
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Status update for node arya: status up
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Status update for node arya: status active
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Comm_now_up(): updating status to active
+Jun 13 10:56:51 johnsnow heartbeat: [879]: info: Local status now set to: 'active'
+Jun 13 10:56:51 johnsnow harc(default)[890]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 10:56:51 johnsnow harc(default)[907]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 10:57:01 johnsnow heartbeat: [879]: info: local resource transition completed.
+Jun 13 10:57:01 johnsnow heartbeat: [879]: info: Initial resource acquisition complete (T_RESOURCES(us))
+Jun 13 10:57:01 johnsnow heartbeat: [928]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 10:57:02 johnsnow heartbeat: [879]: info: remote resource transition completed.
+Jun 13 11:01:49 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="531" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jun 13 11:02:54 johnsnow rsyslogd0: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+Jun 13 11:02:54 johnsnow rsyslogd-2359: action 'action 19' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+Jun 13 11:21:17 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:21:17 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1480:1482]
+Jun 13 11:21:17 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:24:51 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:24:51 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1694:1696]
+Jun 13 11:24:51 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:29:21 johnsnow heartbeat: [879]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 11:29:21 johnsnow heartbeat: [879]: WARN: 1 lost packet(s) for [arya] [1964:1966]
+Jun 13 11:29:21 johnsnow heartbeat: [879]: info: No pkts missing from arya!
+Jun 13 11:30:13 johnsnow kernel: [ 2009.391614] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun 13 11:30:13 johnsnow kernel: [ 2009.396197] nf_conntrack version 0.5.0 (8001 buckets, 32004 max)
+Jun 13 11:30:14 johnsnow kernel: [ 2009.581192] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 13 11:30:14 johnsnow kernel: [ 2009.620142] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Jun 13 11:30:16 johnsnow kernel: [ 2011.588482] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 11:30:16 johnsnow kernel: [ 2011.588778] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 13 11:30:16 johnsnow kernel: [ 2011.624441] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 11:30:16 johnsnow kernel: [ 2011.624660] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Received shutdown notice from 'arya'.
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Resources being acquired from arya.
+Jun 13 11:31:47 johnsnow heartbeat: [2281]: info: acquire local HA resources (standby).
+Jun 13 11:31:47 johnsnow heartbeat: [2282]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 11:31:47 johnsnow heartbeat: [2281]: info: local HA resource acquisition completed (standby).
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: Standby resource acquisition done [all].
+Jun 13 11:31:47 johnsnow harc(default)[2307]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 11:31:47 johnsnow mach_down(default)[2322]: info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+Jun 13 11:31:47 johnsnow ResourceManager(default)[2347]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 11:31:47 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[2375]: INFO:  Resource is stopped
+Jun 13 11:31:47 johnsnow ResourceManager(default)[2347]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+Jun 13 11:31:47 johnsnow IPaddr(IPaddr_192.168.1.215)[2456]: INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+Jun 13 11:31:47 johnsnow IPaddr(IPaddr_192.168.1.215)[2456]: INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+Jun 13 11:31:47 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[2432]: INFO:  Success
+Jun 13 11:31:47 johnsnow ResourceManager(default)[2347]: info: Running /etc/init.d/haproxy  start
+Jun 13 11:31:47 johnsnow mach_down(default)[2322]: info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+Jun 13 11:31:47 johnsnow mach_down(default)[2322]: info: mach_down takeover complete for node arya.
+Jun 13 11:31:47 johnsnow heartbeat: [879]: info: mach_down takeover complete.
+Jun 13 11:31:53 johnsnow heartbeat: [879]: WARN: node arya: is dead
+Jun 13 11:31:53 johnsnow heartbeat: [879]: info: Dead node arya gave up resources.
+Jun 13 11:31:53 johnsnow heartbeat: [879]: info: Link arya:eth0 dead.
+Jun 13 11:31:55 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="531" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jun 13 11:32:10 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="496" x-info="http://www.rsyslog.com"] start
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpu
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) ) #1 SMP Debian 3.16.7-ckt25-2 (2016-04-08)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffdefff] usable
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000003ffdf000-0x000000003fffffff] reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] SMBIOS 0.8 present.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Hypervisor detected: KVM
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] e820: last_pfn = 0x3ffdf max_arch_pfn = 0x400000000
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] found SMP MP-table at [mem 0x000f6490-0x000f649f] mapped at [ffff8800000f6490]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fc00000-0x3fdfffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3c000000-0x3fbfffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x3bffffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fe00000-0x3ffdefff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] RAMDISK: [mem 0x363e0000-0x371e7fff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: RSDP 0x00000000000F62A0 000014 (v00 BOCHS )
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: RSDT 0x000000003FFE2581 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: FACP 0x000000003FFE0BDA 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: DSDT 0x000000003FFE0040 000B9A (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: FACS 0x000000003FFE0000 000040
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: SSDT 0x000000003FFE0C4E 00187B (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: APIC 0x000000003FFE24C9 000080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: HPET 0x000000003FFE2549 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] No NUMA configuration found
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffdefff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x3ffdefff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   NODE_DATA [mem 0x3ffda000-0x3ffdefff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ffd2001, primary cpu clock
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Zone ranges:
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   Normal   empty
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Movable zone start for each node
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Early memory node ranges
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000]   node   0: [mem 0x00100000-0x3ffdefff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x608
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] e820: [mem 0x40000000-0xfeffbfff] available for PCI devices
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:2 nr_node_ids:1
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88003fc00000 s80896 r8192 d21504 u1048576
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] KVM setup async PF for cpu 0
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] kvm-stealtime: cpu 0, msr 3fc0d080
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258408
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Policy zone: DMA32
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] AGP: Checking aperture...
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Memory: 1007504K/1048052K available (5222K kernel code, 947K rwdata, 1836K rodata, 1204K init, 840K bss, 40548K reserved)
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Hierarchical RCU implementation.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] NR_IRQS:33024 nr_irqs:512 16
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] Console: colour VGA+ 80x25
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] console [tty0] enabled
+Jun 13 11:32:10 johnsnow kernel: [    0.000000] tsc: Detected 3500.132 MHz processor
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 7000.26 BogoMIPS (lpj=14000528)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] ACPI: Core revision 20140424
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] ACPI: All ACPI Tables successfully acquired
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Security Framework initialized
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys memory
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys devices
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys freezer
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_cls
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys blkio
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys perf_event
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_prio
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] CPU: Physical Processor ID: 0
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] CPU: Processor Core ID: 0
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] tlb_flushall_shift: 6
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] Freeing SMP alternatives memory: 20K (ffffffff81a1b000 - ffffffff81a20000)
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] ftrace: allocating 21683 entries in 85 pages
+Jun 13 11:32:10 johnsnow kernel: [    0.012144] Enabling x2apic
+Jun 13 11:32:10 johnsnow kernel: [    0.012147] Enabled x2apic
+Jun 13 11:32:10 johnsnow kernel: [    0.012266] Switched APIC routing to physical x2apic.
+Jun 13 11:32:10 johnsnow kernel: [    0.012879] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 13 11:32:10 johnsnow kernel: [    0.012880] smpboot: CPU0: Intel Common KVM processor (fam: 0f, model: 06, stepping: 01)
+Jun 13 11:32:10 johnsnow kernel: [    0.016000] Performance Events: unsupported Netburst CPU model 6 no PMU driver, software events only.
+Jun 13 11:32:10 johnsnow kernel: [    0.016000] x86: Booting SMP configuration:
+Jun 13 11:32:10 johnsnow kernel: [    0.016000] .... node  #0, CPUs:      #1
+Jun 13 11:32:10 johnsnow kernel: [    0.008000] kvm-clock: cpu 1, msr 0:3ffd2041, secondary cpu clock
+Jun 13 11:32:10 johnsnow kernel: [    0.024178] NMI watchdog: disabled (cpu0): hardware events not enabled
+Jun 13 11:32:10 johnsnow kernel: [    0.026201] x86: Booted up 1 node, 2 CPUs
+Jun 13 11:32:10 johnsnow kernel: [    0.026202] smpboot: Total of 2 processors activated (14000.52 BogoMIPS)
+Jun 13 11:32:10 johnsnow kernel: [    0.026192] KVM setup async PF for cpu 1
+Jun 13 11:32:10 johnsnow kernel: [    0.026192] kvm-stealtime: cpu 1, msr 3fd0d080
+Jun 13 11:32:10 johnsnow kernel: [    0.026406] devtmpfs: initialized
+Jun 13 11:32:10 johnsnow kernel: [    0.028514] pinctrl core: initialized pinctrl subsystem
+Jun 13 11:32:10 johnsnow kernel: [    0.028589] NET: Registered protocol family 16
+Jun 13 11:32:10 johnsnow kernel: [    0.028671] cpuidle: using governor ladder
+Jun 13 11:32:10 johnsnow kernel: [    0.028672] cpuidle: using governor menu
+Jun 13 11:32:10 johnsnow kernel: [    0.028741] ACPI: bus type PCI registered
+Jun 13 11:32:10 johnsnow kernel: [    0.028742] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 13 11:32:10 johnsnow kernel: [    0.028860] PCI: Using configuration type 1 for base access
+Jun 13 11:32:10 johnsnow kernel: [    0.040157] ACPI: Added _OSI(Module Device)
+Jun 13 11:32:10 johnsnow kernel: [    0.040157] ACPI: Added _OSI(Processor Device)
+Jun 13 11:32:10 johnsnow kernel: [    0.040157] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 13 11:32:10 johnsnow kernel: [    0.040157] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 13 11:32:10 johnsnow kernel: [    0.040896] ACPI: Interpreter enabled
+Jun 13 11:32:10 johnsnow kernel: [    0.040899] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Jun 13 11:32:10 johnsnow kernel: [    0.040901] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Jun 13 11:32:10 johnsnow kernel: [    0.040906] ACPI: (supports S0 S3 S4 S5)
+Jun 13 11:32:10 johnsnow kernel: [    0.040907] ACPI: Using IOAPIC for interrupt routing
+Jun 13 11:32:10 johnsnow kernel: [    0.040915] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 13 11:32:10 johnsnow kernel: [    0.044290] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 13 11:32:10 johnsnow kernel: [    0.044293] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jun 13 11:32:10 johnsnow kernel: [    0.044295] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jun 13 11:32:10 johnsnow kernel: [    0.044307] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jun 13 11:32:10 johnsnow kernel: [    0.044470] acpiphp: Slot [3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044480] acpiphp: Slot [4] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044489] acpiphp: Slot [5] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044497] acpiphp: Slot [6] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044505] acpiphp: Slot [7] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044514] acpiphp: Slot [8] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044522] acpiphp: Slot [9] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044534] acpiphp: Slot [10] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044543] acpiphp: Slot [11] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044551] acpiphp: Slot [12] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044560] acpiphp: Slot [13] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044568] acpiphp: Slot [14] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044576] acpiphp: Slot [15] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044585] acpiphp: Slot [16] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044600] acpiphp: Slot [17] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044609] acpiphp: Slot [18] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044618] acpiphp: Slot [19] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044626] acpiphp: Slot [20] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044634] acpiphp: Slot [21] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044643] acpiphp: Slot [22] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044654] acpiphp: Slot [23] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044663] acpiphp: Slot [24] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044675] acpiphp: Slot [25] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044684] acpiphp: Slot [26] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044693] acpiphp: Slot [27] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044701] acpiphp: Slot [28] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044713] acpiphp: Slot [29] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.044728] PCI host bridge to bus 0000:00
+Jun 13 11:32:10 johnsnow kernel: [    0.044730] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 13 11:32:10 johnsnow kernel: [    0.044731] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Jun 13 11:32:10 johnsnow kernel: [    0.044732] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.044732] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.044733] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfebfffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.048496] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jun 13 11:32:10 johnsnow kernel: [    0.048498] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jun 13 11:32:10 johnsnow kernel: [    0.048498] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jun 13 11:32:10 johnsnow kernel: [    0.048499] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jun 13 11:32:10 johnsnow kernel: [    0.052254] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Jun 13 11:32:10 johnsnow kernel: [    0.052258] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Jun 13 11:32:10 johnsnow kernel: [    0.095301] acpiphp: Slot [0] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095313] acpiphp: Slot [1] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095322] acpiphp: Slot [2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095338] acpiphp: Slot [3-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095349] acpiphp: Slot [4-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095361] acpiphp: Slot [5-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095372] acpiphp: Slot [6-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095383] acpiphp: Slot [7-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095393] acpiphp: Slot [8-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095409] acpiphp: Slot [9-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095424] acpiphp: Slot [10-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095437] acpiphp: Slot [11-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095447] acpiphp: Slot [12-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095458] acpiphp: Slot [13-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095468] acpiphp: Slot [14-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095478] acpiphp: Slot [15-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095489] acpiphp: Slot [16-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095503] acpiphp: Slot [17-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095514] acpiphp: Slot [18-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095525] acpiphp: Slot [19-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095542] acpiphp: Slot [20-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095554] acpiphp: Slot [21-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095564] acpiphp: Slot [22-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095579] acpiphp: Slot [23-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095590] acpiphp: Slot [24-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095604] acpiphp: Slot [25-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.095615] acpiphp: Slot [26-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096005] acpiphp: Slot [27-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096017] acpiphp: Slot [28-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096027] acpiphp: Slot [29-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096038] acpiphp: Slot [30] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096047] acpiphp: Slot [31] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096148] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 11:32:10 johnsnow kernel: [    0.096951] acpiphp: Slot [0-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096968] acpiphp: Slot [1-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096981] acpiphp: Slot [2-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.096992] acpiphp: Slot [3-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097003] acpiphp: Slot [4-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097014] acpiphp: Slot [5-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097025] acpiphp: Slot [6-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097036] acpiphp: Slot [7-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097050] acpiphp: Slot [8-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097061] acpiphp: Slot [9-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097073] acpiphp: Slot [10-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097083] acpiphp: Slot [11-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097094] acpiphp: Slot [12-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097104] acpiphp: Slot [13-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097116] acpiphp: Slot [14-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097130] acpiphp: Slot [15-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097142] acpiphp: Slot [16-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097152] acpiphp: Slot [17-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097163] acpiphp: Slot [18-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097174] acpiphp: Slot [19-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097186] acpiphp: Slot [20-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097201] acpiphp: Slot [21-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097214] acpiphp: Slot [22-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097225] acpiphp: Slot [23-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097236] acpiphp: Slot [24-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097246] acpiphp: Slot [25-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097258] acpiphp: Slot [26-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097269] acpiphp: Slot [27-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097284] acpiphp: Slot [28-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097296] acpiphp: Slot [29-3] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097308] acpiphp: Slot [30-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097319] acpiphp: Slot [31-2] registered
+Jun 13 11:32:10 johnsnow kernel: [    0.097417] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 11:32:10 johnsnow kernel: [    0.098912] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 13 11:32:10 johnsnow kernel: [    0.098960] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 13 11:32:10 johnsnow kernel: [    0.098999] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 13 11:32:10 johnsnow kernel: [    0.099036] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 13 11:32:10 johnsnow kernel: [    0.099056] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Jun 13 11:32:10 johnsnow kernel: [    0.099232] ACPI: Enabled 16 GPEs in block 00 to 0F
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] vgaarb: setting as boot device: PCI:0000:00:02.0
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] vgaarb: loaded
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] vgaarb: bridge control possible 0000:00:02.0
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] PCI: Using ACPI for IRQ routing
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jun 13 11:32:10 johnsnow kernel: [    0.099377] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jun 13 11:32:10 johnsnow kernel: [    0.106091] Switched to clocksource kvm-clock
+Jun 13 11:32:10 johnsnow kernel: [    0.108087] pnp: PnP ACPI init
+Jun 13 11:32:10 johnsnow kernel: [    0.108094] ACPI: bus type PNP registered
+Jun 13 11:32:10 johnsnow kernel: [    0.108389] pnp: PnP ACPI: found 4 devices
+Jun 13 11:32:10 johnsnow kernel: [    0.108390] ACPI: bus type PNP unregistered
+Jun 13 11:32:10 johnsnow kernel: [    0.115914] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 11:32:10 johnsnow kernel: [    0.115921] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.116628] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.117091] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.118096] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 11:32:10 johnsnow kernel: [    0.118102] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 11:32:10 johnsnow kernel: [    0.118796] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 11:32:10 johnsnow kernel: [    0.119282] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 11:32:10 johnsnow kernel: [    0.120316] NET: Registered protocol family 2
+Jun 13 11:32:10 johnsnow kernel: [    0.120536] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.120559] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.120624] TCP: Hash tables configured (established 8192 bind 8192)
+Jun 13 11:32:10 johnsnow kernel: [    0.120707] TCP: reno registered
+Jun 13 11:32:10 johnsnow kernel: [    0.120710] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.120715] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.120773] NET: Registered protocol family 1
+Jun 13 11:32:10 johnsnow kernel: [    0.120789] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun 13 11:32:10 johnsnow kernel: [    0.120799] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jun 13 11:32:10 johnsnow kernel: [    0.120808] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun 13 11:32:10 johnsnow kernel: [    0.134511] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Jun 13 11:32:10 johnsnow kernel: [    0.148429] Unpacking initramfs...
+Jun 13 11:32:10 johnsnow kernel: [    0.314904] Freeing initrd memory: 14368K (ffff8800363e0000 - ffff8800371e8000)
+Jun 13 11:32:10 johnsnow kernel: [    0.315094] microcode: CPU0 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 11:32:10 johnsnow kernel: [    0.315118] microcode: CPU1 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 11:32:10 johnsnow kernel: [    0.315171] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Jun 13 11:32:10 johnsnow kernel: [    0.315337] futex hash table entries: 512 (order: 3, 32768 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.315382] audit: initializing netlink subsys (disabled)
+Jun 13 11:32:10 johnsnow kernel: [    0.315401] audit: type=2000 audit(1465810328.208:1): initialized
+Jun 13 11:32:10 johnsnow kernel: [    0.315639] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jun 13 11:32:10 johnsnow kernel: [    0.315654] zbud: loaded
+Jun 13 11:32:10 johnsnow kernel: [    0.315817] VFS: Disk quotas dquot_6.5.2
+Jun 13 11:32:10 johnsnow kernel: [    0.315836] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 13 11:32:10 johnsnow kernel: [    0.315878] msgmni has been set to 1995
+Jun 13 11:32:10 johnsnow kernel: [    0.316091] alg: No test for stdrng (krng)
+Jun 13 11:32:10 johnsnow kernel: [    0.316106] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jun 13 11:32:10 johnsnow kernel: [    0.316138] io scheduler noop registered
+Jun 13 11:32:10 johnsnow kernel: [    0.316140] io scheduler deadline registered
+Jun 13 11:32:10 johnsnow kernel: [    0.316162] io scheduler cfq registered (default)
+Jun 13 11:32:10 johnsnow kernel: [    0.316222] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jun 13 11:32:10 johnsnow kernel: [    0.316230] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jun 13 11:32:10 johnsnow kernel: [    0.316264] GHES: HEST is not enabled!
+Jun 13 11:32:10 johnsnow kernel: [    0.316301] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 13 11:32:10 johnsnow kernel: [    0.316547] Linux agpgart interface v0.103
+Jun 13 11:32:10 johnsnow kernel: [    0.316636] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 13 11:32:10 johnsnow kernel: [    0.317029] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 13 11:32:10 johnsnow kernel: [    0.317032] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 13 11:32:10 johnsnow kernel: [    0.317111] mousedev: PS/2 mouse device common for all mice
+Jun 13 11:32:10 johnsnow kernel: [    0.317152] rtc_cmos 00:00: RTC can wake from S4
+Jun 13 11:32:10 johnsnow kernel: [    0.317293] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Jun 13 11:32:10 johnsnow kernel: [    0.317356] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+Jun 13 11:32:10 johnsnow kernel: [    0.317367] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 13 11:32:10 johnsnow kernel: [    0.317406] AMD IOMMUv2 driver by Joerg Roedel <joerg.roedel@amd.com>
+Jun 13 11:32:10 johnsnow kernel: [    0.317407] AMD IOMMUv2 functionality not available on this system
+Jun 13 11:32:10 johnsnow kernel: [    0.317457] TCP: cubic registered
+Jun 13 11:32:10 johnsnow kernel: [    0.317505] NET: Registered protocol family 10
+Jun 13 11:32:10 johnsnow kernel: [    0.317665] mip6: Mobile IPv6
+Jun 13 11:32:10 johnsnow kernel: [    0.317668] NET: Registered protocol family 17
+Jun 13 11:32:10 johnsnow kernel: [    0.317673] mpls_gso: MPLS GSO support
+Jun 13 11:32:10 johnsnow kernel: [    0.317888] registered taskstats version 1
+Jun 13 11:32:10 johnsnow kernel: [    0.318122] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jun 13 11:32:10 johnsnow kernel: [    0.318201] rtc_cmos 00:00: setting system clock to 2016-06-13 09:32:08 UTC (1465810328)
+Jun 13 11:32:10 johnsnow kernel: [    0.318719] Freeing unused kernel memory: 1204K (ffffffff818ee000 - ffffffff81a1b000)
+Jun 13 11:32:10 johnsnow kernel: [    0.318720] Write protecting the kernel read-only data: 8192k
+Jun 13 11:32:10 johnsnow kernel: [    0.319034] Freeing unused kernel memory: 912K (ffff88000151c000 - ffff880001600000)
+Jun 13 11:32:10 johnsnow kernel: [    0.319305] Freeing unused kernel memory: 212K (ffff8800017cb000 - ffff880001800000)
+Jun 13 11:32:10 johnsnow kernel: [    0.324757] random: systemd-udevd urandom read with 1 bits of entropy available
+Jun 13 11:32:10 johnsnow kernel: [    0.329028] SCSI subsystem initialized
+Jun 13 11:32:10 johnsnow kernel: [    0.333011] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jun 13 11:32:10 johnsnow kernel: [    0.333013] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jun 13 11:32:10 johnsnow kernel: [    0.338473] ACPI: bus type USB registered
+Jun 13 11:32:10 johnsnow kernel: [    0.338488] usbcore: registered new interface driver usbfs
+Jun 13 11:32:10 johnsnow kernel: [    0.338493] usbcore: registered new interface driver hub
+Jun 13 11:32:10 johnsnow kernel: [    0.340467] usbcore: registered new device driver usb
+Jun 13 11:32:10 johnsnow kernel: [    0.340710] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 13 11:32:10 johnsnow kernel: [    0.340871] uhci_hcd: USB Universal Host Controller Interface driver
+Jun 13 11:32:10 johnsnow kernel: [    0.349708] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Jun 13 11:32:10 johnsnow kernel: [    0.350088] ahci 0000:00:07.0: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jun 13 11:32:10 johnsnow kernel: [    0.350090] ahci 0000:00:07.0: flags: ncq only 
+Jun 13 11:32:10 johnsnow kernel: [    0.352018] scsi0 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352072] scsi1 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352107] scsi2 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352204] scsi3 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352270] scsi4 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352333] scsi5 : ahci
+Jun 13 11:32:10 johnsnow kernel: [    0.352367] ata1: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1100 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.352370] ata2: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1180 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.352373] ata3: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1200 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.352375] ata4: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1280 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.352378] ata5: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1300 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.352380] ata6: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1380 irq 40
+Jun 13 11:32:10 johnsnow kernel: [    0.356432] FDC 0 is a S82078B
+Jun 13 11:32:10 johnsnow kernel: [    0.366266] scsi6 : ata_piix
+Jun 13 11:32:10 johnsnow kernel: [    0.366343] scsi7 : ata_piix
+Jun 13 11:32:10 johnsnow kernel: [    0.366366] ata7: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xe0e0 irq 14
+Jun 13 11:32:10 johnsnow kernel: [    0.366367] ata8: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xe0e8 irq 15
+Jun 13 11:32:10 johnsnow kernel: [    0.378982] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+Jun 13 11:32:10 johnsnow kernel: [    0.528387] ata8.00: ATAPI: QEMU DVD-ROM, 2.4.1, max UDMA/100
+Jun 13 11:32:10 johnsnow kernel: [    0.528642] ata8.00: configured for MWDMA2
+Jun 13 11:32:10 johnsnow kernel: [    0.676076] ata2: SATA link down (SStatus 0 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676128] ata3: SATA link down (SStatus 0 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676182] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676213] ata1.00: ATA-7: QEMU HARDDISK, 2.4.1, max UDMA/100
+Jun 13 11:32:10 johnsnow kernel: [    0.676214] ata1.00: 41943040 sectors, multi 16: LBA48 NCQ (depth 31/32)
+Jun 13 11:32:10 johnsnow kernel: [    0.676215] ata1.00: applying bridge limits
+Jun 13 11:32:10 johnsnow kernel: [    0.676255] ata1.00: configured for UDMA/100
+Jun 13 11:32:10 johnsnow kernel: [    0.676344] ata6: SATA link down (SStatus 0 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676364] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    1    PQ: 0 ANSI: 5
+Jun 13 11:32:10 johnsnow kernel: [    0.676407] ata5: SATA link down (SStatus 0 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676455] ata4: SATA link down (SStatus 0 SControl 300)
+Jun 13 11:32:10 johnsnow kernel: [    0.676774] scsi 7:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.4. PQ: 0 ANSI: 5
+Jun 13 11:32:10 johnsnow kernel: [    0.678086] e1000 0000:00:12.0 eth0: (PCI:33MHz:32-bit) 32:33:39:39:31:62
+Jun 13 11:32:10 johnsnow kernel: [    0.678089] e1000 0000:00:12.0 eth0: Intel(R) PRO/1000 Network Connection
+Jun 13 11:32:10 johnsnow kernel: [    0.688724] sd 0:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Jun 13 11:32:10 johnsnow kernel: [    0.688814] sd 0:0:0:0: [sda] Write Protect is off
+Jun 13 11:32:10 johnsnow kernel: [    0.688821] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 13 11:32:10 johnsnow kernel: [    0.690139]  sda: sda1 sda2
+Jun 13 11:32:10 johnsnow kernel: [    0.690287] sd 0:0:0:0: [sda] Attached SCSI disk
+Jun 13 11:32:10 johnsnow kernel: [    0.690557] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jun 13 11:32:10 johnsnow kernel: [    0.690591] scsi 7:0:0:0: Attached scsi generic sg1 type 5
+Jun 13 11:32:10 johnsnow kernel: [    0.994070] e1000 0000:00:13.0 eth1: (PCI:33MHz:32-bit) 66:61:31:61:61:36
+Jun 13 11:32:10 johnsnow kernel: [    0.994073] e1000 0000:00:13.0 eth1: Intel(R) PRO/1000 Network Connection
+Jun 13 11:32:10 johnsnow kernel: [    1.007260] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Jun 13 11:32:10 johnsnow kernel: [    1.007266] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Jun 13 11:32:10 johnsnow kernel: [    1.007275] uhci_hcd 0000:00:01.2: detected 2 ports
+Jun 13 11:32:10 johnsnow kernel: [    1.007318] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000e080
+Jun 13 11:32:10 johnsnow kernel: [    1.007359] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 13 11:32:10 johnsnow kernel: [    1.007360] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 13 11:32:10 johnsnow kernel: [    1.007361] usb usb1: Product: UHCI Host Controller
+Jun 13 11:32:10 johnsnow kernel: [    1.007362] usb usb1: Manufacturer: Linux 3.16.0-4-amd64 uhci_hcd
+Jun 13 11:32:10 johnsnow kernel: [    1.007362] usb usb1: SerialNumber: 0000:00:01.2
+Jun 13 11:32:10 johnsnow kernel: [    1.007432] hub 1-0:1.0: USB hub found
+Jun 13 11:32:10 johnsnow kernel: [    1.007435] hub 1-0:1.0: 2 ports detected
+Jun 13 11:32:10 johnsnow kernel: [    1.016305] sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Jun 13 11:32:10 johnsnow kernel: [    1.016306] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jun 13 11:32:10 johnsnow kernel: [    1.075913] PM: Starting manual resume from disk
+Jun 13 11:32:10 johnsnow kernel: [    1.118555] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Jun 13 11:32:10 johnsnow kernel: [    1.180500] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2
+Jun 13 11:32:10 johnsnow kernel: [    1.297039] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+Jun 13 11:32:10 johnsnow kernel: [    1.297042] ACPI: Power Button [PWRF]
+Jun 13 11:32:10 johnsnow kernel: [    1.316024] tsc: Refined TSC clocksource calibration: 3500.003 MHz
+Jun 13 11:32:10 johnsnow kernel: [    1.324015] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Jun 13 11:32:10 johnsnow kernel: [    1.365190] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jun 13 11:32:10 johnsnow kernel: [    1.382536] input: PC Speaker as /devices/platform/pcspkr/input/input4
+Jun 13 11:32:10 johnsnow kernel: [    1.391231] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Jun 13 11:32:10 johnsnow kernel: [    1.393457] [drm] Initialized drm 1.1.0 20060810
+Jun 13 11:32:10 johnsnow kernel: [    1.402365] ppdev: user-space parallel port driver
+Jun 13 11:32:10 johnsnow kernel: [    1.467723] Adding 975868k swap on /dev/sda1.  Priority:-1 extents:1 across:975868k FS
+Jun 13 11:32:10 johnsnow kernel: [    1.484107] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Jun 13 11:32:10 johnsnow kernel: [    1.484109] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Jun 13 11:32:10 johnsnow kernel: [    1.484110] usb 1-1: Product: QEMU USB Tablet
+Jun 13 11:32:10 johnsnow kernel: [    1.484111] usb 1-1: Manufacturer: QEMU
+Jun 13 11:32:10 johnsnow kernel: [    1.484111] usb 1-1: SerialNumber: 42
+Jun 13 11:32:10 johnsnow kernel: [    1.499542] hidraw: raw HID events driver (C) Jiri Kosina
+Jun 13 11:32:10 johnsnow kernel: [    1.503487] usbcore: registered new interface driver usbhid
+Jun 13 11:32:10 johnsnow kernel: [    1.503489] usbhid: USB HID core driver
+Jun 13 11:32:10 johnsnow kernel: [    1.504466] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+Jun 13 11:32:10 johnsnow kernel: [    1.504519] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Jun 13 11:32:10 johnsnow kernel: [    1.532231] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+Jun 13 11:32:10 johnsnow kernel: [    1.634678] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 13 11:32:10 johnsnow kernel: [    1.636416] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 11:32:10 johnsnow kernel: [    1.636661] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 13 11:32:10 johnsnow kernel: [    1.648545] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 11:32:10 johnsnow kernel: [    1.649180] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Jun 13 11:32:10 johnsnow kernel: [    1.649184] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Jun 13 11:32:10 johnsnow kernel: [    1.730174] RPC: Registered named UNIX socket transport module.
+Jun 13 11:32:10 johnsnow kernel: [    1.730176] RPC: Registered udp transport module.
+Jun 13 11:32:10 johnsnow kernel: [    1.730177] RPC: Registered tcp transport module.
+Jun 13 11:32:10 johnsnow kernel: [    1.730177] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jun 13 11:32:10 johnsnow kernel: [    1.732354] FS-Cache: Loaded
+Jun 13 11:32:10 johnsnow kernel: [    1.736963] FS-Cache: Netfs 'nfs' registered for caching
+Jun 13 11:32:10 johnsnow kernel: [    1.742566] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jun 13 11:32:10 johnsnow rsyslogd-2007: action 'action 19' suspended, next retry is Mon Jun 13 11:32:40 2016 [try http://www.rsyslog.com/e/2007 ]
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Pacemaker support: false
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Initial dead time accounts for slow network startup time
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 11:32:10 johnsnow heartbeat: [888]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: **************************
+Jun 13 11:32:10 johnsnow heartbeat: [888]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: heartbeat: version 3.0.5
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Heartbeat generation: 1461585907
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 11:32:10 johnsnow kernel: [    2.172773] random: nonblocking pool is initialized
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Local status now set to: 'up'
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Link johnsnow:eth0 up.
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Link arya:eth0 up.
+Jun 13 11:32:10 johnsnow heartbeat: [892]: info: Status update for node arya: status active
+Jun 13 11:32:10 johnsnow harc(default)[911]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 11:32:11 johnsnow heartbeat: [892]: info: Comm_now_up(): updating status to active
+Jun 13 11:32:11 johnsnow heartbeat: [892]: info: Local status now set to: 'active'
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: Local Resource acquisition completed. (none)
+Jun 13 11:32:17 johnsnow heartbeat: [892]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Received shutdown notice from 'arya'.
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Resources being acquired from arya.
+Jun 13 14:03:08 johnsnow heartbeat: [4668]: info: acquire all HA resources (standby).
+Jun 13 14:03:08 johnsnow heartbeat: [4669]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 14:03:08 johnsnow ResourceManager(default)[4695]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 14:03:08 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4722]: INFO:  Resource is stopped
+Jun 13 14:03:08 johnsnow ResourceManager(default)[4695]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+Jun 13 14:03:08 johnsnow IPaddr(IPaddr_192.168.1.215)[4803]: INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+Jun 13 14:03:08 johnsnow IPaddr(IPaddr_192.168.1.215)[4803]: INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+Jun 13 14:03:08 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4779]: INFO:  Success
+Jun 13 14:03:08 johnsnow ResourceManager(default)[4695]: info: Running /etc/init.d/haproxy  start
+Jun 13 14:03:08 johnsnow heartbeat: [4668]: info: all HA resource acquisition completed (standby).
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: Standby resource acquisition done [all].
+Jun 13 14:03:08 johnsnow harc(default)[4920]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:08 johnsnow mach_down(default)[4935]: info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+Jun 13 14:03:08 johnsnow ResourceManager(default)[4960]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 14:03:08 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4988]: INFO:  Running OK
+Jun 13 14:03:08 johnsnow mach_down(default)[4935]: info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+Jun 13 14:03:08 johnsnow mach_down(default)[4935]: info: mach_down takeover complete for node arya.
+Jun 13 14:03:08 johnsnow heartbeat: [892]: info: mach_down takeover complete.
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Heartbeat restart on node arya
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Status update for node arya: status init
+Jun 13 14:03:11 johnsnow heartbeat: [892]: info: Status update for node arya: status up
+Jun 13 14:03:11 johnsnow harc(default)[5061]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:11 johnsnow harc(default)[5076]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:12 johnsnow heartbeat: [892]: info: Status update for node arya: status active
+Jun 13 14:03:12 johnsnow harc(default)[5091]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:03:13 johnsnow heartbeat: [892]: info: remote resource transition completed.
+Jun 13 14:07:45 johnsnow heartbeat: [892]: info: Heartbeat shutdown in progress. (892)
+Jun 13 14:07:45 johnsnow heartbeat: [5230]: info: Giving up all HA resources.
+Jun 13 14:07:45 johnsnow ResourceManager(default)[5245]: info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 14:07:45 johnsnow ResourceManager(default)[5245]: info: Running /etc/init.d/haproxy  stop
+Jun 13 14:07:45 johnsnow ResourceManager(default)[5245]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+Jun 13 14:07:45 johnsnow IPaddr(IPaddr_192.168.1.215)[5325]: INFO: ifconfig eth0:0 down
+Jun 13 14:07:45 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5301]: INFO:  Success
+Jun 13 14:07:45 johnsnow heartbeat: [5230]: info: All HA resources relinquished.
+Jun 13 14:07:46 johnsnow heartbeat: [892]: WARN: 1 lost packet(s) for [arya] [285:287]
+Jun 13 14:07:46 johnsnow heartbeat: [892]: info: No pkts missing from arya!
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBFIFO process 899 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBWRITE process 900 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBREAD process 901 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBWRITE process 902 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: killing HBREAD process 903 with signal 15
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 900 exited. 5 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 903 exited. 4 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 899 exited. 3 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 902 exited. 2 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: Core process 901 exited. 1 remaining
+Jun 13 14:07:47 johnsnow heartbeat: [892]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Pacemaker support: false
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Initial dead time accounts for slow network startup time
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: **************************
+Jun 13 14:07:48 johnsnow heartbeat: [5457]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: heartbeat: version 3.0.5
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Heartbeat generation: 1461585908
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Local status now set to: 'up'
+Jun 13 14:07:48 johnsnow heartbeat: [5458]: info: Link johnsnow:eth0 up.
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Link arya:eth0 up.
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Status update for node arya: status active
+Jun 13 14:07:49 johnsnow harc(default)[5485]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Comm_now_up(): updating status to active
+Jun 13 14:07:49 johnsnow heartbeat: [5458]: info: Local status now set to: 'active'
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: remote resource transition completed.
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: remote resource transition completed.
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: Local Resource acquisition completed. (none)
+Jun 13 14:07:50 johnsnow heartbeat: [5458]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 16:49:24 johnsnow kernel: [19036.467960] [sched_delayed] sched: RT throttling activated
+Jun 13 16:49:24 johnsnow heartbeat: [5458]: WARN: Late heartbeat: Node arya: interval 2300 ms
+Jun 13 16:55:50 johnsnow kernel: [19422.331473] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun 13 16:55:50 johnsnow kernel: [19422.336231] nf_conntrack version 0.5.0 (8001 buckets, 32004 max)
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: WARN: 1 lost packet(s) for [arya] [10392:10394]
+Jun 13 16:56:09 johnsnow heartbeat: [5458]: info: No pkts missing from arya!
+Jun 13 16:58:29 johnsnow heartbeat: [5458]: info: Heartbeat shutdown in progress. (5458)
+Jun 13 16:58:29 johnsnow heartbeat: [9786]: info: Giving up all HA resources.
+Jun 13 16:58:29 johnsnow ResourceManager(default)[9800]: info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 16:58:29 johnsnow ResourceManager(default)[9800]: info: Running /etc/init.d/haproxy  stop
+Jun 13 16:58:29 johnsnow ResourceManager(default)[9800]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+Jun 13 16:58:29 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[9852]: INFO:  Success
+Jun 13 16:58:29 johnsnow heartbeat: [9786]: info: All HA resources relinquished.
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBFIFO process 5479 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBWRITE process 5480 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBREAD process 5481 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBWRITE process 5482 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: killing HBREAD process 5483 with signal 15
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5479 exited. 5 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5480 exited. 4 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5482 exited. 3 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5481 exited. 2 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: Core process 5483 exited. 1 remaining
+Jun 13 16:58:31 johnsnow heartbeat: [5458]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Pacemaker support: false
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Initial dead time accounts for slow network startup time
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: **************************
+Jun 13 16:58:35 johnsnow heartbeat: [10047]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: heartbeat: version 3.0.5
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Heartbeat generation: 1461585909
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Local status now set to: 'up'
+Jun 13 16:58:35 johnsnow heartbeat: [10048]: info: Link johnsnow:eth0 up.
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Link arya:eth0 up.
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Status update for node arya: status active
+Jun 13 16:58:36 johnsnow harc(default)[10075]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Comm_now_up(): updating status to active
+Jun 13 16:58:36 johnsnow heartbeat: [10048]: info: Local status now set to: 'active'
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: remote resource transition completed.
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: remote resource transition completed.
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: Local Resource acquisition completed. (none)
+Jun 13 16:58:37 johnsnow heartbeat: [10048]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 17:03:46 johnsnow kernel: [19898.407683] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 13 17:03:46 johnsnow kernel: [19898.447857] IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Jun 13 17:03:48 johnsnow kernel: [19900.412466] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 17:03:48 johnsnow kernel: [19900.412740] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 13 17:03:48 johnsnow kernel: [19900.452439] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 17:03:48 johnsnow kernel: [19900.452686] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: WARN: Late heartbeat: Node arya: interval 3000 ms
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: WARN: 1 lost packet(s) for [arya] [10869:10871]
+Jun 13 17:03:59 johnsnow heartbeat: [10048]: info: No pkts missing from arya!
+Jun 13 17:04:19 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="496" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Jun 13 17:06:44 johnsnow rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="514" x-info="http://www.rsyslog.com"] start
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpu
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) ) #1 SMP Debian 3.16.7-ckt25-2 (2016-04-08)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffdefff] usable
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x000000003ffdf000-0x000000003fffffff] reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] SMBIOS 0.8 present.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Hypervisor detected: KVM
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] e820: last_pfn = 0x3ffdf max_arch_pfn = 0x400000000
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] found SMP MP-table at [mem 0x000f6490-0x000f649f] mapped at [ffff8800000f6490]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fc00000-0x3fdfffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3c000000-0x3fbfffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x3bffffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] init_memory_mapping: [mem 0x3fe00000-0x3ffdefff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] RAMDISK: [mem 0x363e0000-0x371e7fff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: RSDP 0x00000000000F62A0 000014 (v00 BOCHS )
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: RSDT 0x000000003FFE2581 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: FACP 0x000000003FFE0BDA 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: DSDT 0x000000003FFE0040 000B9A (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: FACS 0x000000003FFE0000 000040
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: SSDT 0x000000003FFE0C4E 00187B (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: APIC 0x000000003FFE24C9 000080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: HPET 0x000000003FFE2549 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] No NUMA configuration found
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffdefff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x3ffdefff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   NODE_DATA [mem 0x3ffda000-0x3ffdefff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ffd2001, primary cpu clock
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Zone ranges:
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   Normal   empty
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Movable zone start for each node
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Early memory node ranges
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000]   node   0: [mem 0x00100000-0x3ffdefff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x608
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] e820: [mem 0x40000000-0xfeffbfff] available for PCI devices
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:2 nr_node_ids:1
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88003fc00000 s80896 r8192 d21504 u1048576
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] KVM setup async PF for cpu 0
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] kvm-stealtime: cpu 0, msr 3fc0d080
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258408
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Policy zone: DMA32
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-4-amd64 root=UUID=f0a04bc8-0b69-4c91-b95f-4ffa1fc804d2 ro initrd=/install/initrd.gz quiet
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] AGP: Checking aperture...
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] AGP: No AGP bridge found
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Memory: 1007504K/1048052K available (5222K kernel code, 947K rwdata, 1836K rodata, 1204K init, 840K bss, 40548K reserved)
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Hierarchical RCU implementation.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=2.
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] NR_IRQS:33024 nr_irqs:512 16
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] Console: colour VGA+ 80x25
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] console [tty0] enabled
+Jun 13 17:06:44 johnsnow kernel: [    0.000000] tsc: Detected 3500.132 MHz processor
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 7000.26 BogoMIPS (lpj=14000528)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] ACPI: Core revision 20140424
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] ACPI: All ACPI Tables successfully acquired
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Security Framework initialized
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys memory
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys devices
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys freezer
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_cls
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys blkio
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys perf_event
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Initializing cgroup subsys net_prio
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] CPU: Physical Processor ID: 0
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] CPU: Processor Core ID: 0
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] tlb_flushall_shift: 6
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] Freeing SMP alternatives memory: 20K (ffffffff81a1b000 - ffffffff81a20000)
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] ftrace: allocating 21683 entries in 85 pages
+Jun 13 17:06:44 johnsnow kernel: [    0.012147] Enabling x2apic
+Jun 13 17:06:44 johnsnow kernel: [    0.012150] Enabled x2apic
+Jun 13 17:06:44 johnsnow kernel: [    0.012268] Switched APIC routing to physical x2apic.
+Jun 13 17:06:44 johnsnow kernel: [    0.012869] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 13 17:06:44 johnsnow kernel: [    0.012870] smpboot: CPU0: Intel Common KVM processor (fam: 0f, model: 06, stepping: 01)
+Jun 13 17:06:44 johnsnow kernel: [    0.016000] Performance Events: unsupported Netburst CPU model 6 no PMU driver, software events only.
+Jun 13 17:06:44 johnsnow kernel: [    0.016000] x86: Booting SMP configuration:
+Jun 13 17:06:44 johnsnow kernel: [    0.016000] .... node  #0, CPUs:      #1
+Jun 13 17:06:44 johnsnow kernel: [    0.008000] kvm-clock: cpu 1, msr 0:3ffd2041, secondary cpu clock
+Jun 13 17:06:44 johnsnow kernel: [    0.024040] NMI watchdog: disabled (cpu0): hardware events not enabled
+Jun 13 17:06:44 johnsnow kernel: [    0.026061] x86: Booted up 1 node, 2 CPUs
+Jun 13 17:06:44 johnsnow kernel: [    0.026062] smpboot: Total of 2 processors activated (14000.52 BogoMIPS)
+Jun 13 17:06:44 johnsnow kernel: [    0.026052] KVM setup async PF for cpu 1
+Jun 13 17:06:44 johnsnow kernel: [    0.026052] kvm-stealtime: cpu 1, msr 3fd0d080
+Jun 13 17:06:44 johnsnow kernel: [    0.026257] devtmpfs: initialized
+Jun 13 17:06:44 johnsnow kernel: [    0.028446] pinctrl core: initialized pinctrl subsystem
+Jun 13 17:06:44 johnsnow kernel: [    0.028504] NET: Registered protocol family 16
+Jun 13 17:06:44 johnsnow kernel: [    0.028580] cpuidle: using governor ladder
+Jun 13 17:06:44 johnsnow kernel: [    0.028582] cpuidle: using governor menu
+Jun 13 17:06:44 johnsnow kernel: [    0.028624] ACPI: bus type PCI registered
+Jun 13 17:06:44 johnsnow kernel: [    0.028625] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 13 17:06:44 johnsnow kernel: [    0.028715] PCI: Using configuration type 1 for base access
+Jun 13 17:06:44 johnsnow kernel: [    0.040097] ACPI: Added _OSI(Module Device)
+Jun 13 17:06:44 johnsnow kernel: [    0.040097] ACPI: Added _OSI(Processor Device)
+Jun 13 17:06:44 johnsnow kernel: [    0.040097] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 13 17:06:44 johnsnow kernel: [    0.040097] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 13 17:06:44 johnsnow kernel: [    0.040895] ACPI: Interpreter enabled
+Jun 13 17:06:44 johnsnow kernel: [    0.040899] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+Jun 13 17:06:44 johnsnow kernel: [    0.040901] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+Jun 13 17:06:44 johnsnow kernel: [    0.040906] ACPI: (supports S0 S3 S4 S5)
+Jun 13 17:06:44 johnsnow kernel: [    0.040907] ACPI: Using IOAPIC for interrupt routing
+Jun 13 17:06:44 johnsnow kernel: [    0.040914] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 13 17:06:44 johnsnow kernel: [    0.043581] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 13 17:06:44 johnsnow kernel: [    0.043584] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jun 13 17:06:44 johnsnow kernel: [    0.043587] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jun 13 17:06:44 johnsnow kernel: [    0.044009] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jun 13 17:06:44 johnsnow kernel: [    0.044161] acpiphp: Slot [3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044171] acpiphp: Slot [4] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044179] acpiphp: Slot [5] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044188] acpiphp: Slot [6] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044196] acpiphp: Slot [7] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044205] acpiphp: Slot [8] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044213] acpiphp: Slot [9] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044223] acpiphp: Slot [10] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044232] acpiphp: Slot [11] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044241] acpiphp: Slot [12] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044249] acpiphp: Slot [13] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044257] acpiphp: Slot [14] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044266] acpiphp: Slot [15] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044274] acpiphp: Slot [16] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044286] acpiphp: Slot [17] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044295] acpiphp: Slot [18] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044304] acpiphp: Slot [19] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044312] acpiphp: Slot [20] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044321] acpiphp: Slot [21] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044329] acpiphp: Slot [22] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044339] acpiphp: Slot [23] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044348] acpiphp: Slot [24] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044359] acpiphp: Slot [25] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044368] acpiphp: Slot [26] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044376] acpiphp: Slot [27] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044384] acpiphp: Slot [28] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044395] acpiphp: Slot [29] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.044409] PCI host bridge to bus 0000:00
+Jun 13 17:06:44 johnsnow kernel: [    0.044411] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 13 17:06:44 johnsnow kernel: [    0.044412] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Jun 13 17:06:44 johnsnow kernel: [    0.044413] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.044414] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.044414] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfebfffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.048269] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jun 13 17:06:44 johnsnow kernel: [    0.048270] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jun 13 17:06:44 johnsnow kernel: [    0.048271] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jun 13 17:06:44 johnsnow kernel: [    0.048271] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jun 13 17:06:44 johnsnow kernel: [    0.052263] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Jun 13 17:06:44 johnsnow kernel: [    0.052268] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Jun 13 17:06:44 johnsnow kernel: [    0.098290] acpiphp: Slot [0] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098302] acpiphp: Slot [1] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098311] acpiphp: Slot [2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098326] acpiphp: Slot [3-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098337] acpiphp: Slot [4-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098349] acpiphp: Slot [5-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098360] acpiphp: Slot [6-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098371] acpiphp: Slot [7-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098382] acpiphp: Slot [8-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098396] acpiphp: Slot [9-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098409] acpiphp: Slot [10-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098422] acpiphp: Slot [11-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098433] acpiphp: Slot [12-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098443] acpiphp: Slot [13-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098454] acpiphp: Slot [14-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098464] acpiphp: Slot [15-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098474] acpiphp: Slot [16-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098487] acpiphp: Slot [17-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098498] acpiphp: Slot [18-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098509] acpiphp: Slot [19-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098525] acpiphp: Slot [20-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098536] acpiphp: Slot [21-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098546] acpiphp: Slot [22-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098559] acpiphp: Slot [23-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098570] acpiphp: Slot [24-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098582] acpiphp: Slot [25-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098593] acpiphp: Slot [26-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098604] acpiphp: Slot [27-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098614] acpiphp: Slot [28-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098625] acpiphp: Slot [29-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098635] acpiphp: Slot [30] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098644] acpiphp: Slot [31] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.098746] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 17:06:44 johnsnow kernel: [    0.099528] acpiphp: Slot [0-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099544] acpiphp: Slot [1-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099556] acpiphp: Slot [2-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099567] acpiphp: Slot [3-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099579] acpiphp: Slot [4-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099589] acpiphp: Slot [5-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099601] acpiphp: Slot [6-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099612] acpiphp: Slot [7-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099624] acpiphp: Slot [8-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.099635] acpiphp: Slot [9-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100009] acpiphp: Slot [10-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100021] acpiphp: Slot [11-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100032] acpiphp: Slot [12-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100043] acpiphp: Slot [13-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100055] acpiphp: Slot [14-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100068] acpiphp: Slot [15-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100080] acpiphp: Slot [16-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100090] acpiphp: Slot [17-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100101] acpiphp: Slot [18-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100112] acpiphp: Slot [19-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100125] acpiphp: Slot [20-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100138] acpiphp: Slot [21-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100151] acpiphp: Slot [22-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100162] acpiphp: Slot [23-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100173] acpiphp: Slot [24-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100184] acpiphp: Slot [25-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100196] acpiphp: Slot [26-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100207] acpiphp: Slot [27-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100221] acpiphp: Slot [28-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100232] acpiphp: Slot [29-3] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100244] acpiphp: Slot [30-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100255] acpiphp: Slot [31-2] registered
+Jun 13 17:06:44 johnsnow kernel: [    0.100353] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 17:06:44 johnsnow kernel: [    0.101906] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 13 17:06:44 johnsnow kernel: [    0.101955] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 13 17:06:44 johnsnow kernel: [    0.101993] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 13 17:06:44 johnsnow kernel: [    0.102030] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 13 17:06:44 johnsnow kernel: [    0.102050] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Jun 13 17:06:44 johnsnow kernel: [    0.102225] ACPI: Enabled 16 GPEs in block 00 to 0F
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] vgaarb: setting as boot device: PCI:0000:00:02.0
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] vgaarb: loaded
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] vgaarb: bridge control possible 0000:00:02.0
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] PCI: Using ACPI for IRQ routing
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jun 13 17:06:44 johnsnow kernel: [    0.102365] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jun 13 17:06:44 johnsnow kernel: [    0.105076] Switched to clocksource kvm-clock
+Jun 13 17:06:44 johnsnow kernel: [    0.108263] pnp: PnP ACPI init
+Jun 13 17:06:44 johnsnow kernel: [    0.108270] ACPI: bus type PNP registered
+Jun 13 17:06:44 johnsnow kernel: [    0.108574] pnp: PnP ACPI: found 4 devices
+Jun 13 17:06:44 johnsnow kernel: [    0.108574] ACPI: bus type PNP unregistered
+Jun 13 17:06:44 johnsnow kernel: [    0.115976] pci 0000:00:1e.0: PCI bridge to [bus 01]
+Jun 13 17:06:44 johnsnow kernel: [    0.115983] pci 0000:00:1e.0:   bridge window [io  0xd000-0xdfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.116714] pci 0000:00:1e.0:   bridge window [mem 0xfe800000-0xfe9fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.117194] pci 0000:00:1e.0:   bridge window [mem 0xfe200000-0xfe3fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.118117] pci 0000:00:1f.0: PCI bridge to [bus 02]
+Jun 13 17:06:44 johnsnow kernel: [    0.118124] pci 0000:00:1f.0:   bridge window [io  0xc000-0xcfff]
+Jun 13 17:06:44 johnsnow kernel: [    0.118906] pci 0000:00:1f.0:   bridge window [mem 0xfe600000-0xfe7fffff]
+Jun 13 17:06:44 johnsnow kernel: [    0.119379] pci 0000:00:1f.0:   bridge window [mem 0xfe000000-0xfe1fffff 64bit pref]
+Jun 13 17:06:44 johnsnow kernel: [    0.120505] NET: Registered protocol family 2
+Jun 13 17:06:44 johnsnow kernel: [    0.120728] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.120757] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.120796] TCP: Hash tables configured (established 8192 bind 8192)
+Jun 13 17:06:44 johnsnow kernel: [    0.120845] TCP: reno registered
+Jun 13 17:06:44 johnsnow kernel: [    0.120848] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.120855] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.120921] NET: Registered protocol family 1
+Jun 13 17:06:44 johnsnow kernel: [    0.120936] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun 13 17:06:44 johnsnow kernel: [    0.120947] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jun 13 17:06:44 johnsnow kernel: [    0.120956] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun 13 17:06:44 johnsnow kernel: [    0.134714] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Jun 13 17:06:44 johnsnow kernel: [    0.148622] Unpacking initramfs...
+Jun 13 17:06:44 johnsnow kernel: [    0.307194] Freeing initrd memory: 14368K (ffff8800363e0000 - ffff8800371e8000)
+Jun 13 17:06:44 johnsnow kernel: [    0.307404] microcode: CPU0 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 17:06:44 johnsnow kernel: [    0.307426] microcode: CPU1 sig=0xf61, pf=0x1, revision=0x1
+Jun 13 17:06:44 johnsnow kernel: [    0.307486] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Jun 13 17:06:44 johnsnow kernel: [    0.307653] futex hash table entries: 512 (order: 3, 32768 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.307691] audit: initializing netlink subsys (disabled)
+Jun 13 17:06:44 johnsnow kernel: [    0.307711] audit: type=2000 audit(1465830402.927:1): initialized
+Jun 13 17:06:44 johnsnow kernel: [    0.307951] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jun 13 17:06:44 johnsnow kernel: [    0.307968] zbud: loaded
+Jun 13 17:06:44 johnsnow kernel: [    0.308120] VFS: Disk quotas dquot_6.5.2
+Jun 13 17:06:44 johnsnow kernel: [    0.308135] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 13 17:06:44 johnsnow kernel: [    0.308175] msgmni has been set to 1995
+Jun 13 17:06:44 johnsnow kernel: [    0.308397] alg: No test for stdrng (krng)
+Jun 13 17:06:44 johnsnow kernel: [    0.308412] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jun 13 17:06:44 johnsnow kernel: [    0.308446] io scheduler noop registered
+Jun 13 17:06:44 johnsnow kernel: [    0.308447] io scheduler deadline registered
+Jun 13 17:06:44 johnsnow kernel: [    0.308469] io scheduler cfq registered (default)
+Jun 13 17:06:44 johnsnow kernel: [    0.308530] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jun 13 17:06:44 johnsnow kernel: [    0.308538] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jun 13 17:06:44 johnsnow kernel: [    0.308570] GHES: HEST is not enabled!
+Jun 13 17:06:44 johnsnow kernel: [    0.308606] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 13 17:06:44 johnsnow kernel: [    0.308857] Linux agpgart interface v0.103
+Jun 13 17:06:44 johnsnow kernel: [    0.308940] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 13 17:06:44 johnsnow kernel: [    0.309332] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 13 17:06:44 johnsnow kernel: [    0.309335] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 13 17:06:44 johnsnow kernel: [    0.309418] mousedev: PS/2 mouse device common for all mice
+Jun 13 17:06:44 johnsnow kernel: [    0.309457] rtc_cmos 00:00: RTC can wake from S4
+Jun 13 17:06:44 johnsnow kernel: [    0.309687] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jun 13 17:06:44 johnsnow kernel: [    0.309796] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Jun 13 17:06:44 johnsnow kernel: [    0.309861] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+Jun 13 17:06:44 johnsnow kernel: [    0.309872] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 13 17:06:44 johnsnow kernel: [    0.309911] AMD IOMMUv2 driver by Joerg Roedel <joerg.roedel@amd.com>
+Jun 13 17:06:44 johnsnow kernel: [    0.309911] AMD IOMMUv2 functionality not available on this system
+Jun 13 17:06:44 johnsnow kernel: [    0.309959] TCP: cubic registered
+Jun 13 17:06:44 johnsnow kernel: [    0.310001] NET: Registered protocol family 10
+Jun 13 17:06:44 johnsnow kernel: [    0.310209] mip6: Mobile IPv6
+Jun 13 17:06:44 johnsnow kernel: [    0.310212] NET: Registered protocol family 17
+Jun 13 17:06:44 johnsnow kernel: [    0.310217] mpls_gso: MPLS GSO support
+Jun 13 17:06:44 johnsnow kernel: [    0.310420] registered taskstats version 1
+Jun 13 17:06:44 johnsnow kernel: [    0.310691] rtc_cmos 00:00: setting system clock to 2016-06-13 15:06:42 UTC (1465830402)
+Jun 13 17:06:44 johnsnow kernel: [    0.311207] Freeing unused kernel memory: 1204K (ffffffff818ee000 - ffffffff81a1b000)
+Jun 13 17:06:44 johnsnow kernel: [    0.311208] Write protecting the kernel read-only data: 8192k
+Jun 13 17:06:44 johnsnow kernel: [    0.311507] Freeing unused kernel memory: 912K (ffff88000151c000 - ffff880001600000)
+Jun 13 17:06:44 johnsnow kernel: [    0.311773] Freeing unused kernel memory: 212K (ffff8800017cb000 - ffff880001800000)
+Jun 13 17:06:44 johnsnow kernel: [    0.317296] random: systemd-udevd urandom read with 1 bits of entropy available
+Jun 13 17:06:44 johnsnow kernel: [    0.321815] ACPI: bus type USB registered
+Jun 13 17:06:44 johnsnow kernel: [    0.321831] usbcore: registered new interface driver usbfs
+Jun 13 17:06:44 johnsnow kernel: [    0.321837] usbcore: registered new interface driver hub
+Jun 13 17:06:44 johnsnow kernel: [    0.324594] usbcore: registered new device driver usb
+Jun 13 17:06:44 johnsnow kernel: [    0.324855] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 13 17:06:44 johnsnow kernel: [    0.325014] uhci_hcd: USB Universal Host Controller Interface driver
+Jun 13 17:06:44 johnsnow kernel: [    0.328969] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jun 13 17:06:44 johnsnow kernel: [    0.328970] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jun 13 17:06:44 johnsnow kernel: [    0.329394] SCSI subsystem initialized
+Jun 13 17:06:44 johnsnow kernel: [    0.347870] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Jun 13 17:06:44 johnsnow kernel: [    0.347876] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Jun 13 17:06:44 johnsnow kernel: [    0.347885] uhci_hcd 0000:00:01.2: detected 2 ports
+Jun 13 17:06:44 johnsnow kernel: [    0.347926] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000e080
+Jun 13 17:06:44 johnsnow kernel: [    0.347967] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 13 17:06:44 johnsnow kernel: [    0.347968] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 13 17:06:44 johnsnow kernel: [    0.347969] usb usb1: Product: UHCI Host Controller
+Jun 13 17:06:44 johnsnow kernel: [    0.347970] usb usb1: Manufacturer: Linux 3.16.0-4-amd64 uhci_hcd
+Jun 13 17:06:44 johnsnow kernel: [    0.347970] usb usb1: SerialNumber: 0000:00:01.2
+Jun 13 17:06:44 johnsnow kernel: [    0.348057] hub 1-0:1.0: USB hub found
+Jun 13 17:06:44 johnsnow kernel: [    0.348060] hub 1-0:1.0: 2 ports detected
+Jun 13 17:06:44 johnsnow kernel: [    0.352196] FDC 0 is a S82078B
+Jun 13 17:06:44 johnsnow kernel: [    0.360736] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+Jun 13 17:06:44 johnsnow kernel: [    0.660029] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Jun 13 17:06:44 johnsnow kernel: [    0.662061] e1000 0000:00:12.0 eth0: (PCI:33MHz:32-bit) 32:33:39:39:31:62
+Jun 13 17:06:44 johnsnow kernel: [    0.662064] e1000 0000:00:12.0 eth0: Intel(R) PRO/1000 Network Connection
+Jun 13 17:06:44 johnsnow kernel: [    0.674514] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Jun 13 17:06:44 johnsnow kernel: [    0.687799] ahci 0000:00:07.0: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jun 13 17:06:44 johnsnow kernel: [    0.687800] ahci 0000:00:07.0: flags: ncq only 
+Jun 13 17:06:44 johnsnow kernel: [    0.688589] scsi0 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.688715] scsi1 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.688789] scsi2 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.688853] scsi3 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.688915] scsi4 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.688974] scsi5 : ahci
+Jun 13 17:06:44 johnsnow kernel: [    0.689006] ata1: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1100 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689009] ata2: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1180 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689012] ata3: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1200 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689014] ata4: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1280 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689017] ata5: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1300 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689019] ata6: SATA max UDMA/133 abar m4096@0xfead1000 port 0xfead1380 irq 40
+Jun 13 17:06:44 johnsnow kernel: [    0.689747] scsi6 : ata_piix
+Jun 13 17:06:44 johnsnow kernel: [    0.689860] scsi7 : ata_piix
+Jun 13 17:06:44 johnsnow kernel: [    0.689889] ata7: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xe0e0 irq 14
+Jun 13 17:06:44 johnsnow kernel: [    0.689890] ata8: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xe0e8 irq 15
+Jun 13 17:06:44 johnsnow kernel: [    0.820073] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Jun 13 17:06:44 johnsnow kernel: [    0.820075] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Jun 13 17:06:44 johnsnow kernel: [    0.820076] usb 1-1: Product: QEMU USB Tablet
+Jun 13 17:06:44 johnsnow kernel: [    0.820076] usb 1-1: Manufacturer: QEMU
+Jun 13 17:06:44 johnsnow kernel: [    0.820077] usb 1-1: SerialNumber: 42
+Jun 13 17:06:44 johnsnow kernel: [    0.824678] hidraw: raw HID events driver (C) Jiri Kosina
+Jun 13 17:06:44 johnsnow kernel: [    0.828279] usbcore: registered new interface driver usbhid
+Jun 13 17:06:44 johnsnow kernel: [    0.828280] usbhid: USB HID core driver
+Jun 13 17:06:44 johnsnow kernel: [    0.829257] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input3
+Jun 13 17:06:44 johnsnow kernel: [    0.829331] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Jun 13 17:06:44 johnsnow kernel: [    0.848441] ata8.00: ATAPI: QEMU DVD-ROM, 2.4.1, max UDMA/100
+Jun 13 17:06:44 johnsnow kernel: [    0.848700] ata8.00: configured for MWDMA2
+Jun 13 17:06:44 johnsnow kernel: [    1.002094] e1000 0000:00:13.0 eth1: (PCI:33MHz:32-bit) 66:61:31:61:61:36
+Jun 13 17:06:44 johnsnow kernel: [    1.002097] e1000 0000:00:13.0 eth1: Intel(R) PRO/1000 Network Connection
+Jun 13 17:06:44 johnsnow kernel: [    1.008059] ata2: SATA link down (SStatus 0 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008115] ata4: SATA link down (SStatus 0 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008173] ata6: SATA link down (SStatus 0 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008225] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008293] ata3: SATA link down (SStatus 0 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008313] ata1.00: ATA-7: QEMU HARDDISK, 2.4.1, max UDMA/100
+Jun 13 17:06:44 johnsnow kernel: [    1.008314] ata1.00: 41943040 sectors, multi 16: LBA48 NCQ (depth 31/32)
+Jun 13 17:06:44 johnsnow kernel: [    1.008315] ata1.00: applying bridge limits
+Jun 13 17:06:44 johnsnow kernel: [    1.008396] ata5: SATA link down (SStatus 0 SControl 300)
+Jun 13 17:06:44 johnsnow kernel: [    1.008510] ata1.00: configured for UDMA/100
+Jun 13 17:06:44 johnsnow kernel: [    1.008562] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    1    PQ: 0 ANSI: 5
+Jun 13 17:06:44 johnsnow kernel: [    1.008860] scsi 7:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.4. PQ: 0 ANSI: 5
+Jun 13 17:06:44 johnsnow kernel: [    1.016319] sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Jun 13 17:06:44 johnsnow kernel: [    1.016320] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jun 13 17:06:44 johnsnow kernel: [    1.016846] scsi 0:0:0:0: Attached scsi generic sg0 type 0
+Jun 13 17:06:44 johnsnow kernel: [    1.016865] sr 7:0:0:0: Attached scsi generic sg1 type 5
+Jun 13 17:06:44 johnsnow kernel: [    1.024942] sd 0:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Jun 13 17:06:44 johnsnow kernel: [    1.024960] sd 0:0:0:0: [sda] Write Protect is off
+Jun 13 17:06:44 johnsnow kernel: [    1.024970] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 13 17:06:44 johnsnow kernel: [    1.026334]  sda: sda1 sda2
+Jun 13 17:06:44 johnsnow kernel: [    1.026508] sd 0:0:0:0: [sda] Attached SCSI disk
+Jun 13 17:06:44 johnsnow kernel: [    1.076024] PM: Starting manual resume from disk
+Jun 13 17:06:44 johnsnow kernel: [    1.126778] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Jun 13 17:06:44 johnsnow kernel: [    1.164787] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2
+Jun 13 17:06:44 johnsnow kernel: [    1.304023] tsc: Refined TSC clocksource calibration: 3500.022 MHz
+Jun 13 17:06:44 johnsnow kernel: [    1.366108] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input4
+Jun 13 17:06:44 johnsnow kernel: [    1.366112] ACPI: Power Button [PWRF]
+Jun 13 17:06:44 johnsnow kernel: [    1.421798] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Jun 13 17:06:44 johnsnow kernel: [    1.424675] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Jun 13 17:06:44 johnsnow kernel: [    1.432927] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jun 13 17:06:44 johnsnow kernel: [    1.440405] ppdev: user-space parallel port driver
+Jun 13 17:06:44 johnsnow kernel: [    1.452969] [drm] Initialized drm 1.1.0 20060810
+Jun 13 17:06:44 johnsnow kernel: [    1.520112] Adding 975868k swap on /dev/sda1.  Priority:-1 extents:1 across:975868k FS
+Jun 13 17:06:44 johnsnow kernel: [    1.536232] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+Jun 13 17:06:44 johnsnow kernel: [    1.622801] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 13 17:06:44 johnsnow kernel: [    1.624447] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 17:06:44 johnsnow kernel: [    1.624668] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 13 17:06:44 johnsnow kernel: [    1.640742] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 13 17:06:44 johnsnow kernel: [    1.720830] RPC: Registered named UNIX socket transport module.
+Jun 13 17:06:44 johnsnow kernel: [    1.720832] RPC: Registered udp transport module.
+Jun 13 17:06:44 johnsnow kernel: [    1.720833] RPC: Registered tcp transport module.
+Jun 13 17:06:44 johnsnow kernel: [    1.720833] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jun 13 17:06:44 johnsnow kernel: [    1.722990] FS-Cache: Loaded
+Jun 13 17:06:44 johnsnow kernel: [    1.727555] FS-Cache: Netfs 'nfs' registered for caching
+Jun 13 17:06:44 johnsnow kernel: [    1.733422] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Jun 13 17:06:44 johnsnow rsyslogd-2007: action 'action 19' suspended, next retry is Mon Jun 13 17:07:14 2016 [try http://www.rsyslog.com/e/2007 ]
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Pacemaker support: false
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Initial dead time accounts for slow network startup time
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 17:06:44 johnsnow heartbeat: [892]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: **************************
+Jun 13 17:06:44 johnsnow heartbeat: [892]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: heartbeat: version 3.0.5
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Heartbeat generation: 1461585910
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Local status now set to: 'up'
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Link johnsnow:eth0 up.
+Jun 13 17:06:44 johnsnow kernel: [    2.176270] random: nonblocking pool is initialized
+Jun 13 17:06:44 johnsnow heartbeat: [893]: info: Link arya:eth0 up.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Status update for node arya: status active
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Comm_now_up(): updating status to active
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Local status now set to: 'active'
+Jun 13 17:06:45 johnsnow harc(default)[908]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Local Resource acquisition completed. (none)
+Jun 13 17:06:45 johnsnow heartbeat: [893]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:07:18 johnsnow heartbeat: [893]: info: Received shutdown notice from 'arya'.
+Jun 13 19:07:18 johnsnow heartbeat: [893]: info: Resources being acquired from arya.
+Jun 13 19:07:18 johnsnow heartbeat: [3867]: info: acquire all HA resources (standby).
+Jun 13 19:07:18 johnsnow heartbeat: [3868]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 19:07:18 johnsnow ResourceManager(default)[3894]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:07:18 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[3921]: INFO:  Resource is stopped
+Jun 13 19:07:18 johnsnow ResourceManager(default)[3894]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+Jun 13 19:07:18 johnsnow IPaddr(IPaddr_192.168.1.215)[4001]: INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+Jun 13 19:07:18 johnsnow IPaddr(IPaddr_192.168.1.215)[4001]: INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+Jun 13 19:07:18 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[3977]: INFO:  Success
+Jun 13 19:07:18 johnsnow ResourceManager(default)[3894]: info: Running /etc/init.d/haproxy  start
+Jun 13 19:07:19 johnsnow heartbeat: [3867]: info: all HA resource acquisition completed (standby).
+Jun 13 19:07:19 johnsnow heartbeat: [893]: info: Standby resource acquisition done [all].
+Jun 13 19:07:19 johnsnow harc(default)[4120]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:07:19 johnsnow mach_down(default)[4135]: info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+Jun 13 19:07:19 johnsnow ResourceManager(default)[4160]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:07:19 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4187]: INFO:  Running OK
+Jun 13 19:07:19 johnsnow mach_down(default)[4135]: info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+Jun 13 19:07:19 johnsnow mach_down(default)[4135]: info: mach_down takeover complete for node arya.
+Jun 13 19:07:19 johnsnow heartbeat: [893]: info: mach_down takeover complete.
+Jun 13 19:07:23 johnsnow heartbeat: [893]: WARN: node arya: is dead
+Jun 13 19:07:23 johnsnow heartbeat: [893]: info: Dead node arya gave up resources.
+Jun 13 19:07:23 johnsnow heartbeat: [893]: info: Link arya:eth0 dead.
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Heartbeat restart on node arya
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Link arya:eth0 up.
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Status update for node arya: status init
+Jun 13 19:08:58 johnsnow heartbeat: [893]: info: Status update for node arya: status up
+Jun 13 19:08:58 johnsnow harc(default)[4310]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:08:58 johnsnow harc(default)[4325]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:08:59 johnsnow heartbeat: [893]: info: Status update for node arya: status active
+Jun 13 19:08:59 johnsnow harc(default)[4340]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:09:00 johnsnow heartbeat: [893]: info: remote resource transition completed.
+Jun 13 19:09:02 johnsnow heartbeat: [893]: info: Heartbeat shutdown in progress. (893)
+Jun 13 19:09:02 johnsnow heartbeat: [4372]: info: Giving up all HA resources.
+Jun 13 19:09:02 johnsnow ResourceManager(default)[4386]: info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:09:02 johnsnow ResourceManager(default)[4386]: info: Running /etc/init.d/haproxy  stop
+Jun 13 19:09:02 johnsnow ResourceManager(default)[4386]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+Jun 13 19:09:02 johnsnow IPaddr(IPaddr_192.168.1.215)[4465]: INFO: ifconfig eth0:0 down
+Jun 13 19:09:02 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4441]: INFO:  Success
+Jun 13 19:09:02 johnsnow heartbeat: [4372]: info: All HA resources relinquished.
+Jun 13 19:09:02 johnsnow heartbeat: [893]: WARN: 1 lost packet(s) for [arya] [14:16]
+Jun 13 19:09:02 johnsnow heartbeat: [893]: info: No pkts missing from arya!
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBFIFO process 900 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBWRITE process 901 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBREAD process 902 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBWRITE process 903 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: killing HBREAD process 904 with signal 15
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 903 exited. 5 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 901 exited. 4 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 902 exited. 3 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 900 exited. 2 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: Core process 904 exited. 1 remaining
+Jun 13 19:09:04 johnsnow heartbeat: [893]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Pacemaker support: false
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Initial dead time accounts for slow network startup time
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: **************************
+Jun 13 19:09:05 johnsnow heartbeat: [4596]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: heartbeat: version 3.0.5
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Heartbeat generation: 1461585911
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Local status now set to: 'up'
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Link johnsnow:eth0 up.
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Link arya:eth0 up.
+Jun 13 19:09:05 johnsnow heartbeat: [4597]: info: Status update for node arya: status active
+Jun 13 19:09:05 johnsnow harc(default)[4624]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Comm_now_up(): updating status to active
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Local status now set to: 'active'
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Local Resource acquisition completed. (none)
+Jun 13 19:09:06 johnsnow heartbeat: [4597]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Received shutdown notice from 'arya'.
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Resources being acquired from arya.
+Jun 13 19:14:00 johnsnow heartbeat: [4768]: info: acquire all HA resources (standby).
+Jun 13 19:14:00 johnsnow heartbeat: [4769]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 19:14:00 johnsnow ResourceManager(default)[4795]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:14:00 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4822]: INFO:  Resource is stopped
+Jun 13 19:14:00 johnsnow ResourceManager(default)[4795]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+Jun 13 19:14:00 johnsnow IPaddr(IPaddr_192.168.1.215)[4903]: INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+Jun 13 19:14:00 johnsnow IPaddr(IPaddr_192.168.1.215)[4903]: INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+Jun 13 19:14:00 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[4879]: INFO:  Success
+Jun 13 19:14:00 johnsnow ResourceManager(default)[4795]: info: Running /etc/init.d/haproxy  start
+Jun 13 19:14:00 johnsnow heartbeat: [4768]: info: all HA resource acquisition completed (standby).
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: Standby resource acquisition done [all].
+Jun 13 19:14:00 johnsnow harc(default)[5021]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:14:00 johnsnow mach_down(default)[5036]: info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+Jun 13 19:14:00 johnsnow ResourceManager(default)[5061]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:14:00 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5088]: INFO:  Running OK
+Jun 13 19:14:00 johnsnow mach_down(default)[5036]: info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+Jun 13 19:14:00 johnsnow mach_down(default)[5036]: info: mach_down takeover complete for node arya.
+Jun 13 19:14:00 johnsnow heartbeat: [4597]: info: mach_down takeover complete.
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: WARN: node arya: is dead
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: info: Dead node arya gave up resources.
+Jun 13 19:14:05 johnsnow heartbeat: [4597]: info: Link arya:eth0 dead.
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Heartbeat restart on node arya
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Link arya:eth0 up.
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Status update for node arya: status init
+Jun 13 19:16:47 johnsnow heartbeat: [4597]: info: Status update for node arya: status up
+Jun 13 19:16:47 johnsnow harc(default)[5246]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:16:47 johnsnow harc(default)[5261]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:16:48 johnsnow heartbeat: [4597]: info: Status update for node arya: status active
+Jun 13 19:16:48 johnsnow harc(default)[5276]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:16:48 johnsnow heartbeat: [4597]: info: remote resource transition completed.
+Jun 13 19:17:07 johnsnow heartbeat: [4597]: info: Heartbeat shutdown in progress. (4597)
+Jun 13 19:17:07 johnsnow heartbeat: [5317]: info: Giving up all HA resources.
+Jun 13 19:17:07 johnsnow ResourceManager(default)[5331]: info: Releasing resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:17:07 johnsnow ResourceManager(default)[5331]: info: Running /etc/init.d/haproxy  stop
+Jun 13 19:17:07 johnsnow ResourceManager(default)[5331]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 stop
+Jun 13 19:17:07 johnsnow IPaddr(IPaddr_192.168.1.215)[5411]: INFO: ifconfig eth0:0 down
+Jun 13 19:17:07 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5387]: INFO:  Success
+Jun 13 19:17:07 johnsnow heartbeat: [5317]: info: All HA resources relinquished.
+Jun 13 19:17:08 johnsnow heartbeat: [4597]: WARN: 1 lost packet(s) for [arya] [32:34]
+Jun 13 19:17:08 johnsnow heartbeat: [4597]: info: No pkts missing from arya!
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBFIFO process 4618 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBWRITE process 4619 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBREAD process 4620 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBWRITE process 4621 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: killing HBREAD process 4622 with signal 15
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4618 exited. 5 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4619 exited. 4 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4620 exited. 3 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4622 exited. 2 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: Core process 4621 exited. 1 remaining
+Jun 13 19:17:09 johnsnow heartbeat: [4597]: info: johnsnow Heartbeat shutdown complete.
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Core dumps could be lost if multiple dumps occur.
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Consider setting non-default value in /proc/sys/kernel/core_pattern (or equivalent) for maximum supportability
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Consider setting /proc/sys/kernel/core_uses_pid (or equivalent) to 1 for maximum supportability
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Pacemaker support: false
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Initial dead time [4000 ms] may be too small!
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Initial dead time accounts for slow network startup time
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: It should be >= deadtime and >= 10 seconds
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: WARN: Logging daemon is disabled --enabling logging daemon is recommended
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: **************************
+Jun 13 19:17:10 johnsnow heartbeat: [5544]: info: Configuration validated. Starting heartbeat 3.0.5
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: heartbeat: version 3.0.5
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Heartbeat generation: 1461585912
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: UDP Broadcast heartbeat started on port 694 (694) interface eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: UDP Broadcast heartbeat closed on port 694 interface eth0 - Status: 1
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: write socket priority set to IPTOS_LOWDELAY on eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: bound send socket to device: eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEPORT(w)
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEADDR
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: bound receive socket to device: eth0
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: set SO_REUSEPORT
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: glib: ucast: started on port 694 interface eth0 to 192.168.1.210
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Local status now set to: 'up'
+Jun 13 19:17:10 johnsnow heartbeat: [5545]: info: Link johnsnow:eth0 up.
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Link arya:eth0 up.
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Status update for node arya: status active
+Jun 13 19:17:11 johnsnow harc(default)[5572]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Comm_now_up(): updating status to active
+Jun 13 19:17:11 johnsnow heartbeat: [5545]: info: Local status now set to: 'active'
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: remote resource transition completed.
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: remote resource transition completed.
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: Local Resource acquisition completed. (none)
+Jun 13 19:17:12 johnsnow heartbeat: [5545]: info: Initial resource acquisition complete (T_RESOURCES(them))
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Received shutdown notice from 'arya'.
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Resources being acquired from arya.
+Jun 13 19:18:43 johnsnow heartbeat: [5873]: info: acquire all HA resources (standby).
+Jun 13 19:18:43 johnsnow heartbeat: [5874]: info: No local resources [/usr/share/heartbeat/ResourceManager listkeys johnsnow] to acquire.
+Jun 13 19:18:43 johnsnow ResourceManager(default)[5900]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:18:43 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5928]: INFO:  Resource is stopped
+Jun 13 19:18:43 johnsnow ResourceManager(default)[5900]: info: Running /etc/ha.d/resource.d/IPaddr 192.168.1.215//24/eth0:1 start
+Jun 13 19:18:43 johnsnow IPaddr(IPaddr_192.168.1.215)[6011]: INFO: Using calculated netmask for 192.168.1.215: 255.255.255.0
+Jun 13 19:18:43 johnsnow IPaddr(IPaddr_192.168.1.215)[6011]: INFO: eval ifconfig eth0:0 192.168.1.215 netmask 255.255.255.0 broadcast 192.168.1.255
+Jun 13 19:18:43 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[5987]: INFO:  Success
+Jun 13 19:18:43 johnsnow ResourceManager(default)[5900]: info: Running /etc/init.d/haproxy  start
+Jun 13 19:18:43 johnsnow heartbeat: [5873]: info: all HA resource acquisition completed (standby).
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: Standby resource acquisition done [all].
+Jun 13 19:18:43 johnsnow harc(default)[6130]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:18:43 johnsnow mach_down(default)[6145]: info: Taking over resource group IPaddr::192.168.1.215//24/eth0:1
+Jun 13 19:18:43 johnsnow ResourceManager(default)[6170]: info: Acquiring resource group: arya IPaddr::192.168.1.215//24/eth0:1 haproxy
+Jun 13 19:18:43 johnsnow /usr/lib/ocf/resource.d//heartbeat/IPaddr(IPaddr_192.168.1.215)[6198]: INFO:  Running OK
+Jun 13 19:18:43 johnsnow mach_down(default)[6145]: info: /usr/share/heartbeat/mach_down: nice_failback: foreign resources acquired
+Jun 13 19:18:43 johnsnow mach_down(default)[6145]: info: mach_down takeover complete for node arya.
+Jun 13 19:18:43 johnsnow heartbeat: [5545]: info: mach_down takeover complete.
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: WARN: node arya: is dead
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: info: Dead node arya gave up resources.
+Jun 13 19:18:48 johnsnow heartbeat: [5545]: info: Link arya:eth0 dead.
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Heartbeat restart on node arya
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Link arya:eth0 up.
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Status update for node arya: status init
+Jun 13 19:20:55 johnsnow heartbeat: [5545]: info: Status update for node arya: status up
+Jun 13 19:20:55 johnsnow harc(default)[6321]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:20:55 johnsnow harc(default)[6336]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:20:56 johnsnow heartbeat: [5545]: info: Status update for node arya: status active
+Jun 13 19:20:56 johnsnow harc(default)[6351]: info: Running /etc/ha.d//rc.d/status status
+Jun 13 19:20:57 johnsnow heartbeat: [5545]: info: remote resource transition completed.

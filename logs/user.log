@@ -1,0 +1,6 @@
+Jun 13 10:56:49 johnsnow openhpid: ERROR: (init.c, 76, OpenHPI is not configured.  See openhpi.conf file.)
+Jun 13 10:56:49 johnsnow openhpid: ERROR: (openhpid.cpp, 270, There was an error initializing OpenHPI)
+Jun 13 11:32:10 johnsnow openhpid: ERROR: (init.c, 76, OpenHPI is not configured.  See openhpi.conf file.)
+Jun 13 11:32:10 johnsnow openhpid: ERROR: (openhpid.cpp, 270, There was an error initializing OpenHPI)
+Jun 13 17:06:44 johnsnow openhpid: ERROR: (init.c, 76, OpenHPI is not configured.  See openhpi.conf file.)
+Jun 13 17:06:44 johnsnow openhpid: ERROR: (openhpid.cpp, 270, There was an error initializing OpenHPI)

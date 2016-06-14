@@ -1,0 +1,14 @@
+TARGETS = haproxy uuidd atd xinetd logd irqbalance exim4 heartbeat bluetooth urandom openhpid sendsigs rsyslog umountnfs.sh rpcbind nfs-common networking hwclock.sh umountfs umountroot live-tools halt reboot
+openhpid: heartbeat
+sendsigs: heartbeat atd xinetd openhpid haproxy uuidd bluetooth logd irqbalance exim4
+rsyslog: sendsigs heartbeat atd xinetd openhpid haproxy bluetooth logd irqbalance exim4
+umountnfs.sh: rsyslog sendsigs heartbeat atd xinetd openhpid haproxy uuidd bluetooth logd irqbalance exim4
+rpcbind: umountnfs.sh
+nfs-common: umountnfs.sh
+networking: umountnfs.sh heartbeat xinetd openhpid logd exim4 rpcbind
+hwclock.sh: rsyslog heartbeat atd uuidd nfs-common
+umountfs: umountnfs.sh urandom heartbeat atd xinetd openhpid haproxy networking uuidd bluetooth logd irqbalance exim4 rpcbind hwclock.sh
+umountroot: umountfs
+live-tools: umountroot
+halt: umountroot live-tools
+reboot: umountroot live-tools

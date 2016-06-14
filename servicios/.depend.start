@@ -1,0 +1,19 @@
+TARGETS = rsyslog uuidd motd bootlogs killprocs openhpid atd xinetd dbus logd irqbalance exim4 single rsync anacron ssh cron ntp heartbeat bluetooth rmnologin rc.local
+INTERACTIVE =
+openhpid: rsyslog
+atd: rsyslog
+xinetd: rsyslog
+dbus: rsyslog
+logd: rsyslog
+irqbalance: rsyslog
+exim4: rsyslog
+single: killprocs motd bootlogs
+rsync: rsyslog
+anacron: rsyslog
+ssh: rsyslog
+cron: rsyslog
+ntp: rsyslog
+heartbeat: rsyslog openhpid logd
+bluetooth: rsyslog dbus
+rmnologin: rsyslog heartbeat openhpid atd xinetd uuidd bluetooth dbus logd irqbalance exim4 motd bootlogs rsync anacron ssh cron ntp
+rc.local: rsyslog heartbeat openhpid atd xinetd uuidd bluetooth dbus logd irqbalance exim4 motd bootlogs rsync anacron ssh cron ntp
